@@ -1,11 +1,13 @@
 \documentclass[UTF8]{ctexart}
-\usepackage{ctex}
-\usepackage{gensymb}
+%\usepackage{ctex}
+%\usepackage{gensymb}
 \usepackage{enumerate}
 \usepackage{amsmath}
 \usepackage{fancyhdr}
 \usepackage{tabularx}
 \usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
 \begin{document}
 	%---------------------------------------------------页眉页脚的设置
 \fancyfoot[RO,RE]{\it Typesetting with \LaTeX}
@@ -164,8 +166,9 @@
 \section{函数}
 \textbf{编程}
 \begin{enumerate}
-	\item 编写一个名称为$checkFactor$的函数，输入是两个数字，功能是检查第一个数字是否可以被第二个数字除尽。可以假设这两个数字都是正数。该函数返回逻辑值$true$或$false$。\\例如：
-	\\$checkFactor(25,6)$应该返回$false$\\$checkFacor(9,3)$应该返回$true$\\$checkFacor(3,9)$应该返回$false$\\
+	\item 编写一个名称为$checkFactor$的函数，输入是两个数字，功能是检查第一个数字是否可以被第二个数字除尽。可以假设这两个数字都是正数。该函数返回逻辑值$true$或$false$。\\
+	\text{\qquad}例如：
+	\\ \text{\qquad}$checkFactor(25,6)$应该返回$false$\\ \text{\qquad}$checkFacor(9,3)$应该返回$true$\\ \text{\qquad}$checkFacor(3,9)$应该返回$false$\\
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|p{10cm}|l|}
@@ -174,6 +177,77 @@
 			\hline
 		\end{tabular}
 	\end{table}
+\item 编写一个名称为$mysteryFunction$的函数并测试其代码，该函数的输入是向量$V$,输出是新向量$W$。$W$的长度与$V$相同，元素是$V$中对应元素与前一个元素的总和。假定$V(1)$的前一个元素是0。\\
+\text{\qquad}例如:\\ \text{\qquad} $mysteryFunction(1:8)$应该返回[1\ 3\ 5\ 7\ 9\ 11\ 13\ 15]\\
+\text{\qquad}$myseryFunction([1:6].^2)$应该返回[1\ 5\ 13\ 25\ 41\ 61]
+\item 从去年7胜6负的成绩看来，你的球队希望在这个赛季能有所进步。他们请你帮助预测一下往后的输赢情况，希望你能编写一个名称为$teamRecord$的函数，该函数的输入是参数$wins$和$losser$,输出是$season$和$wPercentage$。$season$是一个逻辑值，如果该赛季赢了，就等于$true$。$wPercentage$是获胜的百分比(值为0到100)。\\
+\text{\qquad} 例如：\\
+\text{\qquad \qquad} [$season$\ $wPercentage$] = $teamRecord(3,9)$\\
+\text{\qquad \qquad} 应该返回season\ =\ false，$wPercentage$\ =\ 25
+\text{\qquad \qquad}[season\ wPercentage]\ =\ teamRecord(10,2)\\
+\text{\qquad \qquad}应该返回$season$\ = \ $true$，$wPercentage$\ = \ 83.3
+\item 编写一个名称为$classAverage$的函数，该函数的输入是一个数字数组，将这些数据进行标准化，最大值对应于100(参见第三章，第五题)，该函数的输出是该组数据平均值的字母等级。等级范围如下:\\
+average>90\ =>\qquad A\\
+80<=average<90\ =>\ B\\
+70<=average<80\ \ =>\ C\\
+60<=average<70\quad =>\ F\\
+\text{\qquad} 例如：\\
+\text{\qquad}$classAverage([70\ 87\ 95\ 80\ 80\ 78\ 85\ 90\ 66\ 89\ 89\ 100])$\ 应该返回$B$\\
+\text{\qquad}$classAverage([50\ 90\ 61\ 82\ 75\ 92\ 81\ 76\ 87\ 41\ 31\ 98])$\ 应该放回$C$\\
+\text{\qquad}$classAverage([10\ 10\ 11\ 32\ 53\ 12\ 34\ 74\ 31\ 30\ 26\ 22])$\ 	应该返回$F$
+\item 编写一个名称为$myMin4$的函数，该函数的输入是四个数字，输出的是最小值和最大值对应的索引。不能使用内置函数$min()$。\\
+\text{\qquad}例如：\\
+\text{\qquad}$myMin4(1,3,5,7)$\ 应该返回1和1\\
+\text{\qquad}$myMin4(8,9,2,4)$\ 应该返回2和3\\
+\item 编写一个名称为$meansAndMedian$的函数，该函数的输入是数字向量，输出是算数平均值、几何平均值和中值。不能使用内置函数$mean()$、$median()$和$geomean()$。但是，你可以通过“$help\ gemean$”来熟悉如何计算一组数字的几何平均值。
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|p{10cm}|l|}
+		\hline
+		\textbf{提示}\qquad 内置函数$sort()$能帮你计算向量的中值。\\
+		\hline
+	\end{tabular}
+\end{table}
+\item 已知一个数字数组，该数组中可能有负值，编写函数$postavg(a)$,计算并返回一维数组$a$中非负数字的平均值($mean$).一种解决方法是$mean(a(find(a>0)))$。为了测试你对概念“类”的理解，请使用迭代重新实现函数$posavg(a)$。在你的解决方案中，不能使用内置函数$sum(\dots)$、$find(\dots)$、或$mean(\dots)$。
+\item 编写一个名称为$subAndAverage$的函数，该函数的输入是一个数字数组，输出是数组的总合、平均值。\\
+\text{\qquad}例如：\\
+\text{\qquad}$sumAndAverage([3\ 2\ 3\ 2])$应该返回10和2.5\\
+\text{\qquad}$sumAndAverage([5\ -5\ 2\ 8\ 0])$应该返回10和2\\
+\text{\qquad}$sumAndAverage([\ ])$应该返回0和0
+\item 你已经熟悉了逻辑运算符\&\&(逻辑与)、||(逻辑或)、~(逻辑非)。在弱类型语言(如MATLAB)中，二进制状态$true$和$false$可以表示为1和0。假设有一个三元数系统，由状态$true()$、$maybe(2)$、$false(0)$组成，该系统的真假表如下。请编写实现该真值表如下。请编写实现该真值表的函数$f=tnot(x)$、$f=tand(x,y)$、$f=tor(x,y)$。不要假设只输入有效的输入数字。
+\begin{table}[H]
+	\centering
+	\begin{longtable}{ccccc}
+		\toprule
+		\multicolumn{1}{m{2cm}}{\centering x}&\multicolumn{1}{m{2cm}}{\centering y}&\multicolumn{1}{m{2cm}}{\centering $tnot(x)$}&\multicolumn{1}{m{2cm}}{\centering $tand(x,y)$}&\multicolumn{1}{m{2cm}}{\centering $tor(x,y)$}\\
+		\midrule
+		1&1&0&1&1\\
+		1&0&0&0&1\\
+		1&2&0&2&1\\
+		0&1&1&0&1\\
+		0&0&1&0&0\\
+		0&2&1&2&0\\
+		2&1&2&2&1\\
+		2&0&2&2&0\\
+		2&2&2&2&2\\
+		\bottomrule
+	\end{longtable}
+\end{table}
+\item 编写函数$multiSum(A)$,该函数的输入是$N \times M$数组A，输出是以下4个结果：\\
+一个$1\times M$向量：列的行。\\
+一个$n\times 1$向量：行的列。\\
+两个数字：两个对角线的和，主对角线在前。\\
+例如：\\
+$columnSum([1\ 2\ 3;4\ 5\ 6;7\ 8\ 9])$应该返回[12\ 15\ 18]、$[6\ 15\ 24]^\mathrm{T}$、15、15\\
+$columnSum([0\ 2\ 3;4\ 0\ 6;7\ 8\ 0])$应该返回[11\ 10\ 9]、$[5\ 10\ 15]^\mathrm{T}$、0、10
+$columnSum(eye[5,5])$应该返回[1\ 1\ 1\ 1\ 1]、$[1\ 1\ 1\ 1\ 1]^\mathrm{T}$、5、1
+$columnSum([])$应该返回[\ ]、[\ ]、0、0\\
+\item 你在玩一个掷骰子的游戏，可以掷10次。如果你能掷七次及七次以上5或6，可以赢2美元;\ 如果你能掷四次及四次以上，赢1美元；如果掷5或6的次数等于或少于3次，就赢不了钱。编写一个名称为$diceGame$的函数，输入是一个向量，表示骰子的值，输出的是赢得金额。\\
+例如：\\
+$diceGame([5\ 1\ 4\ 6\ 5\ 5\ 6\ 6\ 5\ 2])$应该返回2\\
+$diceGame([2\ 4\ 1\ 3\ 6\ 6\ 6\ 4\ 5\ 3])$应该返回1\\
+$diceGame([1\ 4\ 3\ 2\ 5\ 3\ 4\ 2\ 6\ 5])$应该返回0\\
+注意:该函数应该是适用于任何长度的向量。
 \end{enumerate}
 
 \end{document}
