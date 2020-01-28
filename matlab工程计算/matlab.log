@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  27 JAN 2020 20:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  28 JAN 2020 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,14 +659,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 33.
 
-Missing character: There is no 这 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 两 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 条 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 边 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 的 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 夹 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 角 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 是 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 。 in font [lmroman10-regular]:mapping=tex-text;!
 [1
 
@@ -722,7 +714,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--245
 
  []
 
-[11] [12] (./matlab.aux)
+[11]
+Missing character: There is no 应 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 返 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 回 in font [lmroman10-regular]:mapping=tex-text;!
+ [12]
+Overfull \hbox (1.3134pt too wide) in paragraph at lines 284--287
+\TU/SimSun(0)/m/n/10.53937 为 了 更 好 地 解 答 该 问 题，|  可 以 在 $\OML/cmm/m/it/10.53937
+ rot:m$ \TU/SimSun(0)/m/n/10.53937 文 件 中 编 写 几 个 局 部 函 数\TU/lmr/m/n/10.53937 :$
+\OML/cmm/m/it/10.53937 isUp\OMS/cmsy/m/n/10.53937 ^^@$
+ []
+
+[13]
+Overfull \hbox (0.8507pt too wide) in paragraph at lines 298--299
+[]\TU/SimSun(0)/m/n/10.53937 更 糟 糕 的 是，|  他 还 让 你 整 理 修 改 后 的 成 绩。|  编 写 一 个 名 
+称 为 $\OML/cmm/m/it/10.53937 GraddeDist$
+ []
+
+[14] (./matlab.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -737,4 +746,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  54i,12n,68p,812b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on matlab.pdf (12 pages).
+Output written on matlab.pdf (14 pages).
