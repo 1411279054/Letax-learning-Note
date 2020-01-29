@@ -297,5 +297,33 @@ $CrazyGrade('BADDAD')$应该返回'DFBBFB'\\
 $CrazyGrade('BAYBAY')$应该返回'DFWDFW'
 \item 更糟糕的是，他还让你整理修改后的成绩。编写一个名称为$GraddeDist$的函数，将相同的成绩(将所有的$A$放在一起将所有的$B$放在一起，以此类推)\,聚集到一起,然后，计算并返回一个成绩分布，在该函数中输入一个字符串后，会返回一个字符串和一个数组，字符串将相同的成绩聚集到一起了，数组则包含了$A$到$F$的所有百分值，例如，如果有15\%的$A$、16\%的$B$、33\%的$C$、16\%的$D$、16\%的$F$和4\%的$W$,$Grade-Dist$应该返回[15\ 16\ 33\ 16\ 16\ 4]。
 \end{enumerate}
-
+\section{元胞数组和结构体}
+\textbf{编程}
+\begin{enumerate}
+	\item 编写一个名称为$cellParse$的函数，输入是一个元胞数组，数组元素可以是一个字符串(字符数组),\ 也可以是一个向量(含数字)，或一个布尔值(长度为1的逻辑的数组)。\\
+	函数应该返回以下内容:\\
+	$\bullet$ $nStr$：字符串的个数。\\
+	$\bullet$ $nVec$:向量的个数。\\
+	$\bullet$ $nBool$:布尔值的个数。\\
+	$\bullet$ $cString$:所有字符串的元胞数组，字符串按字母顺序。\\
+	$\bullet$ $vecLength$:所有向量的平均长度。\\
+	$\bullet$ $allTrue$:如果所有的布尔值都为$true$,返回$true$;反之，返回$false$。
+	\\例如，\\
+	$[a\ b\ c\ d\ e\ f]$=\\
+	cellparse({1\ 2\ 3},$true$,'hi there!',\\
+	\qquad \qquad 42,$false$,'abc')\\
+	应该返回$a=2,\ b=2\,c=2\,d={'abc','hi\ there!'},e=2$,and$\ f\ =\ false$。
+	\item 因为你是一个服装评估方案的专家(第四章，第五题)，所以$Acme$服装公司雇你来评估他们的服装。此时，各种服装不是用向量中的各个字段来表示的，而是用结构体来表示的(都用0~5之间的数字表示)：\\
+	$Condition$、$Color$、$Price$、$Matches$,\ and $Comfort$\\
+	Acme有一种更简单的评估服装的方法:\\
+	\text{\quad\,\,\,} $Rating$=5*$Condition$+3*$Color$+2*$Price$+$Matches$+9*$Comfort$\\
+	\text{\quad}你有一个名称为$makeClothes.m$的脚本，他能创建一个名称为$acmeClothes$、包含了服装结构体的结构体数组。要求你编写一个名称为$rateClothers$的脚本，它能在$acmeClothes$数组的每一个结构体中添加一个$Rating$字段和一个$Quality$字段。$Rating$字段中应该包含服装的等级。$Quality$字段是一个字符串，如果等级大于80，为'premium',如果大于60，为'good',如果大于20，为'poor',其他情况为'liquidated'。\\
+	\qquad 注意：\\
+	a.必须使用迭代来完成该问题。\\
+	b.为了方便起见，只要在脚本最上面输入$makeClothes$，就可以保证脚本使用的是正确的$acemeClothes$数组。\\
+	c.字段是大小写敏感的，所以首字母一定要大写。
+	\item 你被一个二手车经销商雇佣了，你的工作是修改待售汽车的价格。你将获得一些代售汽车的信息，然后根据一些因素来修改他的价格标签。\\
+	\qquad 编写一个名称为$usedCar$的函数，输入的是一个包含以下字段的结构体:\\
+	$\bullet$\footnote{我爱你}
+\end{enumerate}
 \end{document}
