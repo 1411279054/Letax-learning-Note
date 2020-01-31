@@ -4,38 +4,85 @@
 \begin{enumerate}
 	\item 设$\mathrm{max}\{a+b\text{ },|a-b|\}<\tfrac{1}{2}$, 求证:\,$|\mathrm{a}|<\tfrac{1}{2},  |b|<\tfrac{1}{2}.$
 	\begin{solution}
-		未更新
+		$2|a|=|a+b+a-b|\le |a+b|+|a-b|\le 2\mathrm{max}\{a+b\text{ },|a-b|\}<1$ $\therefore|a|<\tfrac{1}{2}$\\
+		$2|b|=|a+b-(a-b)|\le |a+b|+|a-b|\le 2\mathrm{max}\{a+b\text{ },|a-b|\}<1$ $\therefore|b|<\tfrac{1}{2}$                         
 	\end{solution}
 	\item 求证: 对$\mathbf{\forall}a,b\in \boldsymbol{R}$,有$\mathrm{max}\{ |a+b| ,|a-b| , |1-b| \} \ge \tfrac{1}{2}$.
 	\begin{solution}
-		
+		$2 = |a+b-(a-b)+2(1-b)|\le |a+b|+|a-b|+2|1-b|\le 4\mathrm{max}\{|a+b|,|a-b|,|1-b|\} $ \\
+		$\therefore \mathrm{max}\{|a+b|,|a-b|,|1-b|\}\ge \tfrac{1}{2} $
 	\end{solution}
 	\item 求证: 对$\forall a,b\in \boldsymbol{R}$,有\\
 	$\mathrm{max} \{a,b\} = \tfrac{a\,+b}{2}+\tfrac{|a - b|}{2}$,\ $\mathrm{min} \{a,b\} = \tfrac{a+b}{2}-\tfrac{|a-b|}{2}$ ;\\
 	并解释其几何意义.
 	\begin{solution}
-	
+	易知，$\mathrm{max}\{a,b\}+\mathrm{min}\{a,b\}=a+b$ \circled{1}\quad $\mathrm{max}\{a,b\}-\mathrm{min}\{a,b\}=|a-b|$\circled{2}\\
+	由\circled{1}、\circled{2}得$\mathrm{max} \{a,b\} = \tfrac{a\,+b}{2}+\tfrac{|a - b|}{2}$\quad
+	$\mathrm{min} \{a,b\} = \tfrac{a+b}{2}-\tfrac{|a-b|}{2}$\\
+	几何意义:$\mathrm{max}\{a,b\}$指的是$a,b$中较大的那个, $\mathrm{min}\{a,b\}$指的是$a,b$中较小的那个。
 	\end{solution}
 	\item 设$f\left( x \right) $在集合$X$上有界，求证:
 	$$
 	|f\left( x \right)-f\left( y\right)  | \le \underset{x\in X}{\mathrm{sup}}f\left( x\right)  -\underset{x\in X}{\mathrm{inf}}f\left( x \right)\quad (\forall\,x, y \in X)
 	$$ 
 	\begin{solution}
-		
+			$f(x)-f(y) \le \underset{x \in X}{\mathrm{sup}}f(x) - \underset{x \in X}{\mathrm{inf}}f(x)$ $\therefore |f(x)-f(y)| \le |\underset{x \in X}{\mathrm{sup}}f(x) - \underset{x \in X}{\mathrm{inf}}f(x)|=\underset{x \in X}{\mathrm{sup}}f(x) - \underset{x \in X}{\mathrm{inf}}f(x)$
 	\end{solution}
 	\item 设 $f(x)$,$g(x)$在集合$X$上有界, 求证:\\
+	
 	$$
 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le
-	\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{sup}}\{f(x)\}
-	$$
+	\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\}
+	$$ \circled{1}
 	$$
 		\underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le 	\underset{x\in X}{\mathrm{sup}}\{f(x)+g(x)\} \le \underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,	\underset{x\in X}{\mathrm{sup}}\{g(x)\}
-	$$
+	$$\circled{2}
 	\begin{solution}
+		\textcolor{green}{\circled{1}} 易知, $\underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\}\le f(x)+g(x)\ (\forall x \in X)$, $\therefore \underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le
+		\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\}$, 又$\because \underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le f(x)+g(x) \le f(x)\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\} $, 即$\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} - \underset{x\in X}{sup}g(x)\le f(x), (\forall x \in X)$, $\therefore \underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\}$, 所以,
+		$
+		\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le
+		\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\}
+		$
+		\textcolor{green}{\circled{2}} 类似上面做法.
+
 		
 	\end{solution}
 \end{enumerate}
 \section{函数}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+\item 设$f(x)=|1+x|-|1-x|$.
+	\begin{enumerate}
+		\item 求证:$f(x)$是奇函数;
+		\item 求证：$|f(x)|\le 2$.
+		\item 求$\underset{n\text{次}}{\underbrace{(f\circ f \circ \cdots \circ f)}}\left(	x \right) .$
+	\end{enumerate}
+	\begin{solution}
+		\begin{enumerate}[(1)]
+			\item $f(x)=f(-x)$,$\therefore f(x)$是奇函数.
+			\item $f(x)=|1+x|-|1-x|\le|1+x+1-x|=2$ 
+			\item
+		\end{enumerate}
+	\end{solution}
+\item 设$f(x)$在(0,+$\infty$)上定义, $a>0,b>0$.求证:
+	\begin{enumerate}
+		\item 若$\frac{f(x)}{x}$单调下降, 则$f(a+b)\le f(a)+f(b)$;
+		\item 若$\frac{f(x)}{x}$单调上升, 则$f(a+b)\ge f(a)+f(b)$
+	\end{enumerate}
+\item 利用上题证明: 当$a>0,b>0$时，有
+	\begin{enumerate}
+		\item	当$p>1$时, $\left( a+b\right) ^p \ge a^p+b^p$;
+		\item 当$0<p<1$时，$(a+b)^p\ge a^p+b^p$.
+	\end{enumerate}
+\item 设$f(x)$在\textbf{R}上定义, 且$f(f(x))\equiv x$.
+	\begin{enumerate}
+		\item 问这种函数有几个?
+		\item 若$f(x)$为单调增加函数, 问这种函数有几个?
+	\end{enumerate}
+\item 求证:若$y=f(x)(x\in (-\infty, +\infty))$是奇函数, 并且它的图像关于直线$x=b(b>0)$对称, 则函数$f(x)$是周期函数并求其周期.
+\item 设$f: X\rightarrow Y$时满射, $g: Y\rightarrow Z$.求证：$g\circ f: X\circ Z$.有反函数的充分必要条件为$f$和$g$都有反函数存在, 且$(g\circ f)^{-1}=f^{-1} \circ g^{-1}$.
+\end{enumerate}
 \section{序列极限}
 \section{函数极限与连续概念}
 \section{闭区间上连续函数的性质}
