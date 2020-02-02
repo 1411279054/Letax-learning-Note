@@ -30,13 +30,13 @@
 	\end{solution}
 	\item 设 $f(x)$,$g(x)$在集合$X$上有界, 求证:\\
 	
-	$$
+	$$\circled{1}
 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le
 	\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\}
-	$$ \circled{1}
-	$$
-		\underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le 	\underset{x\in X}{\mathrm{sup}}\{f(x)+g(x)\} \le \underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,	\underset{x\in X}{\mathrm{sup}}\{g(x)\}
+	$$ 
 	$$\circled{2}
+		\underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le 	\underset{x\in X}{\mathrm{sup}}\{f(x)+g(x)\} \le \underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,	\underset{x\in X}{\mathrm{sup}}\{g(x)\}
+	$$
 	\begin{solution}
 		\textcolor{green}{\circled{1}} 易知, $\underset{x\in X}{\mathrm{sup}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\}\le f(x)+g(x)\ (\forall x \in X)$, $\therefore \underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{inf}}\{g(x)\} \le
 		\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\}$, 又$\because \underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le f(x)+g(x) \le f(x)\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\} $, 即$\underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} - \underset{x\in X}{sup}g(x)\le f(x), (\forall x \in X)$, $\therefore \underset{x\in X}{\mathrm{inf}}\{f(x)+g(x)\} \le 	\underset{x\in X}{\mathrm{inf}}\{f(x)\}\,+\,\underset{x\in X}{\mathrm{sup}}\{g(x)\}$, 所以,
@@ -62,7 +62,24 @@
 		\begin{enumerate}[(1)]
 			\item $f(x)=f(-x)$,$\therefore f(x)$是奇函数.
 			\item $f(x)=|1+x|-|1-x|\le|1+x+1-x|=2$ 
-			\item
+			\item 易知，$f(x)$是一个分段函数，
+			$f(x)=\left\{\begin{array}{lcc}
+					-2 &  & x < -1\\
+					2x & &-1 \le  x\le 1\\
+					2 & &x \ge 1
+				
+			\end{array}\right.
+			$, 下面当$-1 \le  x\le 1$时，$f(x) = 2x$  $\therefore (f\circ f)(x) =\left\{\begin{array}{lcc}
+			-2 &  & x < \tfrac{-1}{2}\\
+			4x & & \tfrac{-1}{2} \le  x\le \tfrac{1}{2}\\
+			2 & &x \ge \tfrac{1}{2}
+			
+		\end{array}\right. $ \quad $\therefore$ 可得，$(f\circ f \circ \cdots \circ f)(x)=\left\{\begin{array}{lcc}
+		-2 &  & x < \tfrac{-1}{2^(n-1)}\\
+		2^(n-1)x & & \tfrac{-1}{2^(n-1)} \le  x\le \tfrac{1}{2^(n-1)}\\
+		2 & &x \ge \tfrac{1}{2^(n-1)}
+		
+	\end{array}\right.$
 		\end{enumerate}
 	\end{solution}
 \item 设$f(x)$在(0,+$\infty$)上定义, $a>0,b>0$.求证:
@@ -70,19 +87,47 @@
 		\item 若$\frac{f(x)}{x}$单调下降, 则$f(a+b)\le f(a)+f(b)$;
 		\item 若$\frac{f(x)}{x}$单调上升, 则$f(a+b)\ge f(a)+f(b)$
 	\end{enumerate}
+	\begin{solution}
+		\begin{enumerate}[(1)]
+			\item 由已知得, $\frac{f(x)}{x}$单调下降\quad$\therefore \frac{f(a+b)}{a+b} \le \tfrac{f(a)}{a},\ \frac{f(a+b)}{a+b} \le \frac{f(b)}{b}$,$\therefore af(a+b) \le (a+b)f(a),\ bf(a+b)\le (a+b)f(b)$, 可得$f(a+b)\le f(a)+f(b)$.
+			\item 与第一小题类似.
+		\end{enumerate}
+	\end{solution}
 \item 利用上题证明: 当$a>0,b>0$时，有
 	\begin{enumerate}
 		\item	当$p>1$时, $\left( a+b\right) ^p \ge a^p+b^p$;
-		\item 当$0<p<1$时，$(a+b)^p\ge a^p+b^p$.
+		\item 当$0<p<1$时，$(a+b)^p\le a^p+b^p$.
 	\end{enumerate}
+	\begin{solution}
+		\begin{enumerate}[(1)]
+			\item 令$f(x)=x^p,\ \frac{f(x)}{x}=x^{p-1}$, $ \because p>1 , p-1>0\ \therefore x^{p-1} $单调递增,由第二题可得$f(a+b)\ge f(a)+f(b)$\ $\therefore \left( a+b\right) ^p \ge a^p+b^p$
+			\item 与第一小题类似
+		\end{enumerate}
+	\end{solution}
 \item 设$f(x)$在\textbf{R}上定义, 且$f(f(x))\equiv x$.
 	\begin{enumerate}
 		\item 问这种函数有几个?
 		\item 若$f(x)$为单调增加函数, 问这种函数有几个?
 	\end{enumerate}
+	\begin{solution}
+		\begin{enumerate}[(1)]
+			\item 令$y = f(x),\ x = f^{-1}(y)\ \because f(f(x))\equiv x \therefore f(y) \equiv f^{-1}(y)$, 说明其原函数等于反函数,说明函数图像关于直线$y=x$对称,其这样的函数有无数多个.
+			\item 一个, $f(x) \equiv x$
+		\end{enumerate}
+	\end{solution}
 \item 求证:若$y=f(x)(x\in (-\infty, +\infty))$是奇函数, 并且它的图像关于直线$x=b(b>0)$对称, 则函数$f(x)$是周期函数并求其周期.
+\begin{solution}
+	$\because f(x)$是奇函数, $\therefore f(x) = -f(-x)$,又$\therefore f(x)$关于直线$x=b(b>0)$对称, $f(b+x)=f(b-x)$, 即$f(b+b+x)=f(-x)=-f(x)$, $f(x+2b)=-f(x)=-f(x+2b-2b)=f(x-2b)$, $\therefore f(x+4b)=f(x)$, 因此$f(x)$是周期函数, 其周期是$4b$.
+\end{solution}
 \item 设$f: X\rightarrow Y$时满射, $g: Y\rightarrow Z$.求证：$g\circ f: X\circ Z$.有反函数的充分必要条件为$f$和$g$都有反函数存在, 且$(g\circ f)^{-1}=f^{-1} \circ g^{-1}$.
+\begin{solution}
+	$g\circ f:X\circ Z$有反函数,说明$g\circ f$一一对应,即$f$和$g$都一一对应, 所以, $f$和$g$存在反函数, 令$(g\circ f)$的反函数为$H$, 假设$H(a)=b$,有$(g\circ f)(b) = a$,左乘$g^{-1}$, 即$f(b) = g^{-1}(a)$, 再左乘$f^{-1}$, 即$b = (f^{-1}\circ g^{-1})(x)$\ $\therefore H=f^{-1}\circ g^{-1}, (g\circ f)^{-1} = f^{-1}\circ g^{-1}$.
+\end{solution}
 \end{enumerate}
 \section{序列极限}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 设$x_n>0, \lim\limits_{n\rightarrow \infty}x_n=a$.
+\end{enumerate}
 \section{函数极限与连续概念}
 \section{闭区间上连续函数的性质}
