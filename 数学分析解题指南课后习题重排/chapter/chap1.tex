@@ -128,6 +128,80 @@
 \centering{\textbf{练习题}}
 \begin{enumerate}
 	\item 设$x_n>0, \lim\limits_{n\rightarrow \infty}x_n=a$.
+	\begin{enumerate}
+		\item 当$a\ne 0$时, 求证:$\lim\limits_{n \rightarrow \infty}\frac{x_{n+1}}{x_{n}}=1$
+		\item 举例说明当$a=0$时,$\lim\limits_{n \rightarrow \infty}\frac{x_{n+1}}{x_{n}} \ne 1$ 可能成立;
+		\item 举例说明当$a=1$时, $\lim\limits_{n \rightarrow \infty}(x_n)^n\ne 1$可能成立.
+	\end{enumerate}
+	\item 设$0<x_1<1, x_{n+1}=1-\sqrt{1-x_n}$, 求$\lim\limits_{n \rightarrow \infty}x_n$和$\lim\limits_{n\rightarrow \infty}\frac{x_{n+1}}{x_1}$. 
+	\item 设$c>1$, 求序列$\sqrt{c}, \sqrt{c\sqrt{c}},\sqrt{c\sqrt{c\sqrt{c}}},\cdots$的极限.
+	\item 设$A>0,x_1>0,x_{n+1}=\frac{1}{2}(x_n+\frac{A}{x_n})\,(n=1,2,\cdots)$
+	\begin{enumerate}
+		\item 求证: $x_n$单调下降且有界;
+		\item 求$\lim\limits_{n\rightarrow \infty}x_n$.
+	\end{enumerate}
+	\item 设$F_0=F_1=1,F_{n+1}=F_n+F_{n-1}$, 求证:$\lim\limits_{n\rightarrow \infty}\tfrac{F_{n-1}}{F_n}=\frac{\sqrt{5}-1}{2}$.
+	\item 求证:
+	\begin{enumerate}
+		\item $\frac{1}{2\sqrt{n+1}}<\sqrt{n+1}-\sqrt{n}<\frac{1}{2\sqrt{n}}$;
+		\item 序列$x_n=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{n}-2\sqrt{n}$的极限存在.
+	\end{enumerate}
+	\item 设$0<a_1<b_1$, 令
+	$$
+		a_{n+1} = \sqrt{a_n\cdot b_n},\ b_{n+1}=\tfrac{a_n+b_n}{2}\ (n=1,2,\cdots)
+	$$求证: 序列${a_n},{b_n}的极限存在$.
+	\item 求证: 如下序列的极限存在.
+	$$
+	\lim\limits_{n\rightarrow \infty}(1+\frac{1}{2^x}(1+\frac{1}{3^2})\cdots(1+\frac{1}{n^2})).
+	$$
+	\item 求证: 如下序列的极限存在：
+	$$
+	\lim\limits_{n\rightarrow \infty} \left[\frac{(2n)!!}{(2n-1)!!}\right]^2\frac{1}{2n+1}.
+	$$
+	\item 设$c>0$,求序列
+	$$
+	\sqrt{c}, \sqrt{c+\sqrt{c}},\sqrt{c+\sqrt{c+\sqrt{c}}}, \cdots
+	$$
+	的极限.
+	\item 设$x_n=a_1+a_2+\cdots+a_n$,求证: 若$\tilde{x}=|a_1|+|a_2|+\cdots+|a_n|$极限存在,则${x_n}$的极限也存在.
+	\item 设$x_n=a_1+a_2+\cdots+a_n,y_n=b_1+b_2+\cdots+b_n,z_n=c_1+c_2+\cdots+c_n$, 且$c_n\le a_n\le b_n(n=1,2,\cdots)$; 又设${y_n},{z_n}$极限存在.求证: ${x_n}$极限也存在.
+	\item 设序列${x_n}$满足$|x_{n+1}-x_n|\le q|x_n-x_{n-1}|(n=1,2,\cdots)$, 其中$0<q<1$.求证:
+	序列${x_n}$的极限存在.
+	\item 设$f(x)$在$(-\infty,+\infty)$上满足条件:
+	$$|f(x)-f(y)|\le q|x-y|\quad (\forall x,y \in (-\infty,+\infty))$$
+	其中$0<q<1$.对$\forall x_1\in (-\infty,+\infty)$, 令$x_{n+1}=f(x_n)(n=1,2,\cdots)$.求证: 序列${x_n}$的极限存在, 且极限值是$f(x)$的不动点.
+	\item 设$x_0=a,x_1=b(b>a)$, 用如下公式定义序列的项: $$
+	x_{2n}=\frac{x_{2n-1}+2x_{2n-2}}{3},\ x_{2n+1}=\frac{2x_{2n}+x_{2n-1}}{3}\quad (n = 1,2,\cdots)$$
+	求证: 序列${x_n}$极限存在.
 \end{enumerate}
 \section{函数极限与连续概念}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 设在正实轴上, $h(x)\le f(x)\le g(x)$, 且广义极限$$
+	\lim\limits_{x\rightarrow \infty}h(x) = A = \lim\limits_{x\rightarrow \infty}g(x)$$存在.求证: $\lim\limits_{x\rightarrow \infty}f(x)=A$(分别讨论$A=+\infty,-\infty,有限数三种情形$).
+	\item 设$\lim\limits_{x\rightarrow a}f(x)=+\infty,\lim\limits_{x\rightarrow a}g(x)=A(>0)$, 求证:$$
+	\lim\limits_{x\rightarrow a}f(x)g(x) = +\infty$$
+	\item 设$0<x_n<+\infty$, 且满足$x_n+\frac{4}{x^2}<3$, 求证: 极限$\lim\limits_{x_n}存在, 并求出此极限值$.
+	\item 设$f(x)$是$(-\infty,+\infty)$上的周期函数, 又$$
+	\lim\limits_{x\rightarrow +\infty}f(x)=0$$ 求证:$f(x)\equiv 0$.
+	\item 设$f(x),g(x)$在$(a,+\infty)$上定义,$g(x)$单调上升, 且$$
+	\lim\limits_{x\rightarrow +\infty}g(f(x))=+\infty.$$
+	求证: $\lim\limits_{x\rightarrow +\infty}f(x)=+\infty$, $\lim\limits_{x\rightarrow +\infty}g(x)=+\infty$.
+	\item 设$x_n=\tfrac{1}{1 \cdot n}+\tfrac{1}{2 \cdot (n-1)}+\cdots+\tfrac{1}{(n-1) \cdot 2}+\tfrac{1}{n \cdot 1}$, 求$\lim\limits_{n\rightarrow \infty}x_n$.
+	\item 设$\lim\limits_{n\rightarrow \infty}\tfrac{a_1+a_2+\cdots+a_n}{n}=a$, 求证: $\lim\limits_{n\rightarrow \infty}\tfrac{a_n}{n}=0$
+	\item 设${x_n}$满足$\lim\limits_{n\rightarrow \infty}(x_n-x_{n-2})=0$, 求证: $\lim\limits_{n\rightarrow \infty}\tfrac{x_n}{n}=0$.
+	\item 适当定义$f(0)$, 使函数$f(x)=(1-2x)^\frac{1}{x}$在点$x=0$处连续.
+	\item 设$ f(x),g(x)\in C[a,b]$,求证:
+	\begin{enumerate}
+		\item $|f(x)|\in C[a,b];$\
+		\item $max\{f(x),g(x)\}\in C[a,b]$;
+		\item $min\{f(x),g(x)\}\in C[a,b]$.
+	\end{enumerate}
+	\item 设$f(x)\in C[a,b]$单调上升, 且$a<f(x)<b\ (\forall x\in [a,b])$.对$\forall x_1 \in [a,b]$, 由递推公式$x_{n+1}=f(x_n)(n=1,2,\cdots)$产生序列$\{x_n\}$.求证: 极限$\lim\limits_{n\rightarrow \infty}x_n$存在, 且其极限值$c$满足$c=f(c)$.
+	\item 设序列$\{x_n\}$由如下迭代产生:
+	$$
+	x_1 = \tfrac{1}{2}, x_{n+1} = x_{n}^2 + x_n \quad (n = 1,2,\cdots)
+	$$求证:$\lim\limits_{n\rightarrow \infty}(\frac{1}{1+x_1}+\frac{1}{1+x_2}+\cdots+\frac{1}{1+x_n})=2$
+	\item 求出函数$f(x)=\frac{1}{1+\frac{1}{x}}$的间断点, 并判断间断点的类型.
+\end{enumerate}
 \section{闭区间上连续函数的性质}

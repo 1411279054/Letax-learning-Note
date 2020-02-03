@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  2 FEB 2020 23:17
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  3 FEB 2020 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2134,37 +2134,64 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 
 ]
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-[4]) (./chapter/chap2.tex
+[4]
+Missing character: There is no 的 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 极 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 限 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 存 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 在 in font ntx-Regular-tlf-ot1!
+
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 [5]
+Missing character: There is no 有 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 限 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 数 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 三 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 种 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 情 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 形 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 存 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 在 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 并 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 求 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 出 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 此 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 极 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 限 in font ntx-Regular-tlf-ot1!
+Missing character: There is no 值 in font ntx-Regular-tlf-ot1!
+
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+[6]) (./chapter/chap2.tex
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+[7]
 第 3\tmspace +\thickmuskip {.2777em}章 3.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
-(./chapter/chap3.tex [6
+(./chapter/chap3.tex [8
 
 ]
 第 4\tmspace +\thickmuskip {.2777em}章 4.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
-(./chapter/chap4.tex [7
+(./chapter/chap4.tex [9
 
 ]
 第 5\tmspace +\thickmuskip {.2777em}章 5.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
-(./chapter/chap5.tex [8
+(./chapter/chap5.tex [10
 
 ]
 第 6\tmspace +\thickmuskip {.2777em}章 6.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
-(./chapter/chap6.tex [9
+(./chapter/chap6.tex [11
 
 ]
 第 7\tmspace +\thickmuskip {.2777em}章 7.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
-(./chapter/chap7.tex [10
+(./chapter/chap7.tex [12
 
 ]
 第 8\tmspace +\thickmuskip {.2777em}章 8.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
-(./chapter/chap8.tex [11
+(./chapter/chap8.tex [13
 
 ]
 第 9\tmspace +\thickmuskip {.2777em}章 9.
@@ -2172,7 +2199,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 Package hyperref Info: Option `pageanchor' set `true' on input line 27.
 
 AED: lastpage setting LastPage
-[12
+[14
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
@@ -2184,12 +2211,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 33E636747B7F69419C42D9D165F10CB4.
  ) 
 Here is how much of TeX's memory you used:
- 46047 strings out of 492922
- 935935 string characters out of 6136751
+ 46053 strings out of 492922
+ 936295 string characters out of 6136751
  1368378 words of memory out of 5000000
- 49265 multiletter control sequences out of 15000+600000
+ 49267 multiletter control sequences out of 15000+600000
  595096 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,15n,124p,2615b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (13 pages).
+Output written on main.pdf (15 pages).
