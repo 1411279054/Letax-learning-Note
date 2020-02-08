@@ -182,7 +182,12 @@
 			
 		 \item 	$\sqrt{n+1}-\sqrt{n}=\frac{1}{\sqrt{n+1}+\sqrt{n}}$, 而$ \frac{1}{2\sqrt{n+1}}\le \frac{1}{\sqrt{n+1}+\sqrt{n}}\le \frac{1}{2\sqrt{n}}$\ 
 			$\therefore\ \frac{1}{2\sqrt{n+1}}<\sqrt{n+1}-\sqrt{n}<\frac{1}{2\sqrt{n}}$
-		\item 
+		\item $x_{n+1}=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}+\frac{1}{\sqrt{n+1}}-2\sqrt{n+1},\ x_n=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}-2\sqrt{n}$.\\
+		$x_{n+1}-x_n=\frac{1}{\sqrt{n+1}}+2\sqrt{n}-2\sqrt{n+1}<\frac{1}{\sqrt{n+1}}-\frac{1}{\sqrt{n+1}}=0$.$\therefore \ x_{n+1}<x_n$,数列${x_n}$是递减数列.\\
+		下证: $x_n>-2$(数学归纳法)\\
+		$n=1$时, $x_1=-1>-2$成立\\
+		假设$n=k$时, $x_n>-2$\\
+		那么当$n=k+1$时，$x_{n+1}=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n+1}}-2\sqrt{n+1}=x_n+\frac{1}{\sqrt{n+1}}-2\sqrt{n+1}+2\sqrt{n}>$
 		\end{enumerate}
 		
 		
@@ -249,3 +254,40 @@
 	\item 求出函数$f(x)=\frac{1}{1+\frac{1}{x}}$的间断点, 并判断间断点的类型.
 \end{enumerate}
 \section{闭区间上连续函数的性质}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 设$f(x)\in C[a,b]$, 且$|f(x)|$在$[a,b]$上单调.求证: $f(x)$在$[a,b]$上不变号.
+	\item 设$f(x)\in C(-\infty,+\infty)$, 且严格单调, 又
+	$$
+	\lim\limits_{x\rightarrow -\infty}f(x) = 0,\quad \lim\limits_{x\rightarrow +\infty}f(x)=+\infty$$
+	求证: 方程$f^3(x)-6f^2(x)+9f(x)-3$有且仅有三个根.
+	\item 设$f_n(x)=x^n+x$.求证:
+	\begin{enumerate}
+		\item 对任意自然数$n>1$, 方程$f_n(x)=1$在$(\frac{1}{2},1)$内有且仅有一个根;
+		\item 若$c_n\in (\frac{1}{2},1)$是$f_n(x)=1\text{的根, 则}\lim\limits_{n \rightarrow \infty}c_n$存在, 并求此值.
+	\end{enumerate}
+	\item 设$f(x)$在$[a,b]$上无界, 求证: $\exists c\in[a,b]$, 使得对$\forall \delta>0$, 函数$f(x)$在$[c-\delta,c+\delta]\cap[a,b]$上无界.
+	\item 设${x_n}$为有界序列.求证:${x_n}$以$a$为极限的充分必要条件是:\ ${x_n}$的任一收敛子序列都有相同的极限值$a$.
+	\item 设$f(x),g(x)\in C[a,b]$.求证:
+	$$\underset{a\leq x\le b}{\mathrm{max}}|f(x)+g(x)|\le \underset{a\le b}{\mathrm{max}}|f(x)|+\underset{a\le x \le b}{\mathrm{max}}|g(x)|.$$
+	\item 设$f(x)\in C[a,b]$, 且有唯一的取到$f(x)$最大值的点$x^*$, 又设使得$\lim\limits_{n \rightarrow  \infty}f(x)=f(x^*)$.求证:$\lim\limits_{n \rightarrow \infty}x_n=x^*$.
+	\item 设$f(x)\in C[0,+\infty)$, 又设对$\forall l\in \textbf{R}$, 方程$f(x)=l$在$[0,+\infty)$上只有有限个解或无解.求证:
+	\begin{enumerate}
+		\item 如果$f(x)$在$[0, +\infty)$上有界, 则极限$\lim\limits_{x\rightarrow +\infty}f(x)$存在;
+		\item 如果$f(x)$在$[0,+\infty]$上无界, 则$\lim\limits_{n\rightarrow +\infty}=+\infty$.
+	\end{enumerate}
+	\item 设$f(x)\in C(-\infty,+\infty)$,存在$\lim\limits_{x\rightarrow \pm\infty}=+\infty$, 且$f(x)$的最小值$f(a)<a$.求证:$f(f(x))$至少在两个点处取到最小值.
+	\item 设$f(x)$在$[a,b]$上定义, $x_0\in[a,b]$.如果对$\forall \varepsilon >0, \exists \delta >0 $, 当$|x-x_0|<\delta$时, 有$f(x)<f(x_0)+\varepsilon$, 那么称$f(x)$在点$x_0$处\textbf{上半函数}.如果$f(x)$在$[a,b]$上每一点都上半连续,则称$f(x)$为$[a,b]$上的一个半连续函数.求证:$[a,b]$上的上半连续函数一定有上界.
+	\item 证明下列函数在实数轴上一致连续: \\
+	(1)\ $f(x)=\sqrt{1+x^2}$\qquad (2)\ $f(x)=sinx$
+	\item 证明下列函数在实数轴上不一致连续: \\
+	(1)\ $f(x)=xsinx$;\qquad(2)\ $f(x)=sinx^2$.
+	\item 设$f(x)$在$[0,+\infty)$上一致连续, 对$\forall h\ge 0,\lim\limits_{n\rightarrow \infty}f(h+n)=A$(有限数).求证:$\lim\limits_{n\rightarrow +\infty}f(x)=A$.
+	\item 设存在常数$L>0$, 使得$f(x)$在$[a,b]$上满足$$
+	|f(x)-f(y)|\le L|x-y|,\quad \forall x,y\in [a,b].
+	$$求证: $f(x)$在$[a,b]$上一致连续.
+	\item 设函数$f(x),g(x)$在$(a,b)$内一致连续.求证: $f(x)+g(x)$与$f(x)\cdot g(x)$都在$(a,b)$内一致连续.
+	\item 设$f(x)$在$(a,b)$内一致连续, 值域含于区间$(a,d)$, 又$g(x)$在$(c,d)$内一致连续.求证: $g(f(x))$在$(a,b)$内一致连续.
+	\item 设$f(x)\in C(-\infty,+\infty)$, 且是周期为$T$的周期函数.求证: $f(x)$在实轴上一致连续.
+	
+\end{enumerate}
