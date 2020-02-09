@@ -1,9 +1,76 @@
 \chapter{一元函数微分学}
 \section{导数和微分}
-
+\centering{\textbf{练习题}}
+\begin{enumerate}
+    \item 用定义求$f'(0)$, 这里$f(x)=\begin{cases}
+    x^2sin\frac{1}{x},&x\ne 0\\
+    0,&x=0
+    \end{cases}$
+    \item 设$f'(x_0)$存在.求证:对数导数也存在并等于$f'(x_0)$, 即\\
+    $$\lim\limits_{h\rightarrow 0}\frac{f(x_0+h)-f(x_0-h)}{2h}=f'(x_0)$$.
+    \item 设$f(x)$在点$x_0$处可导,$\alpha_n,\beta_n$为趋于零的正数序列, 求证: 
+    $$\lim\limits_{n\rightarrow \infty}\frac{f(x_0+\alpha_n-f(x_0+\beta_n))}{\alpha_n-\beta_n}
+    = f'(x_0)$$
+    \item 设$P(x)$是最高次项系数为1的多项式, $M$是它的最大实数.求证:$P'(M)\ge 0$.
+    \item 给定曲线$y=x^2+5x+4$.
+    \begin{enumerate}
+    	\item 求曲线在点$(0,4)$处的切线.
+    	\item 确定$b$使得直线$y=3x+b$为曲线的切线;
+    	\item 求过点$(0,3)$的曲线的切线.
+    \end{enumerate}
+	\item 确定常数$a,b$使得函数$f(x)=\begin{cases}
+	ax+b,&x>1\\
+	x^2,&x\le 1
+	\end{cases}$
+	有连续导数.
+	\item 设曲线由隐式方程$\sqrt[3]{x^2}+\sqrt[3]{y^2}=\sqrt[3]{a^2}(a>0)$给出.
+	\begin{enumerate}
+		\item 求证: 曲线的切线被坐标轴所截的长度为一常数;
+		\item 写出曲线的参数式, 利用参数式求导给出上一小题的另一证法.
+	\end{enumerate}
+		\item 已知曳物线的参数方程为$$
+		x=a[\mathrm{ln}(\mathrm{tan}\frac{t}{2})+\mathrm{cos}t],\quad y=a\mathrm{sin}t\quad
+		(a>0,0<t<\pi).$$
+		求证:在曳物线的任意切线上, 自切点至该切线与$x$轴交点之间的切线段为一定长.
+		\item 试确定$\lambda$,使得曲线$\frac{x^2}{a^2}+\frac{y^2}{b^2}$与$xy=\lambda$相切, 并求出切线方程.
+		\item 试确定$m$, 使直线$y=mx$为曲线$y=lnx$的切线.
+		\item 设$y=\frac{\mathrm{arcsin}x}{\sqrt{1-x^2}}$.
+		$(1)\text{求证}: (1-x^2)y'-xy=1;\qquad \quad(2)\text{求}y^{(n)}(0)$.
+		\item 求$f(x)=\frac{x}{1-x^2}$的$n$阶导数.
+		\item 设$y=x^(n-1)\mathrm{ln}x$.求证:$y^{(n)}=\frac{(n-1)!}{x}$.
+		\item 求证:双曲线$r^2=a^2\text{cos}2\theta$的向径与切线的夹角等于极角的两倍加$\frac{\pi}{2}$
+		\item 设曲线既可用参数式$x=x(t),y=y(t)$表示, 又可用极坐标$r=r(\theta)$表示.求证:$\frac{1}{2}r^2\mathrm{d}\theta=\frac{1}{2}(x\mathrm{d}y-y\mathrm{d}x)$.
+		
+	\end{enumerate}
 \section{微分中值定理}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 设$f(x)$在$[a,b]$上连续, 在$(a,b)$内除仅有的一个点都可导.求证: $\exists c_1,c_2\in(a,b)$及$\theta \in (0,1)$, 使得
+	$$f(b)-f(a)=(b-a)[\theta f'(c_1)+(1-\theta)f'(c_2)]
+	$$
+	\item 设函数$f(x)$在$[a,b]$上连续, 在$(a,b)$内可导, 且$$
+	f(a)\cdot f(b) > 0,\ f(a)\cdot f(\frac{a+b}{2})<0.$$
+	求证: 对$\forall k\in R, \exists \xi\in (a,b)$, 使得$f'(\xi)=kf(\xi)$.
+	\item 设$f(x)$在$[a,b]$上连续, 在$(a,b)$内可导, 但非线性函数. 求证: 
+	$\exists \xi,\eta\in(0,3), $使得$f'(\xi)=0$.
+	\item 设$f(x)$在$[a,b]$上连续, 在$(a,b)$内可导, 但非线性函数.求证: $\exists \xi,\eta\in (a,b)$,使得$$
+	f'(\xi)<\frac{f(b)-f(a)}{b-a}<f'(\eta).$$
+	\item 设$f(x)$在$(a,b)$内二阶可导,且$x_0\in (a,b)$, 使得$f''(x_0)\ne 0$.求证:
+	\begin{enumerate}
+		\item 如果$f'(x_0)=0$,则存在$x_1,x_2\in (a,b)$,使得${f(x_1)-f(x_2)}=0$;
+		\item 如果$f'(x_0)\ne 0$, 则存在$x_1,x_2\in (a,b)$, 使得$\frac{f(x_1)-f(x_2)}{x_1-x_2}=f'(x_0)$.
+	\end{enumerate}
+	\item 设$f(x)$在$[0,1]$上可导, $f(0)=0, f(x)\ne 0(\forall x\in(0,1))$.求证: 如果$f(x)$在$(0,1)$上不恒等于零, 则存在$\xi \in (0,1)$, 使得$f(\xi)\cdot f'(\xi)>0$.
+	\item 设$f(x)$在$[0,1]$上可导,$f(0)=0,f(x)\ne 0(\forall x\in (0,1))$.求证:
+	存在$\xi\in(a,b)$, 使得$f'(\xi)+f(\xi)=0$.
+	\item 设$f(x)$在$[0,1]$上连续,在$(0,1)$内可导,$f(0)=0$.求证:如果$f(x)$在$(0,1)$上不恒等于零,则存在$\xi \in (0,1)$, 使得$f(\xi)\cdot f(\xi)>0$.
+	\item 设函数$f(x)$在$[a,b]$上可导, 且$f'(a)=f'(b)$.求证: $\exists c\in (a,b), $使得$f(c)-f(a)=(c-a)f'(c)$ \\
+	注:\quad 本题与本节例12比较,就是把条件$f'(a)=f'(b)=0$中的“=0”去掉了.
+	\item 设$f(x)$在(0,1]上可导, 且存在有限极限$\lim\limits_{h\rightarrow 0+}\sqrt{x}f'(x)$.求证:$f(x)$在(0,1]上一致连续.
+\end{enumerate}
 
 \section{函数的升降、极值、最值问题}
+
 
 \section{函数的凹凸性、拐点及函数作图}
 
