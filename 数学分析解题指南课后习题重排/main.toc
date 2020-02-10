@@ -8,7 +8,7 @@
 \contentsline {chapter}{\numberline {3}一元函数微分学}{11}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}导数和微分}{11}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}微分中值定理}{12}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}函数的升降、极值、最值问题}{13}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}函数的升降、极值、最值问题}{12}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}函数的凹凸性、拐点及函数作图}{13}{section.3.4}% 
 \contentsline {section}{\numberline {3.5}洛必达法则与泰勒公式}{13}{section.3.5}% 
 \contentsline {section}{\numberline {3.6}一元函数微分学的总合应用}{13}{section.3.6}% 

@@ -2,8 +2,21 @@
 \usepackage{tabularx}
 \usepackage{enumerate}
 \usepackage{tikz}
+\usepackage{wallpaper}
 \newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
 		circle (.5em) node {\makebox[1em][c]{\small #1}};}}
+	
+\renewcommand{\CenterWallPaper}[2]{%
+		\AddToShipoutPicture{\put(\LenToUnit{\wpXoffset},\LenToUnit{\wpYoffset}){%
+				\parbox[b][\paperheight]{\paperwidth}{%
+					\vfill
+					\centering
+					\tikz[opacity=0.075] \node[inner sep=0pt] {\includegraphics[angle=90,width=#1\paperwidth,height=#1\paperheight,keepaspectratio]{#2}};%
+					\vfill
+			}}
+		}
+	}
+	\CenterWallPaper{1}{figure/ctanlion.pdf}
 %\newcolumntype{Z}{>{\centering\arraybackslash}X}%设置 Z 居中的效果
 %\setlist[enumerate]{leftmargin=0pt}%设置列表环境左边的间距
 %\newcommand{\ee}{\mathrm{e}}%常见符号

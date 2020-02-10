@@ -1,0 +1,8 @@
+\contentsline {chapter}{\numberline {1}马克思主义中国化的两大理论成果}{2}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}马克思主义中国化及其发展}{2}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}马克思主义中国化的提出}{2}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}马克思主义中国化的科学内涵}{2}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}马克思主义中国化两大理论成果的关系}{2}{subsection.1.1.3}% 
+\contentsline {section}{\numberline {1.2}毛泽东思想}{3}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}毛泽东思想的形成和发展}{3}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}毛泽东思想的主要内容和活的灵魂}{3}{subsection.1.2.2}% 
