@@ -184,10 +184,9 @@
 			$\therefore\ \frac{1}{2\sqrt{n+1}}<\sqrt{n+1}-\sqrt{n}<\frac{1}{2\sqrt{n}}$
 		\item $x_{n+1}=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}+\frac{1}{\sqrt{n+1}}-2\sqrt{n+1},\ x_n=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}-2\sqrt{n}$.\\
 		$x_{n+1}-x_n=\frac{1}{\sqrt{n+1}}+2\sqrt{n}-2\sqrt{n+1}<\frac{1}{\sqrt{n+1}}-\frac{1}{\sqrt{n+1}}=0$.$\therefore \ x_{n+1}<x_n$,数列${x_n}$是递减数列.\\
-		下证: $x_n>-2$(数学归纳法)\\
-		$n=1$时, $x_1=-1>-2$成立\\
-		假设$n=k$时, $x_n>-2$\\
-		那么当$n=k+1$时，$x_{n+1}=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n+1}}-2\sqrt{n+1}=x_n+\frac{1}{\sqrt{n+1}}-2\sqrt{n+1}+2\sqrt{n}>$
+		下证: $x_n>-2$;\\
+		$x_n=1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}-2\sqrt{n}= 2[\frac{1}{2}+\frac{1}{2\sqrt{2}}+\cdots+\frac{1}{2n}]>2[\sqrt{2}-\sqrt{1}+\sqrt{3}-\sqrt{2}+\cdots+\sqrt{k+1}-\sqrt{k}]=\sum_{k=1}^n{2(\sqrt{k+1}-\sqrt{k})}-2\sqrt{n}=2(\sqrt{n+1}-1)-x\sqrt{n}>-2$.
+		
 		\end{enumerate}
 		
 		
@@ -195,13 +194,13 @@
 	\item 设$0<a_1<b_1$, 令
 	$$
 		a_{n+1} = \sqrt{a_n\cdot b_n},\ b_{n+1}=\tfrac{a_n+b_n}{2}\ (n=1,2,\cdots)
-	$$求证: 序列${a_n},{b_n}的极限存在$.
+	$$求证: 序列${a_n},{b_n}$的极限存在.
 	\begin{solution}
 		
 	\end{solution}
 	\item 求证: 如下序列的极限存在.
 	$$
-	\lim\limits_{n\rightarrow \infty}(1+\frac{1}{2^x}(1+\frac{1}{3^2})\cdots(1+\frac{1}{n^2})).
+	\lim\limits_{n\rightarrow \infty}(1+\frac{1}{2^2})(1+\frac{1}{3^2})\cdots(1+\frac{1}{n^2}).
 	$$
 	\item 求证: 如下序列的极限存在：
 	$$
@@ -214,7 +213,7 @@
 	的极限.
 	\item 设$x_n=a_1+a_2+\cdots+a_n$,求证: 若$\tilde{x}=|a_1|+|a_2|+\cdots+|a_n|$极限存在,则${x_n}$的极限也存在.
 	\item 设$x_n=a_1+a_2+\cdots+a_n,y_n=b_1+b_2+\cdots+b_n,z_n=c_1+c_2+\cdots+c_n$, 且$c_n\le a_n\le b_n(n=1,2,\cdots)$; 又设${y_n},{z_n}$极限存在.求证: ${x_n}$极限也存在.
-	\item 设序列${x_n}$满足$|x_{n+1}-x_n|\le q|x_n-x_{n-1}|(n=1,2,\cdots)$, 其中$0<q<1$.求证:
+  	\item 设序列${x_n}$满足$|x_{n+1}-x_n|\le q|x_n-x_{n-1}|(n=1,2,\cdots)$, 其中$0<q<1$.求证:
 	序列${x_n}$的极限存在.
 	\item 设$f(x)$在$(-\infty,+\infty)$上满足条件:
 	$$|f(x)-f(y)|\le q|x-y|\quad (\forall x,y \in (-\infty,+\infty))$$
