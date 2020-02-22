@@ -114,6 +114,7 @@
 \end{table}
 \end{enumerate}
 \section{定积分概念、可积条件与定积分性质}
+\centering{\textbf{练习题}}
 \begin{enumerate}
 	\item 设$f(x)\in R[a,b]$, 且$f(a)\ge a>0.$求证:\\
 	(1)\  $\frac{1}{f(x)}\in R[a,b]$; \qquad \qquad \qquad (2)\ $\mathrm{ln}f(x)\in R[a,b]$.
@@ -156,11 +157,76 @@
 	\item 求下列定积分:
 		\begin{table}[H]
 		\begin{tabular}{ll}
-			(1)\ $\displaystyle{\int_{\frac{1}{2}}^{1}\mathrm{e}^{\sqrt{2x-1}}\mathrm{d}x}$;\qquad \qquad \qquad &(2)\ $\displaystyle{\int_{0}^{\mathrm{ln}2}\sqrt{1-e^{-2x}}\mathrm{d}x}$;
+			(1)\ $\displaystyle{\int_{\frac{1}{2}}^{1}\mathrm{e}^{\sqrt{2x-1}}\mathrm{d}x}$;\qquad \qquad \qquad &(2)\ $\displaystyle{\int_{0}^{\mathrm{ln}2}\sqrt{1-e^{-2x}}\mathrm{d}x}$;\\
+			(3)\ $\displaystyle{I=\int_{0}^{\frac{\pi}{4}}\frac{x}{1+\mathrm{cos}x}\mathrm{d}x}$;\qquad \qquad \qquad &(4)\ $\displaystyle{I = \int_{0}^{1}\frac{\mathrm{ln}(1+x)}{(2-x)^2}\mathrm{d}x}$;\\
+				(5)\ $\displaystyle{\int_{0}^{1}\frac{x}{\mathrm{e}^x}+\mathrm{e}^{1-x}\mathrm{d}x}$;\qquad \qquad \qquad &(6)\ $\displaystyle{\int_{0}^{\pi}\frac{\mathrm{d}x}{2\mathrm{cos}^2x+\mathrm{sin}^2x}}$.
 		\end{tabular}
 	\end{table}
+\item 
+\begin{enumerate}
+	\item 设$x\ge -1$, 求$\displaystyle{\int_{-1}^{x}(1-|t|)\mathrm{d}t}$;
+	\item 求$\displaystyle{\int_{\frac{1}{2}}^{\frac{3}{2}}\frac{1}{\sqrt{|x-x^2|}}\mathrm{d}x}$;
+\end{enumerate}
+\item 设$f(2)=\frac{1}{2},f'(x)=0,\displaystyle{\int_{0}^{2}f(x)\mathrm{d}x=1}$, 求$\displaystyle{\int_{0}^{1}x^2f''(2x)\mathrm{d}x}$/
+\item 设$f(x)=f(x-\pi)+\mathrm{sin}x$, 且当$x\in [0,\pi]$时, $f(x)=x$, 求
+$$\displaystyle{\int_{\pi}^{3\pi}f(x)\mathrm{d}x}$$
+\item 对任意自然数$n$, 求证:
+$$\displaystyle{\int_{0}^{\pi}\frac{1-(1-\frac{t}{n})^n}{t}\mathrm{d}x=1+\frac{1}{2}+\cdots+\frac{1}{n}}.$$
+\item 设$f(x)$在$[a,b]$上二阶可微, 求证:
+$$
+f(x)-f(a)-f'(a)(x-a) = \displaystyle{\int_{a}^{x}f''(t)(x-t)\mathrm{d}t}\ (\forall x\in [a,b])
+$$
+\item 设$0<a<b,f(x)$在$[a,b]$上连续, 并满足$$
+f(\frac{ab}{x}) = f(x)\ (\forall x\in[a,b]).$$
+求证: $$
+\displaystyle{\int_{a}^{b}f(x)\frac{\mathrm{ln}x}{x}\mathrm{d}x=\frac{\mathrm{ln}(ab)}{2}\int_{a}^{b}\frac{f(x)}{x}\mathrm{d}x}.$$
+\item 设$a>0,f(x)$在$(0,+\infty)$上连续, 并满足$$
+f(\frac{a^2}{x})=f(x)\ (\forall x>0 )$$
+求证:
+\begin{enumerate}
+	\item $\displaystyle{\int_{0}^{1}\frac{f(x)}{x}\mathrm{d}x=\int_{1}^{a}\frac{f(x)}{x}\mathrm{d}x}$;
+	\item $\displaystyle{\int_{1}^{a}\frac{f(x^2)}{x}=\int_{0}^{1}\frac{f(x)}{x}\mathrm{d}x}$;
+	\item 如果$g(x)$在$(0,+\infty)$上连续, 则$\displaystyle{\int_{0}^{1}g(x^2+\frac{a^2}{x^2})\frac{\mathrm{d}x}{x}=\int_{1}^{a}g(x+\frac{a^2}{x})\frac{\mathrm{d}x}{x}}$.
+\end{enumerate}
+\item 
+\begin{enumerate}
+	\item 设$f(x)$是奇函数, 求证: $f(x)$的任一原函数是偶函数;
+	\item 设$f(x)$是偶函数, 求证: $f(x)$的任意原函数是奇函数和常数之和.
+\end{enumerate}
+\item 求证: $\displaystyle{\int_{0}^{\frac{\pi}{2}}\frac{\mathrm{sin}x}{1+x^2}\mathrm{d}x\le \int_{0}^{\frac{\pi}{2}}\frac{\mathrm{cos}x}{1+x^2}\mathrm{d}x}$.
+\item 设函数$f(x)$二阶可微, 求证: 存在$\xi\in(a,b)$, 使得$$
+	\displaystyle{|\int_{a}^{b}f(x)\mathrm{d}x-(b-a)f(\frac{a+b}{2})|\le \frac{M_2}{24}(b-a)^3}$$
+	其中$M_2=\underset{x\in [a,b]}{\mathrm{max}|f''(x)|}$.
+\item 设$f(x)\in C[a,b]$, 且$\exists m\in N$, 使得$$
+\displaystyle{\int_{a}^{b}x^nf(x)\mathrm{d}x=0\quad (n=0,1,\cdots,m)}$$
+求证:$f(x)$在$(a,b)$内至少有$m+1$个零点.
+\item 设$S(x)=\displaystyle{\int_{0}^{x}|\mathrm{cos}t|\mathrm{d}t}$.
+\begin{enumerate}
+	\item 当$n$为正整数, 且$n\pi \le x <(n+1)\pi$时, 证明$2n\le S(x)<2(n+1)$.
+	\item 求$\lim\limits_{x\rightarrow +\infty}\frac{S(x)}{x}$.
+\end{enumerate} 
+\item 设$f(x)$在$(-\infty,+\infty)$上有连续导数, 求
+$$\lim\limits_{a\rightarrow 0^+}\frac{1}{4a^2}\int_{-a}^{a}[f(t+a)-f(t-a)]\mathrm{d}t $$.
+\item 
+\begin{enumerate}
+	\item 设$f(x)$在任意有限区间上可积分, 且$\lim\limits_{x\rightarrow +\infty}f(x)=l$.求证:
+	$$\lim\limits_{x\rightarrow +\infty}\frac{1}{x}\int_{0}^{1}f(t)\mathrm{d}t = l$$.
+	\item  第(1)小题的逆命题是否成立?如果加上一个条件: “$f(x)$在$[0,+\infty)$上单调上升”, 第(1)小题的逆命题是否成立?
+\end{enumerate}
+\item 设$f(x)\in C[0,+\infty)$, 且$\lim\limits_{x\rightarrow +\infty}f(x)=A$.求证:
+$$ \lim\limits_{n\rightarrow \infty}\int_{0}^{1}f(nx)\mathrm{d}x=A$$.
+\item 设$f(x)\in C[a,b]$, 且$f(x)\ge 0(\forall x\in C[a,b])$.求证:
+$$\lim\limits_{n\rightarrow \infty}\{\int_{a}^{b}[f(x)]^n\mathrm{d}x\}^{\frac{1}{n}} = \underset{x\in[a,b]}{max}f(x)$$.
+\item 设$f(x)$在$[0,+\infty)$上单调上升, 函数
+$$F(x) \overset{\text{定义}}{=}
+\begin{cases}
+\frac{1}{x}\displaystyle{\int_{0}^{x}f(t\mathrm{d}t)},&		x>0\\
+f(0+0),&		x=0\\
+\end{cases}
+$$
+求证: 在$[0,+\infty)$上, $F(x)$单调上升且右连续.
 \end{enumerate}
 
 \section{定积分的应用}
-
+\centering{\textbf{练习题}}
 \section{广义积分}
