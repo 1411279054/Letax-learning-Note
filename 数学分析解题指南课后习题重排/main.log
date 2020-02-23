@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  22 FEB 2020 20:25
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  23 FEB 2020 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2309,18 +2309,23 @@ File: figure/ctanlion.pdf Graphic file (type pdf)
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
 
-[21]) (./chapter/chap4.tex
+[21]
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
 
-[22]
+[22]) (./chapter/chap4.tex
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: figure/ctanlion.pdf Graphic file (type pdf)
+<use figure/ctanlion.pdf>
+
+[23]
 第 5\tmspace +\thickmuskip {.2777em}章 5.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
 (./chapter/chap5.tex
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
- [23
+ [24
 
 ]
 第 6\tmspace +\thickmuskip {.2777em}章 6.
@@ -2328,7 +2333,7 @@ File: figure/ctanlion.pdf Graphic file (type pdf)
 (./chapter/chap6.tex
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
- [24
+ [25
 
 ]
 第 7\tmspace +\thickmuskip {.2777em}章 7.
@@ -2336,7 +2341,7 @@ File: figure/ctanlion.pdf Graphic file (type pdf)
 (./chapter/chap7.tex
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
- [25
+ [26
 
 ]
 第 8\tmspace +\thickmuskip {.2777em}章 8.
@@ -2344,7 +2349,7 @@ File: figure/ctanlion.pdf Graphic file (type pdf)
 (./chapter/chap8.tex
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
- [26
+ [27
 
 ]
 第 9\tmspace +\thickmuskip {.2777em}章 9.
@@ -2354,7 +2359,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 29.
 AED: lastpage setting LastPage
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
-[27
+[28
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
@@ -2366,12 +2371,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 093358F4A0D1CD39E51A8BFDAF02ECED.
  ) 
 Here is how much of TeX's memory you used:
- 46432 strings out of 492922
- 945115 string characters out of 6136751
+ 46435 strings out of 492922
+ 945295 string characters out of 6136751
  1370378 words of memory out of 5000000
- 49591 multiletter control sequences out of 15000+600000
+ 49592 multiletter control sequences out of 15000+600000
  600696 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,18n,124p,2593b,1443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (28 pages).
+Output written on main.pdf (29 pages).
