@@ -1,5 +1,107 @@
 \chapter{级数}
 \section{级数敛散判别法与性质、上极限与下极限}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+\item 求下列级数的和:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{1}{(3n-2)(3n+1)}$;\qquad \qquad \qquad\qquad	\qquad&(2)\ $\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n(n+2)}$.\\
+	\end{tabular}
+\end{table}
+\item 判断下列级数的收敛性:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{n^2}{(1+\frac{1}{n})^{n^2}}$;\qquad \qquad \qquad \qquad \qquad&(2)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{ln}n}{2^n}$;\\
+		(3)\ $\sum\limits_{n=1}^{\infty}\frac{n^{n-1}}{(2n^2+1)^\frac{n}{2}}$;\qquad \qquad \qquad\qquad	\qquad&(4)\ $\sum\limits_{n=1}^{\infty}\frac{a^n}{n!}$;\\
+		(5)\ $\sum\limits_{n=1}^{\infty}\frac{\sqrt{n!}}{n^\frac{n}{2}}$;\qquad \qquad \qquad\qquad	\qquad&(6)\ $\sum\limits_{n=1}^{\infty}\frac{\sqrt{n!}\cdot 2^n}{n^\frac{n}{2}}$;\\
+	(7)\ $\frac{3}{1}+\frac{3\cdot5}{1\cdot 4}+\frac{3\cdot5\cdot 7}{1\cdot 4\cdot 7}+\frac{3\cdot5\cdot7\cdot9}{1\cdot 4\cdot7\cdot 10}+\cdots$.
+	\end{tabular}
+\end{table}
+\item 判断下列级数的收敛性:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{1}{2^{\mathrm{ln}n}}$;\qquad \qquad \qquad\qquad	\qquad&(2)\ $\sum\limits_{n=1}^{\infty}\frac{n}{3^{\sqrt{n}}}$;\\
+		(3)\ $\sum\limits_{n=1}^{\infty}\frac{n}{3^{\sqrt{n}}}$;\qquad \qquad \qquad\qquad	\qquad&(4)\ $\sum\limits_{n=2}^{\infty}\frac{\mathrm{ln}n}{n^p}(p>1)$.
+\end{tabular}
+\end{table}
+\item 判断下列级数的收敛性:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}2^n\mathrm{sin}\frac{\pi}{3^n}$;\qquad \qquad \qquad\qquad	\qquad&(2)\ $\lim\limits_{n=1}^{\infty}\frac{1}{\sqrt{n^3+n+1}}$;\\(3)\ $\sum\limits_{n=1}^{\infty}[(n+\frac{1}{2})\mathrm{ln}(1+\frac{1}{n})-1]$\qquad \qquad \qquad\qquad	\qquad&
+		(4)\ $\sum\limits_{n=2}^{\infty}\mathrm{ln}\sqrt[n]{\frac{n+1}{n-1}}$;\\
+		(5)\ $\sum\limits_{n=1}^{\infty}(\sqrt{n+a}-\sqrt[4]{n^2+n})(a>0)$;\qquad \qquad \qquad\qquad	\qquad&(6)\ $\sum\limits_{n=1}^{\infty}(\sqrt[n]{n}-1)^p(p>0)$.
+	\end{tabular}
+\end{table}
+\item 若级数$\sum\limits_{n=1}^{\infty}a_n(A)$及$\sum\limits_{n=1}^{\infty}b_n(B)$皆收敛, 且$a=n\le c_n\le b_n\ (n=1,2,3,\cdots)$.试证级数$\sum\limits_{n=1}^{\infty}c_n(C)$收敛; 若级数$(A),(B)$皆收敛, 问级数$(C)$的收敛性如何?
+\item 若正向级数$\sum\limits_{n=1}^{\infty}a_n$收敛,${a_n}$单调递减.求证:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\lim\limits_{n\rightarrow \infty}\sum\limits_{k=[\frac{n}{2}]+1}{n}a_k=0$;\qquad \qquad \qquad&(2)\ $\lim\limits_{n\rightarrow \infty}na_n=0$.
+	\end{tabular}
+\end{table}
+\item 若正向级数$\sum\limits_{n=1}^{\infty}a_n$的项$a_n$单调递减, 且$\sum\lim\limits_{n=1}^{\infty}a_{2n}$收敛, 求证:$\sum\limits_{n=1}^{\infty}a_n$收敛.
+\item 设$0<p_1<p_2<\cdots<p_n<\cdots$.求证:级数$\sum\limits_{n=1}^{\infty}\frac{1}{p_n}$收敛的充分必要条件为下面的级数收敛:
+$$\sum\limits_{n=1}^{\infty}\frac{n}{p_1+p_2+\cdots+p_n}.$$
+\item 判断下列级数的收敛性:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}(-1)^{n-1}\frac{\mathrm{ln}^2n}{n}$;\qquad \qquad \qquad \qquad&(2)\ $\sum\limits_{n=1}^{\infty}(-1)^{n-1}\frac{\sqrt{n}}{n+100}$;\\
+		(3)\ $\sum\limits_{n=1}^{\infty}(-1)^{n-1}\frac{1+\frac{1}{2}+\cdots+\frac{1}{n}}{n}$;\qquad \qquad\qquad \qquad&(4)\ $\sum\limits_{n=1}^{\infty}\mathrm{sin}(\pi\sqrt{n^2+1})$.
+			\end{tabular}
+	\end{table}
+\item 判断下列级数的收敛性:
+\begin{table}[H]
+	\begin{tabular}{ll}
+(1)\ $\sum\limits_{n=1}^{\infty}(-1)^n\frac{\mathrm{sin}^n}{n}$;\qquad \qquad \qquad \qquad &(2)\ $\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}\cdot \frac{a^n}{1+a^n}(a>0)$;\\
+(3)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}n\cdot\mathrm{sin}n^2}{n}$;\qquad \qquad \qquad \qquad &(4)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}(n+\frac{1}{n})}{n}$.
+	\end{tabular}
+\end{table}
+\item 讨论下列级数的收敛性:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{x^n}{1+x^{2n}}$;\qquad \qquad \qquad \qquad &(2)\ $\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^2}\cdot e^{-nx}$.
+	\end{tabular}
+\end{table}
+\item 讨论下列级数的收敛性于绝对收敛性$(p>0)$:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^p+(-1)^{n-1}}$;\qquad \qquad \qquad \qquad &(2)\ $\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{(n+(-1)^{n-1})^p}$.
+	\end{tabular}
+\end{table}
+\item 求证:若级数$\sum\limits_{n=1}^{\infty}a_n^2$及$\sum\limits_{n=1}^{\infty}b_n^2$收敛, 则下列级数:
+$$ \sum\limits_{n=1}^{\infty}a_n \cdot b_n, \sum\limits_{n=1}^{\infty}(a_n+b_n)^2,\sum\limits_{n=1}^{\infty}\frac{a_n}{n}$$
+皆收敛.
+\item 设$\sum\limits_{n=1}^{\infty}a_n$收敛, 且$\lim\limits_{n\rightarrow \infty}na_n=0$.求证: $\sum\limits_{n=1}^{\infty}n(a_n-a_{n+1})$收敛, 并且$$
+\sum\limits_{n=1}^{\infty}n(a_n-a_{n+1})=\sum\limits_{n=1}^{\infty}a_n$$
+\item 
+\begin{enumerate}
+	\item 设正项数列$\{x_n\}$单调上升. 求证:当${x_n}$有界时,级数$$
+	\sum\limits_{n=1}^{\infty}(1-\frac{x_n}{x_{n+1}})$$
+	收敛, 当$\{x_n\}$无界时, 该级数发散.
+	\item 设$\alpha\ge 1,a_1=1,a_{n+1}=\frac{n}{n+\alpha}(n=1,2,3,\cdots)$.求证:$(n^\alpha a_n)$是收敛数列.
+\end{enumerate}
+\item 求证: 级数$\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{\sqrt{n}}$的平方(指柯西乘积)是发散的.
+\item 求证: 级数$\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$的平方(指柯西乘积)是收敛的.
+\item 用级数方法证序列$x_n=1+\frac{1}{\sqrt{2}+\cdots+\frac{1}{\sqrt{n}}-2\sqrt{n}}$的极限存在$(n\rightarrow +\infty)$.
+\item 设$p_n>0(n=1,2,\cdots)$, 若级数$\sum\limits_{n=1}^{\infty}\frac{1}{p_n}$收敛, 求证级数
+$$ \sum\limits_{n=1}^{\infty}\frac{n}{p_1+p_2+\cdots+p_n}\textbf{收敛}$$
+\item 设${a_n},{b_n}$满足关系式$a_{n+1}=b_n-qa_n(0<q<1)$, 且$\lim\limits_{n\rightarrow \infty}b_n=b$存在, 证明$\lim\limits_{n\rightarrow \infty}a_n$存在.
+\item 设$x_1>0,x_{n+1}=1+\frac{1}{x_n}(n=1,2,\cdots)$.求证:
+\begin{enumerate}
+	\item $1\le \underset{n\rightarrow \infty}{\underline{\lim}}x_n\le \overline{\lim\limits_{n\rightarrow \infty}}x_n\le 2$
+	\item $\lim\limits_{n\rightarrow \infty}x_n$存在, 并求其极限值.
+\end{enumerate}
+\item 设序列$\{a_n\}$有界, 并满足$\lim\limits_{n\rightarrow \infty}(a_{2n}+2a_n)=0$, 求证: $\lim\limits_{n\rightarrow \infty}a_n=0$.
+\item 求证$\overline{\lim\limits_{n\rightarrow \infty}}\le 1(S_n\ge 0)$的充要条件为: 对任一大于1的数为$l$, 有$\lim\limits_{n\rightarrow \infty}\frac{S_n}{l^n}=0$.
+\item 设$0\le x_{n+m}\le x_n \cdot x_m\ (x,m\in N)$.求证:序列$\{\sqrt[n]{x_n}\}$极限存在.
+\item 
+\begin{enumerate}
+	\item 设$0<q<l$, 求证:$\exists r\in (q,1)$, 使$n$充分打时, 有$$
+	1+\frac{q}{n}<(1+\frac{1}{n})^r\ (n>N);
+	$$
+	\item 设$a_n>0$, 求证:$\overline{\lim\limits_{n\rightarrow \infty}}n(\frac{1+a_{n+1}}{a_n})-1\ge 1$.
+\end{enumerate}
+\end{enumerate}
 
 \section{函数级数}
 

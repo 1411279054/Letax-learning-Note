@@ -17,3 +17,7 @@
 \contentsline {subsection}{\numberline {1.4.1}实事求是思想路线的形成和发展}{6}{subsection.1.4.1}% 
 \contentsline {subsection}{\numberline {1.4.2}实事求是思想路线的科学内涵}{6}{subsection.1.4.2}% 
 \contentsline {subsection}{\numberline {1.4.3}实事求是马克思主义中国化理论成果的精髓}{6}{subsection.1.4.3}% 
+\contentsline {chapter}{\numberline {2}新民主主义革命}{7}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}新民主主义革命理论的形成}{7}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}近代中国国情和中国革命的时代特征}{7}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}中国新民主主义革命理论的实践基础}{7}{subsection.2.1.2}% 
