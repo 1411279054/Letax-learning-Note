@@ -232,5 +232,147 @@ xy''+y'+xy=0.$$
 		(5)\ $\mathrm{ln}(1+x+x^2+x^3)$\qquad \qquad \qquad \qquad \qquad &(5)\ $\mathrm{\ln}\frac{1+x}{1-x}$.
 	\end{tabular}
 \end{table}
+\item 求证下列展开式成立:
+\begin{enumerate}
+	\item $\mathrm{ln}(x+\sqrt{1+x^2})=x+\sum\limits_{n=1}^{\infty}(-1)^n\frac{(2n-1)!!}{(2n)!!}\cdot\frac{x^{2n+1}}{2n+1}\ (|x|\le 1)$;
+	\item $\mathrm{artan}\frac{2x}{2-x^2}=\sum\limits_{n=0}^{\infty}(-1)^{[\frac{n}{2}]}\frac{x^{2n+1}}{2^n(2n+1)}\ (|x|\le \sqrt{2})$.
 \end{enumerate}
+\item 
+\begin{enumerate}
+	\item 将$(\mathrm{arctan}x)^2$在$x=0$点展开为幂级数;
+	\item 求级数$\sum\limits_{n=0}^{\infty}\frac{(-1)^n}{n+1}(1+\frac{1}{3}+\cdots+\frac{1}{2n+1})$的和.
+\end{enumerate}
+\item 求下列幂级数的收敛半径, 并讨论收敛区间端点的收敛性;
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=0}^{\infty}\frac{x^n}{\sqrt[n]{n!}}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $\sum\limits_{n=1}^{\infty}\frac{n^nx^n}{n!}$.
+	\end{tabular}
+\end{table}
+\item 
+\begin{enumerate}
+	\item 求证: 函数$y=\mathrm{arcsin}x/\sqrt{1-x^2}$满足方程$$
+	(1-x^2)y'-xy=1,$$
+	并由此求出$y^{(n)}(0)/n!$;
+	\item 求证:$\frac{\mathrm{sin}^{-1}x}{\sqrt{1-x^2}}=\sum\limits_{n=0}^{\infty}\frac{(2n)!!}{(2n+1)!!}x^{2n+1}\ \ (|x|<1)$;
+	\item 求证: $(\mathrm{arctan}x)^2=\sum\limits_{n=0}^{\infty}\frac{(2n)!!}{(2n+1)!!}\cdot\frac{x^{2n+2}}{n+1}\ (|x|\le 1)$.
+\end{enumerate}
+\item 设$0<\theta<2\pi$, 利用幂级数的乘法求证:
+\begin{enumerate}
+	\item $\frac{\mathrm{cos}\theta-x}{1-2x\mathrm{cos}\theta+x^2}=\sum\limits_{n=1}^{\infty}\mathrm{cos}n\theta x^{n-1}\ \ (|x|<1)$.
+\end{enumerate}
+\item 求下列函数的幂级数展开式:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\mathrm{arctan}\frac{x\mathrm{sin}\theta}{1-x\mathrm{cos}\theta}$;\qquad \qquad \qquad \qquad \qquad&(2)\ $-\frac{1}{2}\mathrm{ln}(1-2x\mathrm{cos}\theta+x^2)$. 	
+	\end{tabular}
+\end{table}
+\item 设$0<\theta<2\pi$, 求证:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}n\theta}{n}=\frac{\pi - \theta}{2}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{cos}n\theta}{n}=-\mathrm{ln}2\mathrm{sin}\frac{\theta}{2}$;\\
+		(3)\ 级数$\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}n\theta}{n}$在$(0,2\pi)$上不一致收敛.
+	\end{tabular}
+\end{table}
+\item 设$f(x)=\sum\limits_{n=0}^{\infty}a_nx^n$收敛半径为1, 求
+$$
+F(x) \overset{\text{定义}}{=}\frac{f(x)}{1-x}$$
+的幂级数展开式, 并求出它的收敛半径.
+\item 设$A=\sum\limits_{n=0}^{\infty}a_n,B=\sum\limits_{n=0}^{\infty}b_n$, 又已知这两个级数的柯西乘积产生的级数
+$$
+\sum\limits_{n=0}^{\infty}(a_0b_n+a_1b_n+\cdots+a_nb_0)$$
+收敛. 求证: 乘积级数的积等于$A\cdot B$.
+\end{enumerate}
+
 \section{傅氏级数的收敛性、平均收敛与一致收敛}
+\centering{\text{练习题}}
+\begin{enumerate}
+	\item 
+	\begin{enumerate}
+		\item $\{\mathrm{cos}nx\}_{n=0}^{\infty}$是$[0,\pi]$上的正交系;
+		\item $\{\mathrm{sin}nx\}_{n=1}^{\infty}$是$[0,\pi]$上的正交系;
+		\item$l,\mathrm{cos}\frac{\pi x}{l},\mathrm{sin}\frac{\pi x}{l},\cdots,\mathrm{cos}\frac{n\pi x}{l},\mathrm{sin}\frac{n\pi x}{l},\mathrm{sin}\frac{n\pi x}{l},\cdots$是$[-l,l]$上的正交系.
+	\end{enumerate}
+\item 将下列函数展开成傅氏级数:
+\begin{enumerate}
+	\item $f(x)=\mathrm{sin}^4x\ \ (-\pi<le x\le \pi)$;
+	\item $f(x)=\mathrm{sec}x\ \ (-\pi\le <x \le \pi)$;
+	\item $f(x)=\mathrm{sin}\frac{x}{2}\ \ (-\pi<x<\pi)$;
+	\item $f(x)=|\mathrm{sin}x|\ \ (-\pi\le x\le \pi)$.
+\end{enumerate}
+\item 将$f(x)=|x|(-\pi \le x\le \pi)$展开成傅氏级数, 并求下列级数的和:
+\begin{table}[H]
+	\begin{tabular}{lll}
+		\qquad (1)\ $\sum\limits_{n=1}^{\infty}\frac{1}{(2n-1)^2}$;\qquad \qquad &(2)\ $\sum\limits_{n=1}^{\infty}\frac{1}{n^2}$;\qquad \qquad &(3)\ $\sum\limits_{n=1}^{\infty	}\frac{(-1)^{n-1}}{n^2}$.
+	\end{tabular}
+\end{table}
+\item 将$f(x)=e^x(-\pi\le x\le \pi)$展开成傅氏级数, 并求级数$\sum\limits_{n=1}^{\infty}\frac{1}{1+n^2}$的和.
+\item 将$f(x)=\begin{cases}
+	1,\quad& 0<a<1,\\
+	2,\quad &h\le x\le \pi
+	\end{cases}$\\
+	(1)\ 按余弦展开;	\qquad \qquad \qquad \qquad(2)\ 按正弦展开.
+\item 求证:
+\begin{enumerate}
+	\item $\frac{\pi}{\mathrm{tan}a\pi}=\frac{1}{a}+\sum\limits_{n=1}^{\infty}\ (0<a<1)$
+	\item $\frac{1}{\mathrm{tan}x}=\frac{1}{x}+\sum\limits_{n=1}^{\infty}\frac{2x}{x^2-n^2\pi^2}\ (0<x<\pi)$;
+	\item $\frac{1}{\mathrm{sin}^2}=\frac{1}{x^2}+\sum\limits_{n=1}^{\infty}[\frac{1}{(x-n\pi)^2}+\frac{1}{(x+n\pi)^2}]\ (0<x<\pi)$.
+\end{enumerate}
+\item 求证:
+\begin{enumerate}
+	\item $\displaystyle{\int_{-\pi}^{\pi}|\mathrm{cos}nx|}\mathrm{d}x=4\ (n\in N)$;
+	\item 若$\forall a\in N$, 设$T_n(x)$是任意的$n$阶三角矩阵, 其中$\mathrm{cos}nx$的系数为1, 则$$
+	\underset{|x|\le \pi}{\mathrm{max}|T_n(x)|}\ge \frac{\pi}{4}.$$
+\end{enumerate}
+\item 求证:
+\begin{enumerate}
+	\item $\displaystyle{\lim\limits_{n\rightarrow \infty}\int_{0}^{\pi}(\frac{1}{2\mathrm{sin}\frac{x}{2}-\frac{1}{x}})\mathrm{sin}(n+\frac{1}{2})x\mathrm{d}x}$.
+	\item $\displaystyle{\int_{0}^{\infty}\frac{\mathrm{sin}x}{x}\mathrm{d}x}$.
+\end{enumerate}
+\item 设$f(x)\in C[0,T], g(x)$是周期为$T$的连续周期函数, 求证:
+$$\displaystyle{\lim\limits_{n\rightarrow \infty}\int_{0}^{T}f(x)g(nx)\mathrm{d}x=\frac{1}{T}f(x)\mathrm{d}x\cdot \int_{0}^{T}g(x)\mathrm{d}x}$$.
+\item 设$0<a<1$, 求证:
+\begin{table}[H]
+	\begin{tabular}{ll}
+	(1)\ $\displaystyle{\lim\limits_{b\rightarrow 1}\int_{0}^{b}\frac{x^{a-1}}{1+x}\mathrm{d}x=\sum\limits_{n=0}^{\infty}\frac{(-1)^n}{a+n}}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $\displaystyle{\lim\limits_{b\rightarrow 1}\int_{0}^{b}\frac{x^{-a}}{1+x}}\mathrm{d}x=\sum\limits_{n=1}^{\infty}\frac{(-1)^n}{a-n}$;\\
+(3)\ $\displaystyle{\int\limits_{0}^{1}\frac{x^{a-1}+x^{-a}}{1+x}\mathrm{d}x=\frac{\pi}{\mathrm{sin}a\pi}}$;\qquad \qquad \qquad \qquad \qquad &(4)\ $\displaystyle{\int_{0}^{\infty}\frac{x^{a-1}}{1+x}\mathrm{d}x=\frac{\pi}{\mathrm{sin}a\pi}}$
+	\end{tabular}
+\end{table}
+\item 设$f(x),g(x)\in LR^2[-\pi,\pi]$, 求证:
+$$\displaystyle{\int_{-\pi}^{\pi}[f(x)+g(x)]^2\mathrm{d}x+\int_{-\pi}^{\pi}[f(x)-g(x)]^2\mathrm{d}x=2[\int_{-\pi}^{\pi}f^2(x)\mathrm{d}x+\int_{-\pi}^{\pi}g^2(x)\mathrm{d}x]}$$.
+\item 设$f(x),g(x)\in LR^2[-\pi,\pi]$, 它们的傅氏级数分别记为$a_n,b_n;\ \alpha_n,\beta_n$.求证:
+$$\displaystyle{\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)g(x)\mathrm{d}x=\frac{a_0\alpha_0}{2}+\sum\limits_{n=1}^{\infty}(a_n\alpha_n+b_n\beta_n)}$$.
+\item 利用上题结果, 求证: 如果$f(x)\in LR^2[-\pi,\pi]$, 那么$f(x)$的傅氏级数可逐项积分, 即$$
+\displaystyle{\int_{0}^{x}f(t)\mathrm{d}t=\int_{0}^{x}\frac{a_0}{2}\mathrm{d}t+\sum\limits_{n=1}^{\infty}\int_{0}^{x}(a_n\mathrm{cos}nt+b_n\mathrm{sin}nt)\mathrm{d}t}.$$
+\item 利用逐项积分定理, 将$f(x)=x^4\ (-\pi\le x\le \pi)$展开为傅氏级数, 并用下列级数的和:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^4}$;\qquad \qquad \qquad \qquad \qquad&(2)\ $\sum\limits_{n=1}^{\infty}\frac{1}{n^8}$.
+	\end{tabular}
+\end{table}
+\item 将如下定义的函数$f(x)$展开为傅氏级数:
+$$f(x)=\begin{cases}
+1-|x|/2h,\quad& 2\le |x| \le 2h,\\
+0,\quad & 2h\le |x|\le \pi.
+\end{cases}$$
+并求下列级数的和:
+\begin{table}[H]
+	\begin{tabular}{lll}
+		(1)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}^2nh}{n^2}$;\qquad \qquad\qquad&(2)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{cos}^2nh}{n^2}$;\qquad \qquad \qquad &(3)\ $\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}^4nh}{n^4}$.
+	\end{tabular}
+\end{table}
+\item 求证: 收敛级数$$
+\sum\limits_{n=1}^{\infty}\frac{\mathrm{sin}nx}{\sqrt{n}}\ \ (0<x<2\pi)$$
+不可能是某个黎曼可积函数的傅氏级数.
+\item 将函数$f(x)=x\ (0\le x\le 1)$展开为傅氏级数.
+\item 将如下定义的函数$f(x)$展开为傅氏级数:
+$$f(x)=\begin{cases}
+A,\quad &0<x<l,\\
+0,\quad &l\le x\le 2l.
+\end{cases}
+$$
+\item 设$f(x)\in C[-\pi,\pi],f(-\pi)=f(\pi)$, 且$f(x)$是奇函数, 它的傅氏级数为$$
+f(x)\sim\sum\limits_{n=1}^{\infty}b_n\mathrm{sin}nx.$$
+求证: 对$\forall h>0$, 函数$$
+F(x)\overset{定义}{=}\frac{1}{2h}\int_{x-k}^{x+k}f(t)\mathrm{d}t \ \ (|x|\le \pi)$$
+也是奇函数, 并求它的傅氏级数.
+\end{enumerate}
