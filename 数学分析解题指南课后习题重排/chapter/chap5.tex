@@ -1,5 +1,124 @@
 \chapter{多元函数积分学}
 \section{欧式空间、多元函数的极限与连续}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item $\forall \bm{x},\bm{y}\in R^m$.证明: $|\bm{x}+\bm{y}|^2+|\bm{x}-\bm{y}|=2(|\bm{x}|^2+|\bm{y}|^2)$, 并说明等式的几何意义.
+	\item 证明下列三个命题等价:
+	\begin{enumerate}
+		\item $\bm{x\cdot y}=0$;
+		\item $|\bm{x-y}|^2=|\bm{x}|^2+|\bm{y}|^2$;
+		\item $|\bm{x}-\bm{y}|=|\bm{x}+\bm{y}|$.
+	\end{enumerate}
+	\item 设$\bm{z}\in \bm{R}^m$为常向量, $c$为常数, 证明:
+	\begin{enumerate}
+	\item 	$H=\{\bm{x}|\bm{x}\in \bm{R}^m, \bm{x}\cdot \bm{z}<c\}$是开集;
+	\item $\{\bm{x}|\bm{x}\in \bm{R}^m, \bm{x}\cdot \bm{z}\ge c\}$是闭集.
+	\end{enumerate}
+	\item 试画出下列集合$\Omega$的图形:
+	\begin{enumerate}
+		\item $\{(x,y)|y>0,x>y,x<1\}$;
+		\item $\{(x,y)|0\le y\le 2 ,2y\le x\le 2y+2 \}$
+		\item $\{(x,y)|1\le xy \le 2,\frac{1}{2}\le \frac{y}{x}\le 1\}$;
+		\item $\{(x,y,z)|0<x<y<z<1\}$.
+	\end{enumerate} 
+	\item 证明:
+	\begin{table}[H]
+		\begin{tabular}{ll}
+			$(1)\ (A\cup B)^\circ \supset A^\circ\cup B^\circ$;\qquad \qquad \qquad \qquad \qquad&(2)\ $\overline{A\cap B}\subset \overline{A}+\overline{B}$。
+		\end{tabular}
+	\end{table}
+ 	\item 设$A,B$为$\bm{R}^m$中的有界集. 证明:
+ 	\begin{table}[H]
+ 		\begin{tabular}{ll}
+ 			(1)\ $\partial(A\cup B)\subset \partial A \cup \partial B$;\qquad \qquad \qquad \qquad \qquad &(2)\ $\partial(A\cap B)\subset \partial A \cup \partial B$. 
+ 		\end{tabular}
+ 	\end{table}
+ 	\item 设$A,B$是$\bm{R}^m$中不相交的闭集, 求证: 存在开集$W$和$V$, 满足$A\subset W, B\subset V$, 而 $W\cap V=\varnothing$.
+ 	\item 设$E\subset \bm{R}^m$, 证明: $E=\{\bm{x}|\rho(\bm{x},E)=0\}$.
+ 	\item 设$F_1,F_2,\cdots,F_n,\cdots$是$\bm{R}^m$中的有界闭集列, 满足$F_n \supset F_{n+1}(n=1,2,\cdots)$, 又$F_n$的直径$d_n=d(F_n)\rightarrow 0\ (n\rightarrow \infty)$. 求证: 存在惟一的一点$
+ 	\bm{x_0}\in \bm{R}^m$, 使得$\bm{x_0}\in \bigcap\limits_{n=1}^{\infty}F_n$.
+ 	\item 设$E,F$为$\bm{R}^m$中的闭集, $E,F$中至少有一为有界集, 求证: $\exists \bm{x}\in E,\bm{y}\in F$, 使得$\rho(x,y)=\rho(E,F)$.
+ 	\item 设$D$为$\bm{R}^m$中的凸集, 证明: $\overline{D}$也是凸集.
+ 	\item 证明:
+ 	\begin{enumerate}
+ 		\item $|\bm{x}-2(\bm{x}\cdot \bm{a})\frac{\bm{a}{|\bm{a}|^2}}| = |\bm{x}|\ (\bm{a}\ne 0)$;
+		 \item $|\frac{\bm{x}}{|\bm{x}|^2}|-\frac{\bm{y}}{|\bm{y}|^2}| = \frac{|\bm{x}-\bm{y}|}{|\bm{x}||\bm{y}|}$;
+		 \item 设$|\bm{x}||\bm{y}-\bm{x}/|\bm{x}|^2|=|\bm{y}||\bm{x}-\bm{y}/|\bm{y}|^2|$.
+ 	\end{enumerate}
+ 	\item 确定并画出下列函数的定义域, 指出后两题的等位面是什么曲面(或曲线):
+ 	\begin{table}[H]
+ 	\begin{tabular}{ll}
+ 		(1)\ $u=\sqrt{1-x^2}+\sqrt{1-y^2}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $u=\sqrt{\frac{2x-x^2-y^2}{x^2+y^2-x}}$;\\
+ 		(3)\ $u=\mathrm{arcsin}\frac{y}{x}$;\qquad  \qquad \qquad \qquad \qquad &(4)\  $u=\mathrm{ln}(-1-x^2-y^2+z^2)$.
+ 	\end{tabular}	
+ 	 \end{table}
+  \item 求下列函数的极限:
+  \begin{table}[H]
+  	\begin{tabular}{ll}
+  		(1)\ $\lim\limits_{(x,y)\rightarrow (0,0)}\frac{\mathrm{e}^x+\mathrm{e}^y}{\mathrm{cos}x+\mathrm{sin}y}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $\lim\limits_{(x,y)\rightarrow (0,0)\frac{x^2y^{3/2}}{x^4+y^2}}$;\\
+  		(3)\ $\lim\limits_{x\rightarrow +\infty \atop y\rightarrow +\infty}(x^2+y^2)\mathrm{e}^{-(x+y)}$;\qquad \qquad \qquad \qquad \qquad &(4)\ $\lim\limits_{(x,y)\rightarrow (0,0)}\frac{\mathrm{sin}(x^3+y^3)}{x^2+y^2}$.
+  	\end{tabular}
+  \end{table}
+
+\item 对下列函数$f(x,y)$, 证明$\lim\limits_{(x,y)\rightarrow (0,0)}f(x,y)$不存在:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $f(x,y)=\frac{x^2}{x^2+y^2}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $f(x,y)=\frac{x^2y^2}{x^3+y^3}$.
+	\end{tabular}
+\end{table}
+\item 问下列函数是否在全平面连续, 为什么?
+\begin{enumerate}
+	\item $f(x,y)=\begin{cases}
+	\frac{x^2-y^2}{x^2+y^2},\qquad&x^2+y^2 \ne 0,\\
+	0,\qquad& x^2+y^2 = 0;
+	\end{cases}$
+	\item $f(x,y)=\begin{cases}
+	\frac{\mathrm{sin}(xy)}{x},\qquad &x\ne 0,\\
+	y,\qquad &x=0;
+	\end{cases}$
+	\item $f(x,y)=\begin{cases}
+	\frac{x^2}{y^2}\mathrm{e}^-\frac{x^4}{y^2},\qquad& y\ne 0,\\
+	0,\qquad& y=0;
+	\end{cases}$
+	\item $f(x,y)=\begin{cases}
+	y^2\mathrm{ln}(x^2+y^2),\qquad& x^2+y^2\ne 0,\\
+	0,\qquad& x^2+y^2=0
+	\end{cases}$
+\end{enumerate}
+\item 设函数$f(x,y)$在半开平面$x>0$上连续, 且对$\forall y_0$, 极限
+$$\lim\limits_{x\rightarrow 0^+ \atop y\rightarrow y_0}f(x,y) = \varphi(y_0)$$
+存在. 当函数$f$在$y$轴上补充定义$\varphi(y)$后, 证明: 函数$f(x,y)$在闭半平面$x\ge 0$上连续.
+\item 设函数$f(x,y)$在开半平面$x>0$上一致连续. 证明:
+\begin{enumerate}
+	\item $\forall y_0$, 极限$\lim\limits_{x \rightarrow 0^+ \atop y \rightarrow y_0}=\varphi(y_0)$存在;
+	\item 函数在$y$轴上补充定义$\varphi (y)$后, 所得函数$f(x,y)$在$x\ge 0$上一致连续. 
+\end{enumerate}
+\item 设$u=f(\bm{x})$在$\bm{x_0}\in \bm{R}^m$点连续, 且$f(\bm{x_0})>0$.证明: 存在$\bm{x_0}$的一个领域$U(\bm{x_0};\delta)$, 使得$f(\bm{x})$在$U(\bm{x_0};\delta)$上取正值.
+\item 设$E$是$\bm{R}^m$中任意点集, 求证: $\rho(\bm{x},E)$在$\bm{R}^m$上一致连续.
+\item 设$f(\bm{x})\in C(\bm{R}^m,\bm{R})$, 对任意实数$\alpha$, 作集合
+$$ G={\bm{x}|f(\bm{x}>\alpha)},\quad F={\bm{x}|f(\bm{x})\ge\alpha}.$$
+求证: $G$是$\bm{R}^m$中的开集, $F$是$\bm{R}^m$中的闭集.
+\item 设$\bm{x}\in \bm{R}^m, \bm{x}=(x_1,x_2,\cdots,x_m)$. 求证L
+\begin{enumerate}
+	\item $\exists a>0, b>0$, 使得$a|\bm{x}|\le \sum\limits_{i=1}^{m}|x_i|\le b|\bm{x}|$;
+		\item $\exists a>0, b>0$, 使得$a|\bm{x}|\le \underset{1\le i \le m}{\mathrm{max}}|x_i|\le b|\bm{x}|$.
+\end{enumerate}
+\item 设$A$是$m\times m$矩阵, $\mathrm{det}A\ne 0$, 求证: $\exists a>0$, 使得
+$$ |A\bm{x}|\ge a|\bm{x}|\ (\forall \bm{x}\in \bm{R}^m).$$
+\item 设$\overline{\Omega}\subset\bm{R}^m$是有界闭区域, $f(\bm{x})\in C(\overline{\Omega},\bm{R}^m)$, 且是单叶的. 求证:$f^{-1}(x)$在$f(\overline{\Omega})$上连续.
+\item 设$f(x,y)$除直线$x=a$与$y=b$外有定义, 且满足:
+\begin{enumerate}
+	\item $\lim\limits_{y\rightarrow b}f(x,y)=\varphi (x)$存在;
+	\item $\lim\limits_{x\rightarrow a}f(x,y)=\phi (y)$一致存在(即$\forall \epsilon >0,\exists \delta (\epsilon)>0,\text{当}0<|x-a|<\delta, \text{时}, \forall y\ne b,\text{有}|f(x,y)-\phi(y)|<\epsilon$).
+	证明:
+	\begin{enumerate}
+		\item 累次极限$\lim\limits_{x\rightarrow a}\lim\limits_{y\rightarrow b}f(x,y)=\lim\limits_{x\rightarrow a}\phi(x)=c$存在。
+		\item 累次极限$\lim\limits_{y\rightarrow b}\lim\limits_{x\rightarrow a}f(x,y)=\lim\limits_{y\rightarrow b}\phi(y)=c$
+		\item 全面极限$\lim\limits_{(x,y)\rightarrow (a,b)}f(x,y)=c$.
+	\end{enumerate}
+	
+\end{enumerate}
+\end{enumerate}
 
 \section{偏导数与微分}
 
