@@ -121,6 +121,174 @@ $$ |A\bm{x}|\ge a|\bm{x}|\ (\forall \bm{x}\in \bm{R}^m).$$
 \end{enumerate}
 
 \section{偏导数与微分}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 求下列函数的偏导数:
+	\begin{table}[H]
+		\begin{tabular}{ll}
+			(1)\ $u=\frac{x}{\sqrt{x^2+y^2}}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $u=\mathrm{tan}\frac{x^2}{y}$;\\
+			(3)\ $u=\mathrm{sin}(x\mathrm{cos}y)$;\qquad \qquad \qquad \qquad \qquad &(4)\ 
+			$u=\mathrm{e}^\frac{x}{y}$;\\
+			(5)\ $u=\mathrm{ln}\sqrt{x^2+y^2}$;\qquad \qquad \qquad \qquad \qquad &(6)\ $
+			u=\mathrm{arctan}\frac{x+y}{1-xy}$;\\
+			(7)\ $u=(\frac{x}{y})^z$;\qquad \qquad \qquad \qquad \qquad &(8)\ $u=\mathrm{arccos}\frac{z}{\sqrt{x^2+y^2}}$ 
+		\end{tabular}
+	\end{table}
+\item 设置$f(x,y)$在园$\Omega$上的偏导数$f'_x, f'_y$存在且有界. 证明:$f(x,y)$在$\Omega$上一致连续. 若$\Omega$是任意区间, 问区间是否成立. 考察例子
+$$ f(x,y) = \mathrm{arctan}(\frac{y}{x}),$$
+$\Omega$用极坐标表示为$1<r<2,0<\theta<2\pi$.
+\item 设
+$$ f(x,y)=\begin{cases}
+\frac{x^2y}{x^2+y^2},\quad & x^2+y^2 \ne 0,\\
+0, x^2+y^2 = 0. 
+\end{cases}
+$$
+证明:
+\begin{enumerate}
+	\item $f(x,y)$在$(0,0)$点连续;
+	\item $f'_x(0,0),f'_y(0,0)$存在;
+	\item $f'_x(x,y)$, $f'_y(x,y)$在$(0,0)$点不连续;
+	\item $f(x,y)$在$(0,0)$点不可微.
+\end{enumerate}
+\item 设$$f(x,y)=\begin{cases}
+\frac{\mathrm{sin}(xy)}{x},\quad &x\ne0,\\
+y,\quad &x=0,
+\end{cases}$$
+证明: $f(x,y)$在平面上可微.
+\item 求下列复合函数的偏导数:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $u=f(\frac{xz}{y})$;\qquad \qquad \qquad \qquad &(2)\ $u=f(x+y,z)$;\\
+		(3)\ $u=f(x,xy,xyz)$;\qquad \qquad \qquad \qquad &(4)\ $u=f(x+y+z,x^2+y^2+z^2)$;\\
+		(5)\ $u=f(\frac{x}{y},\frac{y}{z})$;\qquad \qquad \qquad \qquad & (6)\ $u=f(x^2+y^2,x^2-y^2,2xy)$.
+	\end{tabular}
+\end{table}
+\item 设$u=x^nf(\frac{y}{x},\frac{z}{x})$, 其中$f$可微. 证明$u$满足方程:
+$$ x\frac{\partial f}{\partial x}+y\frac{\partial u}{\partial y} +z \frac{\partial u}{\partial z}=n\cdot u.$$
+\item 证明: $f(x,y,z)$为$n$次齐次函数的充要条件是
+$$ x\frac{\partial f}{\partial x}+y\frac{\partial f}{\partial y}+z\frac{\partial f}{\partial z}= nf(x,y,z).$$
+\item 作自变量变换: $x=\sqrt{vw},y=\sqrt{wu},z=\sqrt{uv}$, 它把函数$f(x,y,z)$变为$F(u,v,w)$.证明:
+$$xf'_x+yf'_y+af'_z=uF'_u+vF'_v+wF'_w.$$
+\item 令$\xi =2xy,\eta =x^2-y^2$, 解下列方程(解可含任意函数):
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $y\frac{\partial u}{\partial x}+x\frac{\partial u}{\partial y}=0$; \qquad \qquad \qquad \qquad \qquad &(2)\ $x\frac{\partial u}{\partial x}-y\frac{\partial u}{\partial y}=0$.
+	\end{tabular}
+\end{table}
+\item 令$\xi = x,\eta = y-x,\zeta =z-x$, 求方程$\frac{\partial u}{\partial x}+\frac{\partial u}{\partial y}+\frac{\partial u}{\partial z}=0$的解.
+\item 设$u(x,y),v(x,y)$为连续可微函数, 且满足方程组
+$$ \frac{\partial u}{\partial x}=\frac{\partial v}{\partial y},\ \frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}.$$
+作自变量变换: $x=r\mathrm{cos}\theta, y=r\mathrm{sin}\theta$, 证方程组变成为
+$$ \frac{\partial u}{\partial r}=\frac{1}{r}\frac{\partial v}{\partial \theta}, \ \frac{1}{r}\frac{\partial u}{\partial \theta}=-\frac{\partial v}{\partial r}.$$
+\item 再对上题所得方程组做变换:$R=\sqrt{u^2+v^2}, \varPhi=\mathrm{arctan}\frac{v}{u}$.证明方程组变为
+$$\frac{\partial \mathrm{ln}R}{\partial r}=\frac{1}{r}\frac{\partial \varPhi}{\theta},\ \frac{1}{r}=\frac{\partial \mathrm{ln}R}{\partial \theta}=-\frac{\partial \varPhi}{\partial r}$$.
+\item 设$f(x,y)=x^2-xy+y^2, (x_0,y_0)=(1,1)$.
+\begin{enumerate}
+	\item 若方向$\bm{l}$与基$\bm{e_1},\bm{e_2}$的夹角为$\frac{\pi}{3}$和$\partial{\pi}{6}$, 求方向导数$\frac{\partial f(1,1)}{\partial \bm{l}}$;
+	\item 求在怎样的方向上方向导数$\frac{\partial f(1,1)}{\partial \bm{l}}$有最大值、 最小值、等于零.
+\end{enumerate}
+\item 设$u=f(x,y,z)$, 令
+$$ x=r\mathrm{sin}\varphi cos\theta,\ y=r\mathrm{sin}\varphi \mathrm{sin}\theta,\ z= r\mathrm{cos}\varphi.$$
+在$(x,y,z)$点作三个互相正交的向量$\bm{e}_r,\bm{e}_\varphi,\bm{e}_\theta$. 向量$\bm{e}_r$表示$\varphi, \theta$固定沿着$r$增加的方向, 其余两个作类似理解. 证明:
+$$\frac{\partial u}{\partial \bm{e}_r}=\frac{\partial u}{\partial r}, \frac{\partial u}{\partial \bm{e}_\varphi}, \frac{\partial u}{\partial \bm{e}_\theta}=\frac{1}{r\mathrm{sin}\varphi}\frac{\partial u}{\partial \theta}.$$
+\item 设在第一卦限上连续可微函数$u(x,y),v(x,y)$满足方程组
+$$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \ \frac{\partial u}{\partial y}=-\frac{\partial u}{\partial x},$$
+且$u$只是$\sqrt{x^2+y^2}$的函数, 试求出$u(x,y)$和$v(x,y)$.
+\item 设$f(\bm{x})$定义在凸函数$\Omega \subset \bm{R}^m$上, 对$\forall \bm{x}_1,\bm{x}_2\in \Omega , t\in [0,1]$, 满足$$
+f[t\bm{x}_1+(1-t)\bm{x}_2]\le tf(\bm{x}_1) + (1-t)f(\bm{x}_2),$$
+则称$f$为凹函数. 若$f(\bm{x})$是凸域$\Omega$上的可微凹函数, 证明:
+\begin{enumerate}
+	\item $f(\bm{x})-f(\bm{x_0})\ge \frac{f[\bm{x_0+t(\bm{x-x_0})}]-f(\bm{x_0})}{t}, \ \bm{x},\bm{x_0}\in \Omega$;
+	\item $f(\bm{x})\ge f(\bm{x_0})+\mathrm{D}f(\bm{x_0}(\bm{x-x_0}))$.
+\end{enumerate}
+\item 求下列函数的二阶偏导数:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $u=xy+\frac{y}{x}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $u=(xy)^z$.
+	\end{tabular}
+\end{table}
+\item 对下列函数求指定阶的偏导数:
+\begin{enumerate}
+	\item $u=x^4+y^4-2x^2y^2$, 求所有三阶偏导数;
+	\item $u=x^3\mathrm{sin}y+y^3\mathrm{sin}x$, 求$\frac{\partial^6 u}{\partial x^3 \partial y^3}$;
+	\item $u=\mathrm{e}^{xyz}$, 求$\frac{\partial^3u}{\partial x \partial y \partial z}$;
+	\item $u=\mathrm{ln}\sqrt{x^2+y^2}$, 求$\frac{\partial^4u}{\partial x^2\partial y^2}$.
+\end{enumerate}
+\item 求高阶导数:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $u=(x-a)^p(y-b)^q$, 求$\frac{\partial^{p+q}u}{\partial x^p\partial y^q}$;\qquad \qquad \qquad \qquad &(2)\ $u=\frac{x+y}{x-y}(x\ne y)$, 求$\frac{\partial^{m+n}u}{\partial x^m\partial y^n}$;\\
+		(3)\ $u=\mathrm{ln}(ax+by)$, 求$\frac{\partial^{m+n}u}{\partial x^m\partial y^n}$;\qquad \qquad \qquad \qquad &(4)\ $u=xyz\mathrm{e}^{x+y+z}$, 求$\frac{\partial^{p+q+r}u}{\partial x^p\partial y^q\partial z^r}$.
+	\end{tabular}
+\end{table}
+\item 求下列函数的二阶偏导数:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $u=f(x+y,xy)$;\qquad \qquad \qquad \qquad &(2)\ $u=f(x+y+z,x^2+y^2+z^2)$;\\
+		(3)\ $u=f(\frac{x}{y}, \frac{y}{z})$;\qquad \qquad \qquad \qquad & (4)\ $u=f(x^2+y^2+z^2)$.
+	\end{tabular}
+\end{table}
+\item 验证下列函数满足调和方程
+$$\nabla^2u=\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}=0.$$
+\begin{table}[H]
+	\begin{tabular}{ll}
+	\qquad \qquad (1)\ $u=\mathrm{ln}\sqrt{x^2+y^2}$;\qquad\qquad\qquad \qquad \qquad \qquad & (2)\ $u=\mathrm{arctan}\frac{y}{x}$.
+	\end{tabular}
+\end{table}
+\item 证明: 函数$u=\frac{1}{2a\sqrt{\pi t}}\mathrm{e}^{-\frac{(x-b)^2}{4a^2t}}$($a,b$为实数)当$t>0$时满足方程
+$$
+\frac{\partial u}{\partial t}=a^2\frac{\partial^2 u}{\partial x^2}.$$
+\item 设$x=f(u,v),y=g(u,v)$满足方程$$
+\frac{\partial f}{\partial u} = \frac{\partial g}{\partial v},\ \frac{\partial f}{\partial v}=-\frac{\partial g}{\partial u},$$
+又设$w=w(x,y)$满足方程$\frac{\partial^2 w}{\partial x^2}+\frac{\partial^2 w}{\partial y^2}=0$.证明:
+\begin{enumerate}
+	\item 函数$\omega=\omega[f(u,v),g(u,v)]$满足方程: $\frac{\partial^2\omega}{\partial u^2}+\frac{\partial^2\omega}{\partial v^2}=0$;
+	\item $\frac{\partial^2(fg)}{\partial u^2}+\frac{\partial^2(fg)}{\partial v^2}=0$.
+\end{enumerate}
+\item 作变量替换$\xi = x+t,\eta=x-t$, 求解方程$\frac{\partial^2 u}{\partial t^2}=\frac{\partial^2 u}{\partial t^2}=\frac{\partial^2 u}{\partial x^2}$, 并验证之.
+\item 求下列函数在$(0,0)$点领域展开为带皮亚诺余项的四阶泰勒公式:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $u=\mathrm{sin}(x^2+y^2)$;\qquad \qquad \qquad \qquad &(2)\ $u=\sqrt{1+x^2+y^2}$;\\
+		(3)\ $u=\mathrm{ln}(1+x)\mathrm{ln}(1+y)$;\qquad \qquad \qquad \qquad & (4)\ $u=\mathrm{e}^{\mathrm{cos}y}$. 
+	\end{tabular}
+\end{table}
+\item 设函数$f(x,y)$满足$\frac{\partial^2 f}{\partial x^2}=y$, $\frac{\partial^2 f}{\partial x \partial y}=x+y$, $\frac{\partial^2 f}{\partial y^2}=x$, 试求出函数$f(x,y)$.
+\item 设$\Omega$为含原点的凸域, $u=f(x,y)$在$\Omega$上可微, 且满足
+$$ x\frac{\partial f}{\partial x}+y\frac{\partial f}{\partial y} = 0$$
+求证: $f(x,y)$在$\Omega$上恒为常数. 若$\Omega$不含原点, 问$f(x,y)$是否为常数. 考察例子$u=\mathrm{arctan}\frac{y}{x}$.
+\item 求下列函数$f(\bm{x})\ (x\in \bm{R}^m)$的微分:
+\begin{enumerate}
+	\item $f(\bm{x})=(\bm{Ax-b})\cdot(\bm{Ax-b})$, 其中$A$为$n\times m$矩阵, $b\in \bm{R}^n$;
+	\item $f(\bm{x})=\frac{1}{|\bm{x}|}$.
+\end{enumerate}
+\item 设$f:\bm{R}^m\rightarrow \bm{R}^l$, $g:\bm{R}^m\rightarrow \bm{R}^n$是可微函数. 试用复合函数求导公式, 证明公式
+$$ Df(\bm{x})g(\bm{x}) = f(\bm{x})Dg(\bm{x}) + g(\bm{x})Df(\bm{x}).$$
+\item 设$f(\bm{x}=\frac{\bm{x}}{|\bm{x}|})$, $\bm{x}\in \bm{R}^m$.
+\begin{enumerate}
+	\item 求$Df(\bm{x})$;
+	\item 取方向$\bm{l}=\frac{\bm{x}}{|\bm{x}|}$, 求方向导数$\frac{\partial f}{\partial \bm{l}}$;
+	\item 取方向$l$满足$\bm{l}\cdot \bm{x}=0$, 求方向导数$\frac{\partial f}{\partial \bm{l}}$;
+	\item 求导数的范数$||Df(\bm{x})||$.
+\end{enumerate}
+\item 求下列变换的雅可比行列式:
+\begin{enumerate}
+		\item $x_1=r\mathrm{cos}\theta, x_2=r\mathrm{sin}\theta$, 求$\frac{\partial (x_1,x_2)}{\partial (r,\theta)}$.
+		\item $x_1=r\mathrm{cos}\theta_1, x_2=r\mathrm{sin}\theta_1\mathrm{cos}\theta_2, x_3=r\mathrm{sin}\theta_1\mathrm{sin}\theta_2$, 求$\frac{\partial (x_1,x_2,x_3)}{\partial{(r,\theta_1,\theta1_2)}}$;
+		\item $
+		\begin{cases}
+		x_1 = r\mathrm{cos}\theta_1,&\qquad \\
+		x_2 = r\mathrm{sin}\theta_1\mathrm{cos}\theta_2, &\qquad \\ 
+		x_3 = r\mathrm{sin}\theta_1\mathrm{sin}\theta_2\mathrm{sin}\theta_3,& r\ge 0, 0<\theta_1,\cdots,\theta_{m-2}<\pi, \\
+		\qquad \vdots \qquad&0<\theta_{m-1}<2\pi \\
+		x_{m-1} = r\mathrm{sin}\theta_1\mathrm{sin}\theta_2\mathrm{sin}\theta_3\cdots\mathrm{sin}\theta_{m-2}\mathrm{cos}\theta_{m-1},&\qquad \\
+		x_m = r\mathrm{sin}\theta_1\mathrm{sin}\theta_2\mathrm{sin}\theta_3\cdots\mathrm{sin}\theta_{m-1},,&\qquad \\
+		\end{cases}
+		$\\
+		试求用数学归纳法求$\frac{\partial(x_1,x_2,\cdots,x_m)}{\partial (r,\theta_1,\cdots,\theta_{m-1})}$.
+\end{enumerate}
+\item 设$\Omega$为$\bm{R}^m$中的凸区域, $f(\bm{x})\in C^2(\Omega,\bm{R})$.若$f$的海色矩阵$H_f(\bm{x})$是半正定的. 证明: $f(\bm{x})$是$\Omega$上的凹函数.
+\end{enumerate}
 
 \section{反函数与隐函数}
 
