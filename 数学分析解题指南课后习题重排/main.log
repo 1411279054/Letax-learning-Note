@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  3 MAR 2020 21:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  4 MAR 2020 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2415,18 +2415,28 @@ File: figure/ctanlion.pdf Graphic file (type pdf)
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
 
-[38]) (./chapter/chap6.tex
+[38]
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
 
 [39]
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: figure/ctanlion.pdf Graphic file (type pdf)
+<use figure/ctanlion.pdf>
+
+[40]) (./chapter/chap6.tex
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: figure/ctanlion.pdf Graphic file (type pdf)
+<use figure/ctanlion.pdf>
+
+[41]
 第 7\tmspace +\thickmuskip {.2777em}章 7.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf))
 (./chapter/chap7.tex
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
- [40
+ [42
 
 ]
 第 8\tmspace +\thickmuskip {.2777em}章 8.
@@ -2434,7 +2444,7 @@ File: figure/ctanlion.pdf Graphic file (type pdf)
 (./chapter/chap8.tex
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
- [41
+ [43
 
 ]
 第 9\tmspace +\thickmuskip {.2777em}章 9.
@@ -2444,7 +2454,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 29.
 AED: lastpage setting LastPage
 File: figure/ctanlion.pdf Graphic file (type pdf)
 <use figure/ctanlion.pdf>
-[42
+[44
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
@@ -2456,12 +2466,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 093358F4A0D1CD39E51A8BFDAF02ECED.
  ) 
 Here is how much of TeX's memory you used:
- 46554 strings out of 492922
- 948787 string characters out of 6136751
+ 46560 strings out of 492922
+ 949149 string characters out of 6136751
  1370378 words of memory out of 5000000
- 49678 multiletter control sequences out of 15000+600000
+ 49680 multiletter control sequences out of 15000+600000
  600712 words of font info for 133 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,18n,124p,2593b,1443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (43 pages).
+Output written on main.pdf (45 pages).

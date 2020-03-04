@@ -194,11 +194,11 @@ $$\frac{\partial u}{\partial \bm{e}_r}=\frac{\partial u}{\partial r}, \frac{\par
 \item 设在第一卦限上连续可微函数$u(x,y),v(x,y)$满足方程组
 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \ \frac{\partial u}{\partial y}=-\frac{\partial u}{\partial x},$$
 且$u$只是$\sqrt{x^2+y^2}$的函数, 试求出$u(x,y)$和$v(x,y)$.
-\item 设$f(\bm{x})$定义在凸函数$\Omega \subset \bm{R}^m$上, 对$\forall \bm{x}_1,\bm{x}_2\in \Omega , t\in [0,1]$, 满足$$
+\item 设$f(\bm{x})$定义在凸函数$\bm{\Omega} \subset \bm{R}^m$上, 对$\forall \bm{x}_1,\bm{x}_2\in \bm{\Omega} , t\in [0,1]$, 满足$$
 f[t\bm{x}_1+(1-t)\bm{x}_2]\le tf(\bm{x}_1) + (1-t)f(\bm{x}_2),$$
-则称$f$为凹函数. 若$f(\bm{x})$是凸域$\Omega$上的可微凹函数, 证明:
+则称$f$为凹函数. 若$f(\bm{x})$是凸域$\bm{\Omega}$上的可微凹函数, 证明:
 \begin{enumerate}
-	\item $f(\bm{x})-f(\bm{x_0})\ge \frac{f[\bm{x_0+t(\bm{x-x_0})}]-f(\bm{x_0})}{t}, \ \bm{x},\bm{x_0}\in \Omega$;
+	\item $f(\bm{x})-f(\bm{x_0})\ge \frac{f[\bm{x_0+t(\bm{x-x_0})}]-f(\bm{x_0})}{t}, \ \bm{x},\bm{x_0}\in \bm{\Omega}$;
 	\item $f(\bm{x})\ge f(\bm{x_0})+\mathrm{D}f(\bm{x_0}(\bm{x-x_0}))$.
 \end{enumerate}
 \item 求下列函数的二阶偏导数:
@@ -287,13 +287,113 @@ $$ Df(\bm{x})g(\bm{x}) = f(\bm{x})Dg(\bm{x}) + g(\bm{x})Df(\bm{x}).$$
 		$\\
 		试求用数学归纳法求$\frac{\partial(x_1,x_2,\cdots,x_m)}{\partial (r,\theta_1,\cdots,\theta_{m-1})}$.
 \end{enumerate}
-\item 设$\Omega$为$\bm{R}^m$中的凸区域, $f(\bm{x})\in C^2(\Omega,\bm{R})$.若$f$的海色矩阵$H_f(\bm{x})$是半正定的. 证明: $f(\bm{x})$是$\Omega$上的凹函数.
+\item 设$\bm{\Omega}$为$\bm{R}^m$中的凸区域, $f(\bm{x})\in C^2(\bm{\Omega},\bm{R})$.若$f$的海色矩阵$H_f(\bm{x})$是半正定的. 证明: $f(\bm{x})$是$\bm{\Omega}$上的凹函数.
 \end{enumerate}
 
 \section{反函数与隐函数}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 求由下列方程定义的函数$y$的一阶、二阶导数:
+	\begin{table}[H]
+		\begin{tabular}{ll}
+			(1)\ $\mathrm{ln}\sqrt{x^2+y^2}=\mathrm{arctan}\frac{y}{x}$;\qquad \qquad \qquad \qquad &(2)\ $xy+2^y=0$.
+		\end{tabular}
+	\end{table}
+\item 对下列方程所确定的$x=z(x,y)$, 求一阶偏导数:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $x^n+y^n+z^n = a^n$;\qquad \qquad \qquad \qquad & (2)\ $x+y+z=e^{x+y+z}$.
+	\end{tabular}
+\end{table}
+\item 对下列方程所确立的$z=z(x,y)$, 求二阶偏导数:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $xy+yz+zx = 1$;\qquad \qquad \qquad \qquad & (2)\ $\frac{1}{xy}+\frac{1}{yz}+\frac{1}{zx}=1$.
+		\end{tabular}
+\end{table}
+\item 求由下列方程所确定的$z=z(x,y)$的微分:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $f(xy,z-y)=0$;\qquad \qquad \qquad \qquad &(2)\ $f(x,x+y,x+y+z)=0$.
+	\end{tabular}
+\end{table}
+\item 设$z=z(x,y)$由方程$x^2+y^2+z^2 = yf(\frac{z}{y})$所确定, 证明:
+$$(x^2-y^2-z^2)\frac{\partial z}{\partial x} +2xy\frac{\partial^z}{\partial^y}=2xz.$$
+\item 设$z=z(x,y)$由方程$F(x+\frac{z}{y},y+\frac{z}{x})=0$所确定, 证明:
+$$ x\frac{\partial^z}{\partial^x} + y\frac{\partial^z}{\partial^y} = z -xy.$$
+\item 设$u=u(x,y,z)$由方程$F(u^2-x^2,u^2-y^2,u^2-z^2)=0$所确立, 证明:
+$$ \frac{u'_x}{x}+\frac{u'_y}{y} + \frac{u'_z}{z} = \frac{1}{u}.$$
+\item 设$u=u(x,y,z)$由方程$\frac{x^2}{a^2+u}+\frac{y^2}{b^2+u}+\frac{z^2}{c^2+u}=1$所确立, 证明:
+$$ (\frac{\partial u}{\partial x})^2 + (\frac{\partial u}{\partial y})^2+(\frac{\partial u}{\partial z})^2 = 2x\frac{\partial u}{\partial x}+2y\frac{\partial u}{\partial y} +2z\frac{\partial u}{\partial z}.$$
+\item 求函数$z=f(x+y,z+y)$的二阶偏导数. 
+\item 证明: 由方程组
+$$\begin{cases}
+z = ax+y\varphi(a)+\psi(a),\\
+0 = x + y \varphi'(a)+\phi'(a)
+\end{cases}$$
+所确立的函数$z=z(x,y)$满足方程
+$$ \frac{partial^2 z}{\partial x^2}\cdot\frac{\partial^2 z}{\partial y^2}-(\frac{\partial^2 z}{\partial x \partial y})^2 = 0,$$
+\item 若$z=z(x,y)$满足方程$\frac{\partial^2 z}{\partial x^2}\cdot \frac{\partial^2z}{\partial y^2}-(\frac{\partial^2z}{\partial x\partial y})^2=0$.证明: 若把$z=z(x,y)$中的$y$看成$x,z$的函数, 则它满足同样形状的方程:
+$$\frac{\partial^2 y}{\partial x^2}\cdot\frac{\partial^2 y}{\partial z^2} - (\frac{\partial^2 y}{\partial x \partial z})^2 = 0.$$
+\item 设$u=\mathrm{e}^x\mathrm{cos}y, v = \mathrm{e}^x\mathrm{sin}y$. 求证:
+\begin{enumerate}
+\item 当$(x,y)\in \bm{R}^2$时, $\frac{\partial (u,v)}{\partial (x,y)}\ne 0$, 但变换不是一一的;
+\item 记$\bm{\Omega}=\{(x,y)|0<2y<2\pi, -\infty<x<+\infty\}$, 这时变换在$\bm{\Omega}$是一一变换的, 并求出逆变换.
+\end{enumerate}
+\item 求下列变换的雅可比行列式$\frac{\partial(x,y)}{\partial (u,v)}, \frac{\partial (u,v)}{\partial (x,y)}$:
+\begin{table}[H]
+	\begin{tabular}{lr}
+		\qquad \qquad (1)\ $\begin{cases}
+			u=xy,\\
+			v=\frac{x}{y};
+		\end{cases}$ & \qquad \qquad \qquad \qquad \qquad  (2)\ $\begin{cases}
+		u=x^2+y^2,\\
+		v=2xy.
+		\end{cases}$
+	\end{tabular}
+\end{table}
+\item 由下列方程组求$\frac{\mathrm{d}y}{\mathrm{d}x},\frac{\mathrm{d}z}{\mathrm{d}x},\frac{\mathrm{d}^2y}{\mathrm{d}x^2},\frac{\mathrm{d}^2z}{\mathrm{d}x^2}$:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\begin{cases}
+		x+y+z=0,\\
+		x^2+y^2+z^2 = 6;
+		\end{cases}$ & (2)\ $\begin{cases}
+		z=x^2+y^2,\\
+		2x^2+2y^2-z^2 = 0.
+		\end{cases}$
+	\end{tabular}
+\end{table}
+\item 求由方程组$x=u\mathrm{cos}v, y = u\mathrm{sin}v, z=v$所确定的函数$z=z(x,y)$的一阶、二阶偏导数.
+\item 设$u=f(x-ut,y-ut,z-ut), g(x,y,z)=0$.求$\frac{\partial u}{\partial x},\frac{\partial u}{\partial y}$, 并问这时$t$是自变量还是因变量?
+\item 设$z=z(x,y)$满足方程组$f(x,y,z,t)=0, g(x,y,z,t)=0$, 求$\mathrm{d}z$.
+\item 设$\bm{\Omega}\subset \bm{R}^m$是凸函数, $\bm{f}(\bm{x})\in C^1(\bm{\Omega},\bm{R}^m),D\bm{f}(\bm{x})$在$\Omega$上是正定矩阵. 求证: $\bm{f}(\bm{x})$是$\bm{\Omega}$上的单叶函数.
+\item 设$x\in \bm{R}^m,f(\bm{x}\in C^2(\bm{U}(\bm{x_0}),R)),Df(\bm{x_0})=0,\mathrm{det}H_f(\bm{x_0})\ne 0$. 求证:
+$\exists \delta>0$, 当$\bm{x} \in U(\bm{x_0};\delta)\{\bm{x_0}\}$时, D$f(\bm{x})\ne 0$.
+\item 假设$\bm{f}(\bm{x})\in C^1(\bm{R}^m,\bm{R}^m)$, 并存在$\bm{R}^m$上$\mathrm{det}D\bm{f}(\bm{x})\ne 0$, 又当$|\bm{x}|\rightarrow +\infty$时, $|\bm{f}(\bm{x})|\rightarrow +\infty$.证明: $\bm{f}(\bm{R}^m)=\bm{R}^m$.
+\end{enumerate}
 
 \section{切空间与极值}
-
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 求曲线$z = x^2+y^2, 2x^2+2y^2-z^2=0$在$(1,1,2)$点的切线方程.
+	\item 在曲线$y=x^2,z=x^3$上求一点, 使该点的切线平行于平面
+	$$ x+2y+z = 4$$
+	\item 求下列曲线在指定点的切线方程和切线方程:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		\qquad 	(1)\  $x^2+y^2+z^2=169$,\qquad \qquad& $M(3,4,12)$;\\
+		\qquad	(2)\  $z=\mathrm{arctan}(x/y)$,\qquad \qquad & $M(1,1,\pi/4)$;\\
+		\qquad	(3)\  $3x^2+2y^2=2z+1$, \qquad \qquad \qquad & $M(1,1,2)$;\\
+		\qquad	(4)\  $z=y+\mathrm{ln}(x/z)$, \qquad \qquad & $M(1,1,1)$.
+	\end{tabular}
+\end{table}
+\item 求曲面$x=u\mathrm{cos}v, y=u\mathrm{sin}v,z=v$在$(\sqrt{2},\sqrt{2},\pi/4)$点的切平面方程.
+\item 求曲面$x^2+2y^2+3z^2=21$的平行于平面$x+4y+6z=0$的个切平面.
+\item 求曲面$x^2+y^2+z^2=x$的切平面, 使其垂直于平面
+$$ x-y -z = 2\ \text{和}\ x-y-z/2 = 2.$$
+\item 试确定正数$\lambda$, 使曲面$xyz=\lambda$与椭球面$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$的某点相切.
+\end{enumerate}
 \section{含参积分的定积分}
 
 \section{含参积分的广义积分}
