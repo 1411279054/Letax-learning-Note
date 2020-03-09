@@ -1,6 +1,111 @@
 \chapter{多元函数积分学}
 \section{重积分的概念与性质、重积分化累次积分}
-
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 试求$\bm{R}^2$中点集$E=\{(x,y)|0\le x\le1,0\le y\le 1, x\text{和}y\text{至少有一为有理数}\}$的内容度和外容度. 问$E$是否是可测图形?
+	\item 设$A,B,C$是$\bm{R}^m$中的可测图形, 证明:
+	\begin{enumerate}
+		\item $V(A\backslash B)=V(A)-V(A\cap B)$;
+		\item $V(A\cup B)=V(A)+V(B)-V(A\cap B)$;
+		\item $V(A\cup B\cup C)=V(A)+V(B)+V(C)-V(A\cap B)-V(A\cap C)-V(B\cap C)+V(A\cup B\cup C)$.
+	\end{enumerate}
+\item 举例说明$\bm{R}^m$中两个点集$E_1$和$E_2$都不是可测函数, 但是$E_1\cup E_2, E_1\cap E_2$都是可测函数.问是否还可能有$E_1\backslash E_2$也是可测图形.
+\item 设$\Omega$为$\bm{R}^m$中一可测图形.证明: $\Omega^\circ$和$\overline{\Omega}$为可测图形, 且$V(\Omega^\circ)=V(\Omega)=V(\overline{\Omega})$.
+\item 在$\bm{R}^2$的区域$D=\{(x,y)||x|\le 1,|y|\le 1\}$上给定函数
+$$ f(x,y)=\begin{cases}
+1,\qquad & \text{当}x,y\text{都是有理数}, \\
+2,\qquad & \text{当}x,y\text{当}x,y\text{至少有一是无理数}.
+\end{cases}$$
+问$f(x,y)$是否在$D$上可积.
+\item 设$\bm{R}^m$中的开集$\Omega$为可测图形, $f:\Omega\rightarrow \bm{R},f\in C(\Omega)$, 且$f(\bm{x})\ge 0\ (\bm{x}\in \Omega)$, 但不恒为零. 证明: $\displaystyle{\int_{\Omega}f(\bm{x})\mathrm{d}V}>0$. 如果$\Omega$不是开集, 上述论证是否正确? 举例说明.
+\item 设定义在可测图形$\Omega \subset \bm{R}^m$上的两个函数$f,g$ 有界、可积, 而且$g(\bm{x})$在$\Omega$上之值非负. 令$$
+m=\underset{x\in \Omega}{\mathrm{inf}\{f(\bm{x})\}},\ M = \underset{x\in \Omega}{\mathrm{sup}}\{f(\bm{x})\}.$$
+证明:
+\begin{enumerate}
+	\item $F(t)=\displaystyle{\int_{\Omega}[f(\bm{x}-t)]g(\bm{x})\mathrm{d}V}$是$[m,M]$上的连续函数;
+	\item 存在$\mu\in [m,M]$, 使得
+	$$ \displaystyle{\int_{\Omega}f\cdot g\mathrm{d}V=\mu\cdot \int_{\Omega}g\mathrm{d}V}.$$
+	\item 设$f(x)\in R[-1,1]$, 证明: $f(x-y)\in R([0\times1]\times[0,1])$.
+	\item 设$\Omega \subset \bm{R}^m$为测度图形, $Q$为长方体, $\Omega \subset Q^\circ,f(\bm{x})\in R(\Omega)$. 定义$$
+	F(\bm{x}) = \begin{cases}
+	f(\bm{x}),\qquad &\bm{x}\in \Omega\\
+	0,\qquad \bm{x}\in Q\backslash \Omega.
+	\end{cases}$$
+	求证: $F(\bm{x})\in R(Q)$.
+	
+\end{enumerate}
+\item 设$\Omega$为$\bm{R}^m$中点集, $Q$为长方体, $\Omega \subset Q^\circ$.定义函数
+$$ \chi(\bm{x})=\begin{cases}
+1,\qquad &\bm{x} \in \Omega\\
+0,\qquad &\bm{x} \in \Omega\backslash \Omega.
+\end{cases}$$
+若$\chi(\bm{x})$在$Q$上可积, 证明: $\Omega$为可测图形.
+\item 在下列积分中改变积分的顺序:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		\qquad(1)\ $\displaystyle{\int_{0}^{3}\mathrm{d}x\int_{0}^{\mathrm{ln}x}f(x,y)\mathrm{d}y}$.\qquad \qquad \qquad \qquad \qquad &(2)\ $\displaystyle{\int_{0}^{2}\mathrm{d}y\int_{y^2}^{3y}f(x,y)\mathrm{d}x}$.\\
+		\qquad(3)\ $\displaystyle{\int_{-1}^{1}\mathrm{d}x\int_{-\sqrt{1-x^2}}^{1-x^2}f(x,y)\mathrm{d}y}$;\qquad \qquad \qquad \qquad \qquad &(4)\ $\displaystyle{\int_{1}^{2}\mathrm{d}x\int_{\sqrt{x}}^{2}f(x,y)\mathrm{d}y}$.
+	\end{tabular}
+\end{table}
+\item 计算下列二重积分:
+\begin{enumerate}
+	\item $\Omega$是由$y^2=2px\ (p>0)$与$x=\frac{p}{2}$围成的区域, 求
+	$$ \displaystyle{\underset{\Omega}{\iint }x^my^k\mathrm{d}x\mathrm{d}y}\ \ (m>0,k\text{为正整数});$$
+	\item $\Omega=\{(x,y)|0\le x\le y^2,0\le y \le 2+x,x\le 2\}$, 求$\displaystyle{\underset{\Omega}{\iint}xy\mathrm{d}x\mathrm{d}y}$;
+	\item $\Omega$是由$y=\sqrt{1-x^2},y=0$围成, 求$\displaystyle{\underset{\Omega}{\iint}(x^2+3xy^2)\mathrm{d}x\mathrm{d}y}$;
+	\item $\Omega$是由$y=\mathrm{e}^x, y=1,x=0$及$x=1$围成, 求$\displaystyle{\underset{\Omega}{\iint}(x+y)\mathrm{d}x\mathrm{d}y}$;
+	\item $\Omega$是以$(1,1),(2,3),(3,1)$和$(4,3)$为顶点的四边形, 求$$
+	\displaystyle{\underset{\Omega}{\iint}(x+y)\mathrm{d}x\mathrm{d}y};$$
+	\item $\Omega$是由$y=x^2,y=4x$和$y=4$围成, 求$\displaystyle{\underset{\Omega}{\iint}\mathrm{sin}x\mathrm{d}x\mathrm{d}y}$.
+\end{enumerate}
+\item 计算下列积分:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		\qquad	(1)\ $\displaystyle{\int_{0}^{\frac{\pi}{2}}\mathrm{d}y\int_{y}^{\frac{\pi}{2}}\frac{\mathrm{sin}x}{x}\mathrm{d}x}$;\qquad \qquad \qquad \qquad &(2)\ $\displaystyle{\int_{0}^{1}\mathrm{d}y\int_{y}^{1}\mathrm{e}^{-x^2}\mathrm{d}x}$.
+	\end{tabular}
+\end{table}
+\item 设在$D=[a,b]\times[c,d]$上定义的二元函数$f(x,y)\in C^2(D)$, 证明:
+\begin{enumerate}
+		\item $\displaystyle{\underset{D}{\iint}f''_{xy}(x,y)\mathrm{d}x\mathrm{d}y}=\displaystyle{\underset{D}{\iint}f''_{yx}(x,y)\mathrm{d}x\mathrm{d}y}$;
+		\item 利用(1)证明$f''_{xy}(x,y)=f''_{yx}(x,y),(x,y)\in D$(这里不准用偏导与秩序无关定理).
+\end{enumerate}
+\item 设$f(x),g(x)\in R[a,b], D=[a,b]\times[a,b]$, 考虑$[f(x)g(y)-g(x)f(y)]^2$在$D$上的重积分, 证明:
+$\left(\displaystyle{\int_{a}^{b}f(x)g(x)\mathrm{d}x} \right)^2\le \displaystyle{\int_{a}^{b}f^2(x)\mathrm{d}x\cdot \int_{a}^{b}g^2(x)\mathrm{d}x}$.
+\item 求下列立体$\Omega$的体积:
+\begin{enumerate}
+	\item $\Omega$是由曲线$z=xy,x+y+z=1$和$z=0$围成;
+	\item $\Omega$是由$y^2+z^2=1,|x+y|=1,|x-y|=1$围成.
+\end{enumerate}
+\item 证明: 若$b>a>0$, 则有
+\begin{table}[H]
+	\begin{tabular}{ll}
+	\qquad	(1)\ $\lim\limits_{T\rightarrow \infty}\displaystyle{\int_{0}^{T}\mathrm{d}x\int_{a}^{b}\mathrm{e}^{-xy}\mathrm{d}y=\mathrm{ln}\frac{b}{a}}$;\qquad \qquad \qquad \qquad & (2)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{e}^{-ax}-\mathrm{e}^{-bx}}{x}\mathrm{d}x=\mathrm{ln}\frac{b}{a}}$.
+	\end{tabular}
+\end{table}
+\item 设$f(t)$在$t\ge 0$上连续可微, 而且$\displaystyle{\int_{0}^{+\infty}\frac{f(t)}{t}\mathrm{d}t}$收敛. 证明:当$b>a>0$时, 有
+\begin{enumerate}
+	\item $\lim\limits_{T\rightarrow \infty}\int_{0}^{T}\mathrm{d}x\int_{a}^{b}f'(xy)\mathrm{d}y=-f(0)\mathrm{ln}\frac{b}{a}$;
+	\item $\displaystyle{\int_{0}^{+\infty}\frac{f(ax)-f(bx)}{x}\mathrm{d}x=f(0)\mathrm{ln}\frac{b}{a}}$.
+\end{enumerate}
+\item 设$f(x,y)$在$x^2+y^2\le R^2$上可积, $0<h<R$, 令
+$$	F(\xi,\eta) = \underset{(x-\xi)^2+(y-\eta)^2\le h^2}{\iint}f(x,y)\mathrm{d}x\mathrm{d}y.$$
+证明:$F(\xi,\eta)$在$\xi^2+\eta^2\le (R-h)^2$上连续.
+\item 证明下列三重积分化为累次积分的顺序(只写出$\mathrm{d}x,\mathrm{d}z$互换的顺序):
+\begin{table}[H]
+	\begin{tabular}{ll}
+	\qquad	(1)\ $\displaystyle{\int_{0}^{1}\mathrm{d}x\int_{0}^{1-x}\mathrm{d}y\int_{0}^{x+y}}\mathrm{d}z$;\qquad \qquad \qquad \qquad &(2)\ $\displaystyle{\int_{-1}^{1}\mathrm{d}x\int_{-\sqrt{1-x^2}}^{\sqrt{1-x^2}}\mathrm{d}y\int_{\sqrt{x^2+y^2}}^{1}f\mathrm{d}z}$.
+	\end{tabular}
+\end{table}
+\item 计算下列三重积分:
+\begin{enumerate}
+		\item $\displaystyle{\underset{\Omega}{\iiint}xy^2z^3\mathrm{d}x\mathrm{d}y\mathrm{d}z}$,\ $\Omega$是由曲面$z=xy,y=x,x=1,z=0$所围成;
+		\item $\displaystyle{\underset{\Omega}{\iiint}\frac{\mathrm{d}x\mathrm{d}y\mathrm{d}z}{(1+x+y+z)^3}}$, $\Omega$是由曲面$x+y+z=1,x=0,y=0,z=0$所围成;
+		\item $\displaystyle{\underset{\Omega}{\iiint}\mathrm{cos}az\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega:x^2+y^2+z^2\le R^2$;
+		\item $\displaystyle{\underset{\Omega}{\iiint}(1+x^4)\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$是由曲面$x^2=y^2+z^2,x=2,x=1$所围成.
+\end{enumerate}
+\item 计算三重积分
+$$I=\displaystyle{\int_{0}^{1}\mathrm{d}x\int_{x}^{1}\mathrm{d}y\int_{y}^{1}y\sqrt{1+z^4}\mathrm{d}z}.$$
+\end{enumerate}
 \section{重积分的变换}
 
 \section{曲线积分与格林公式}
