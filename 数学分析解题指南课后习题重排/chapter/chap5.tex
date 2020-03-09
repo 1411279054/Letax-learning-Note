@@ -473,3 +473,62 @@ $$ F(x)=\frac{1}{\pi}\displaystyle{\int_{-\pi}^{\pi}f(t)f(x-t)\mathrm{d}t}$$
 \end{enumerate}
 
 \section{含参积分的广义积分}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 证明下列积分在所在区间上一致收敛:
+	\begin{table}[H]
+		\begin{tabular}{ll}
+			(1)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{cos}(xy)}{x^2+y^2}\mathrm{d}y}(x\ge a>0);$\qquad \qquad \qquad \qquad \qquad & (2)\ $\displaystyle{\int_{1}^{+\infty}x^a\mathrm{e}^{-x}\mathrm{d}x}(a\le \alpha \le b)$;\\
+			(3)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{sin}x^2}{1+x^p}\mathrm{d}x}(p\ge 0)$;\qquad \qquad \qquad \qquad&(4)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{sin}x}{x}\mathrm{e}^{-ax}\mathrm{d}x}(a\ge 0)$.
+		\end{tabular}
+	\end{table}
+\item 设$f(x)\in C[0,+\infty]$且有界, $f(0)>0$.讨论函数
+$$ F(y)=\displaystyle{\int_{0}^{+\infty}\frac{yf(x)}{x^2+y^2}\mathrm{d}x}.$$
+的连续性.
+\item 计算积分$I=\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{arctan}bx-\mathrm{arctan}ax}{x}\mathrm{d}x}(b>a>0)$.
+\item 通过引入参数, 计算积分$$
+\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{ln}(1+x^2)}{1+x^2}\mathrm{d}x}.$$
+\item 通过引入收敛因子$\mathrm{e}^{-ax}$的方法, 计算积分$$
+I = \displaystyle{\int_{0}^{\infty}\frac{\mathrm{cos}bx-\mathrm{cos}ax}{x}\mathrm{d}x\ (b>a>0)}.$$
+\item 利用已知积分求下列积分$(b>a>0)$:
+\begin{table}[H]
+	\begin{tabular}{ll}
+	(1)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{e}^{-ax^2}-\mathrm{e}^{-bx^2}}{x}\mathrm{d}x}$;\qquad \qquad \qquad \qquad \qquad &(2)\ $\displaystyle{\int_{0}^{+\infty}\frac{(\mathrm{e}^{-ax}-\mathrm{e}^{-bx})^2}{x^2}\mathrm{d}x}$.
+	\end{tabular}
+\end{table}
+\item 利用已知积分求下列积分:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\displaystyle{\int_{0}^{+\infty}(\frac{\mathrm{sin}x}{x})^2\mathrm{d}x}$;\qquad \qquad \qquad \qquad & (2)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{sin}^4x}{x^2}\mathrm{d}x}$;\\
+		(3)\ $\displaystyle{\int_{-\infty}^{+\infty}\mathrm{e}^{-(ax^2+bx+c)}\mathrm{d}x}\ (a>0)$;\qquad \qquad \qquad \qquad & (4)\ $\displaystyle{\int_{-\infty}^{+\infty}\mathrm{e}^{-(x^2+\frac{a^2}{x^2})}\mathrm{d}x}\ (a>0)$;\\
+		(5)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{e}^{-x^2}-\mathrm{cos}x}{x^2}\mathrm{d}x}$;\qquad \qquad \qquad \qquad &(6)\ $\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{sin}(\alpha x)\mathrm{cos}(\beta x)}{x}\mathrm{d}x}$.
+	\end{tabular}
+\end{table}
+\item 利用已知积分$\displaystyle{\int_{0}^{+\infty}\frac{\mathrm{d}x}{x^2+a^2}}$求积分
+$$ \displaystyle{\int_{0}^{+\infty}\frac{\mathrm{d}x}{(x^2+a^2)^n}}\ (n\text{为自然数}, a>0).$$
+\item 利用$B$函数和$\varGamma$函数计算下列积分:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\displaystyle{\int_{0}^{1}\sqrt{x-x^2}\mathrm{d}x}$;\qquad \qquad \qquad \qquad &(2)\ $\displaystyle{\int_{0}^{a}x^2\sqrt{a^2-x^2}
+		\mathrm{d}x}\ (a>0)$\\
+		(3)\ $\displaystyle{\int_{0}^{1}\frac{x^n}{(1-x^2)^{1/2}}\mathrm{d}x}(n\text{为自然数})$;\qquad \qquad \qquad \qquad &(4)\ $\displaystyle{\int_{0}^{\frac{\pi}{2}}\mathrm{sin}^6x\mathrm{cos}^4x\mathrm{d}x}$;\\
+		(5)\ $\displaystyle{\int_{0}^{\infty}\frac{\mathrm{d}y}{1+x}}$;\qquad \qquad \qquad \qquad &(6)\ $\displaystyle{\int_{0}^{\pi}\frac{\mathrm{d}x}{\sqrt{3-\mathrm{cos}x}}}$.
+	\end{tabular}
+\end{table}
+\item 证明:
+$$\displaystyle{\int_{-1}^{1}(1+x)^p(1-x)^q\mathrm{d}x = 2^{p+q+q}B(p+1,q+1)\ (p>-1,q>-1)}.$$
+\item 证明:
+$$ \displaystyle{\int_{0}^{\frac{\pi}{2}}\mathrm{sin}^ax\mathrm{d}x=\int_{0}^{\frac{\pi}{2}}\mathrm{cos}^ax\mathrm{d}x=\frac{1}{2}B(\frac{1}{2},\frac{a+1}{2})}.$$
+\item  证明:
+\begin{enumerate}
+	\item $\displaystyle{\int_{0}^{+\infty}\mathrm{e}^{-x^n}\mathrm{d}x=\frac{1}{n}\varGamma(\frac{1}{n})\ (n>0)}$;
+	\item $\displaystyle{\lim\limits_{n\rightarrow \infty}=\int_{0}^{\infty}\mathrm{e}^{-x^n}\mathrm{d}x=1}$.
+\end{enumerate}
+\item 设$\displaystyle{\int_{-\infty}^{+\infty}|f(x)|\mathrm{d}x}$存在, 求证:
+\begin{enumerate}
+	\item $F(u)=\displaystyle{\int_{-\infty}^{+\infty}|f(x)|\mathrm{d}x}$在$(-\infty,+\infty)$上连续;
+	\item $F(u)$在$(-\infty,+\infty)$上一致连续.
+\end{enumerate}
+\item 设$f(x)$在$[0,+\infty)$上可积, $\forall A>0,f(x)\in R[0,A]$.求证:
+$$\lim\limits_{a\rightarrow 0}\int_{0}^{+\infty}\mathrm{e}^{-ax}f(x)\mathrm{d}x=\int_{0}^{+\infty}f(x)\mathrm{d}x.$$
+\end{enumerate}
