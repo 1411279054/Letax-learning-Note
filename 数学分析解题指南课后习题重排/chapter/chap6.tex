@@ -107,6 +107,87 @@ $$	F(\xi,\eta) = \underset{(x-\xi)^2+(y-\eta)^2\le h^2}{\iint}f(x,y)\mathrm{d}x\
 $$I=\displaystyle{\int_{0}^{1}\mathrm{d}x\int_{x}^{1}\mathrm{d}y\int_{y}^{1}y\sqrt{1+z^4}\mathrm{d}z}.$$
 \end{enumerate}
 \section{重积分的变换}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 计算下列积分:
+	\begin{enumerate}
+		\item $\displaystyle{\underset{\Omega}{\iint}(x^2+y^2)\mathrm{d}x\mathrm{d}y}$, $\Omega$是由曲线$(x^2+y^2)^2=2xy$围成;
+		\item $\displaystyle{\underset{\Omega}{\iint}x\mathrm{d}x\mathrm{d}y}$, $\Omega$是由阿基米德螺线$r=\theta$和半射线$\theta=\pi$围成;
+		\item $\displaystyle{\underset{\Omega}{\iint}xy\mathrm{d}x\mathrm{d}y}$, $\Omega$是由对数螺线$r=\mathrm{e}^\theta$和半射线$\theta = 0, \theta=\frac{\pi}{2}$围成.
+	\end{enumerate}
+\item 求下列曲面围成的体积:
+\begin{enumerate}
+	\item $z=xy,x^2+y^2=a^2,z=0$;
+	\item $z=x^2+y^2,x+y+z=1$;
+	\item $x^2+y^2+z^2=a^2,x^2+y^2\le a|x|(a>0)$.
+\end{enumerate}
+\item 求下列积分:
+\begin{enumerate}
+	\item $\displaystyle{\underset{\Omega}{\iint}\sqrt{1-\frac{x^2}{a^2}-\frac{y^2}{b^2}}\mathrm{d}x\mathrm{d}y}$, $\Omega$是由$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$围成;
+	\item $\displaystyle{\underset{\Omega}{\iint}(x^2+y^2)\mathrm{d}x\mathrm{d}y}$, $\Omega$是由$x^4+y^4=1$围成;
+	\item $\displaystyle{\underset{\Omega}{\iint}(x+y)\mathrm{d}x\mathrm{d}y}$, $\Omega$是由$y=4x^2,y=9x^2,x=4y^2,x=9y^2$围成;
+	\item  $\displaystyle{\underset{\Omega}{\iint}xy\mathrm{d}x\mathrm{d}y}$, $\Omega$是由$xy=2,xy=4,y=x,y=2x$围成.
+\end{enumerate}
+\item $D$是以$(x_1,y_1),(x_2,y_2),(x_3,y_3)$为顶点, 面积为$A\ (>0)$的三角形, 求
+$$\underset{\Omega}{\iint}x^2\mathrm{d}x\mathrm{d}y$$.
+\item 
+\begin{enumerate}
+	\item 计算积分$$ I = \displaystyle{\underset{x^2+y^2\le R^2}{\iint}\mathrm{ln}\frac{1}{\sqrt{(x-h)^2+y^2}\mathrm{d}x\mathrm{d}y}\ (h>R)}$$
+	\item 写出圆的单层位势
+	$$u(a,b)=\displaystyle{\underset{x^2+y^2\le R^2}{\iint}\mathrm{ln}\frac{1}{\sqrt{(x-a)^2+(y-b)^2}}\mathrm{d}x\mathrm{d}y}\ \ (a^2+b^2>R^2)$$
+\end{enumerate}
+\item 设$f(x,y)$在$x^2+y^2\le 1$上连续可微, 求
+$$ I=\displaystyle{\underset{x^2+y^2\le 1}{\iint}\frac{xf'_y-yf'_x}{\sqrt{x^2+y^2}}\mathrm{d}x\mathrm{d}y}$$
+\item 给定积分$I=\displaystyle{\underset{D}{\iint} [(\frac{\partial f}{\partial x})^2+(\frac{\partial f}{\partial y})^2]\mathrm{d}x\mathrm{d}y}$, 作正则变换$x=u(x,y),y=y(u,v)$, 区域$D$变为$\Omega$, 如果变换满足:
+$$ \frac{\partial x}{\partial u}=\frac{\partial y}{\partial v},\ \frac{\partial x}{\partial v}=-\frac{\partial y}{\partial u},$$
+证明:
+$$ I = \displaystyle{\underset{\Omega}{\iint}[(\frac{\partial f}{\partial u})^2+(\frac{\partial f}{\partial v})^2]\mathrm{d}u\mathrm{d}v}.$$
+\item 求下列积分:
+\begin{enumerate}
+	\item $\displaystyle{\underset{\Omega}{\iiint}(x^2+y^2)^2\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$由曲面$z=x^2+y^2,z=1,z=2$围成;
+	\item $\displaystyle{\underset{\Omega}{\iiint}(\sqrt{x^2+y^2})^3\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$由曲面$x^2+y^2=9,x^2+y^2=16,z^2=x^2+y^2,z\ge 0$围成;
+	\item $\displaystyle{\underset{\Omega}{\iiint}(x^2+y^2)\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$由曲面$z=16(x^2+y^2), z=4(x^2+y^2), z=16$围成.
+\end{enumerate}
+\item 求下列积分:
+\begin{enumerate}
+	\item $\displaystyle{\underset{\Omega}{\iiint}x^3\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$由$x^2+y^2+z^2\le 1,x\ge 0,y\ge 0,z\ge 0$所确定;
+	\item $\displaystyle{\underset{\Omega}{\iiint}(\sqrt{x^2+y^2+z^2})^5\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$由不等式$x^2+y^2+z^2\le 2z$所确定;
+	\item $\displaystyle{\underset{\Omega}{\iiint}x^2\mathrm{d}x\mathrm{d}y\mathrm{d}z}$, $\Omega$是由$x^2+y^2\le z^2, x^2+y^2+z^2\le 8$所确定.
+\end{enumerate}
+\item 求下列积分:
+\begin{enumerate}
+	\item $\Omega$由$z=\frac{x^2+y^2}{a},z=\frac{x^2+y^2}{b},xy=c,xy=d,y=\alpha x,y=\beta x$围成(其中$0<a<b,0<c<d,0<\alpha<\beta$), 求
+	$$ \displaystyle{\underset{\Omega}{\iiint}x^2y^2z\mathrm{d}x\mathrm{d}y\mathrm{d}z};$$
+	\item $\Omega$由$x=az^2,x=bz^2(z>0,0<a<b), x=\alpha y,x=\beta y\ (0<\alpha<\beta)$以及$x=h (>0)$围成, 求$$
+	\displaystyle{\underset{\Omega}{\iiint}y^4\mathrm{d}x\mathrm{d}y\mathrm{d}z}.$$
+	\item $\Omega$由$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$围成, 求
+	$$ \displaystyle{\underset{\Omega}{\iiint}\mathrm{e}^{\sqrt{\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}}}\mathrm{d}x\mathrm{d}y\mathrm{d}z}.$$
+\end{enumerate}
+\item 设一元函数$f(t)\in C[0,+\infty)$.令
+$$ F(t)=\displaystyle{\underset{\Omega}{\iiint}f(\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2})\mathrm{d}x\mathrm{d}y\mathrm{d}z},$$
+其中$\Omega_t=\{(x,y,z)|\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le t^2\}$.证明:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		\qquad (1)\ $F(t)\in C^{1}[0,+\infty)$;\qquad \qquad \qquad &(2)\ 求出$F'(t)$的表达式.
+	\end{tabular}
+\end{table}
+\item 设$\Omega$是由平面$x+y+z=1, y=0, z=0, x=0$围成的区域. 证明
+$$ \displaystyle{\underset{\Omega}{\iiint}x^py^qz^s(1-x-y-z)^t\mathrm{d}x\mathrm{d}y\mathrm{d}z}=\frac{\Gamma(p+1)\Gamma(q+1)\Gamma(s+1)\Gamma(t+1)}{\Gamma(p+q+s+t+4)},$$
+其中$p \ge 0,q\ge 0,s\ge 0,t\ge 0$.
+\item 设$\Omega$是以$(x_i,y_i,z_i)\ (i=1,2,3,4)$为顶点, 体积为$V(>0)$的四面体, 求$$
+\displaystyle{\underset{\Omega}{\iiint}x\mathrm{d}x\mathrm{d}y\mathrm{d}z.}$$
+\item 用广义球坐标求$n$维球的体积, 即求$x_1^2,x_2^2+\cdots+x_n^2\le \bm{R}^2$的体积. 所谓广义球坐标即为
+$$\begin{cases}
+x_1=r\mathrm{cos}\theta_1,&\qquad \qquad r\ge0,\\
+x_2=r\mathrm{sin}\theta_1\mathrm{cos}\theta_2,& \qquad \qquad 0\le \theta_i\le \pi,\\
+\qquad \vdots&\qquad\qquad\qquad i=1,\cdots,n-2,\\
+x_{n-1}=r\mathrm{sin}\theta_1\mathrm{sin}\theta_2\cdots\mathrm{sin}\theta_{\theta_{n-2}}\mathrm{cos}\theta_{n-1},&\qquad \qquad  0\le \theta_{n-1}\le 2\pi.\\
+x_n=r\mathrm{sin}\theta_1\mathrm{sin}\theta_2\cdots\mathrm{sin}\theta_{n-2}\mathrm{sin}\theta_{n-1},&\qquad
+\end{cases}$$
+\item 求$n$面体: $x_i\ge 0(i=1,2,\cdots,n),x_1+x_2+\cdots+x_n\le a\ (a>0)$的容积.
+\item 证明
+$$\displaystyle{\underset{\underset{x_i\ge 0(i=1,\cdots,n) }{0\le \sum\limits_{i=1}^{n}x_i\le a}}{\int\dotsi\int}f(x_1+x_2+\cdots+x_n)\mathrm{d}x_1\mathrm{d}x_2\cdots\mathrm{d}x_n}=\int_{0}^{a}f(x)\frac{x^{n-1}}{(n-1)!\mathrm{d}x}.$$
+\end{enumerate}
 
 \section{曲线积分与格林公式}
 
