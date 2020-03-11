@@ -190,7 +190,104 @@ $$\displaystyle{\underset{\underset{x_i\ge 0(i=1,\cdots,n) }{0\le \sum\limits_{i
 \end{enumerate}
 
 \section{曲线积分与格林公式}
-
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 求下列第一型曲线积分:
+	\begin{enumerate}
+		\item $\displaystyle{\int_{L}y^2\mathrm{d}s,\ L}$为摆线的一拱: $x=a(t-\mathrm{sin}t),\  y=a(1-\mathrm{sin}t)$,\  $y=a(1-\mathrm{cos}t)\ \  
+	\text{其中},(0\le t\le 2\pi)$;
+		\item $\displaystyle{\int_{L}(x^{\frac{4}{3}}+y^{\frac{4}{3}})\mathrm{d}s}$, $L$为内摆线: $x^{\frac{2}{3}}+y^{\frac{2}{3}}=a^{\frac{2}{3}}$.
+		\item $\displaystyle{\int_{L}xyz\mathrm{d}s}$, $L$为螺线: $x=a\mathrm{cos}t, y=a\mathrm{sin}t, z=bt\ (0\le t \le 2\pi)(0<a<b)$.
+	\end{enumerate}
+\item 计算第一型曲线积分:
+\begin{enumerate}
+	\item $\displaystyle{\int_{L}(xy+yz+zx)\mathrm{d}s}$, $L$为球面 $x^2+y^2+z^2=a^2$与平面$x+y+z=0$之交线;
+		\item $\displaystyle{\int_{L}xyz\mathrm{d}s}$, $L$同上.
+\end{enumerate}
+\item 
+\begin{enumerate}
+	\item 求第一型曲线积分:$$
+	I = \displaystyle{\int\limits_{x^2+y^2=R^2}\mathrm{ln}\frac{1}{\sqrt{(x-h)^2+(y-b)^2}}\mathrm{d}s\ \ (h\ne R)};$$
+	\item 写出圆周的单层位势:
+	$$ U(a,b) = \displaystyle{\int\limits_{x^2+y^2=R^2}\mathrm{ln}\frac{1}{\sqrt{(x-a)^2+(y-b)^2}}\mathrm{d}s},$$
+	其中$a^2+b^2\ne R^2$.
+\end{enumerate}
+\item 设$f(x,y)$在$L$上连续, $L$是一封闭的逐段光滑. 证明:
+$$ u(x,y) = \oint_{L} f(\xi,\eta)\mathrm{ln}\frac{1}{\sqrt{(\xi-x)^2+(\eta-y)^2}\mathrm{d}s}$$
+当$x^2+y^2\rightarrow +\infty$时趋于零的充要条件是$\oint_{L}f(\xi,\eta)\mathrm{d}s=0$.
+\item 设$u(x,y)$在$\bm{R}^2$上连续, 对任意$r>0$. 证明: 等式
+$$ u(x,y) = \frac{1}{\pi r^2}\displaystyle{\iint\limits_{(\xi-x)^2+(y-\eta)^2\le r^2}u(\xi,\eta)\mathrm{d}\xi\mathrm{d}\eta}$$
+成立的充要条件是等式
+$$ u(x,y) = \frac{1}{2\pi r}\displaystyle{\int\limits_{(\xi-x)^2+(\eta-y)^2=r^2}u(\xi,\eta)\mathrm{d}s=\frac{1}{2\pi}\int_{0}^{2\pi}u(x+r\mathrm{cos}\theta,y+r\mathrm{sin}\theta)\mathrm{d}\theta}\ \ (\forall r>0)$$
+成立.
+\item 求下列第二型曲线积分:
+\begin{enumerate}
+	\item  $\displaystyle{\int_{\widehat{AB}}(x-2xy^2)\mathrm{d}x+(y-2x^2y)\mathrm{d}y}$, 其中$A(0,0), B(2,4), \widehat{AB}:y=x^2$;
+	\item $\displaystyle{\int_{\widehat{AB}}(x+y)\mathrm{d}x+xy\mathrm{d}y}$, 其中$A(0,0), B(2,0), \widehat{AB}: y=1-|1-x|$;
+	\item $\displaystyle{\int_{\widehat{AB}(x-y)\mathrm{d}x+(y-z)\mathrm{d}y+(z-x)\mathrm{d}z}}$, 其中$A(0,0,0), B(1,1,1), \widehat{AB}:x=t,y=t^2,z=t^3$;
+	\item $\displaystyle{\int_{\widehat{AB}}y^2\mathrm{d}x+z^2\mathrm{d}y+x^2\mathrm{d}z}$, 其中$A(\alpha,0,0),B(\alpha,0,2\pi\gamma),\widehat{AB}: x=a\mathrm{cos}t, y=\beta\mathrm{sin}t,z=\gamma t$ $(\alpha,\beta,\gamma\text{为正数})$.
+\end{enumerate}
+\item 求第二型曲线积分
+$$ \displaystyle{\int_{L}(y^2-z^2)\mathrm{d}x+(z^2-x^2)\mathrm{d}y+(x^2-y^2)\mathrm{d}z}.$$
+\begin{enumerate}
+	\item $L$为球面三角形$x^2+y^2+z^2=1, x\ge 0,y\ge 0,z\ge	0$的边界线, 从球的外侧看去, $L$的方向为逆时针方向;
+	\item $L$是球面$x^2+y^2+z^2=a^2$和柱面$x^2+y^2=ax(a>0)$的交线位于$xy$平面上方部分, 从$x$轴上$(b,0,0)\ (b>a)$点看去, $L$的方向是顺时针方向.
+\end{enumerate}
+\item 求第二型曲线积分
+$$ \displaystyle{\oint_{L}\frac{x\mathrm{d}x+y\mathrm{d}y}{x^2+y^2}}.$$
+\begin{enumerate}
+	\item $L$为圆周$x^2+y^2=a^2$, 逆时针方向;
+	\item $L$为正方形$|x|\le 1,|y|\le 1$的边界, 逆时针方向.
+\end{enumerate}
+\item 计算第二型曲线积分
+$$ \displaystyle{\oint_{L}(x^2+y^2)\mathrm{d}x+(x+y)^2\mathrm{d}y},$$
+$L$为圆周$x^2+y^2=ax$, 逆时针方向.
+\item 设$P, Q, R$为$L$上的连续函数, $L$为光滑弧段, 弧长为$l$. 证明:
+$$ |\displaystyle{\oint_{L}P\mathrm{d}x+Q\mathrm{d}y+R\mathrm{d}z}| \le M\cdot l,$$
+其中$M=\underset{(x,y,z)\in L}{\mathrm{max}\{\sqrt{P^2+Q^2+R^2}\}}$.
+\item 计算下列积分:
+\begin{enumerate}
+	\item $\displaystyle{\oint{\partial D}xy^2\mathrm{d}y-yx^2\mathrm{d}x}, D: \frac{x^2}{a^2}+\frac{y^2}{b^2}\le 1$;
+	\item $\displaystyle{\oint_{\partial D}(x^2+y^3)\mathrm{d}x-(x^3-y^2)\mathrm{d}y}, D: x^2+y^2\le 1$;
+	\item $\displaystyle{\oint_{\partial D}e^y\mathrm{sin}x\mathrm{d}x+\mathrm{e}^{-x}\mathrm{sin}y\mathrm{d}y}$, $D: 0\le x\le b,c\le y\le d$.
+\end{enumerate}
+\item 计算下列积分:
+\begin{enumerate}
+	\item $\displaystyle{\int_{\widehat{AO}(x^2+y^2)\mathrm{d}x+(x+y)^2\mathrm{d}y, A(a,0),O(0,0),\widehat{AO}:x^2+y^2=ax\ (y\ge 0)}}$;
+		\item $\displaystyle{\int_{\widehat{OA}\mathrm{e}^x[1-\mathrm{cos}y\mathrm{d}x-(y-\mathrm{sin}y\mathrm{d}y)]},A(\pi,0),O(0,0),\widehat{AO}:y=\mathrm{sin}x}$;
+		\item $\displaystyle{\oint_{\widehat{OA}}\mathrm{e}^{-(x^2-y^2)}[x(1-x^2-y^2)\mathrm{d}x+y(1+x^2+y^2)\mathrm{d}y],A(1,1),O(0,0),\widehat{OA}:y=x^2}$.
+\end{enumerate}
+\item 设$C$为光滑的简单闭曲线, 求下列积分:
+\begin{enumerate}
+	\item $\displaystyle{\oint_{c}\mathrm{cos}<\bm{l},\bm{n}>\mathrm{d}s,\bm{l}}$为给定的方向, $\bm{n}$为C的外法线方向;
+	\item $\displaystyle{\oint_{C}\mathrm{cos}<\bm{r},\bm{n}>\mathrm{d}s,\bm{r}=x\bm{i}+y\bm{j},\bm{n}}$为$C$的外法线方向.
+\end{enumerate}
+\item 
+\begin{enumerate}
+	\item 设$f(x,y)=\mathrm{ln}\frac{1}{\sqrt{(x-a)^2+(y-b)^2}(a^2+b^2\ne R^2)}$, 试证函数在圆$x^2+y^2=R^2$上每点沿外法线方向$n$的方向导数为
+	$\frac{\partial f}{\partial \bm{n}}=-\frac{(x-a)\mathrm{cos}<\bm{\tau},\bm{j}>-(y-b)\mathrm{cos}<\bm{\tau,\bm{i}}}{(x-a)^2+(y-b)^2}$,
+	其中$\tau$为圆的切向量, $\bm{i,j}$分别为$x$轴, $y$轴上的单位向量;
+	\item 求圆周$x^2+y^2=R^2$的双层位势
+	$$ u(a,b) = \displaystyle{\int\limits_{x^2+y^2=R^2}\frac{(x-a)\mathrm{d}y-(y-b)\mathrm{d}x}{(x-a)^2+(y-b)^2}}\ (a^2+b^2\ne R^2)$$
+\end{enumerate}
+\item 
+\begin{enumerate}
+	\item 求积分$I=\displaystyle{\int_{\partial D\mathrm{e}^{-(R^2-y^2)}(\mathrm{cos}2xy\mathrm{d}x+\mathrm{sin}2xy\mathrm{d}y)}, D: |x|\le R,0\le y\le b}$;
+		\item 证明: $\displaystyle{\lim\limits_{R\rightarrow +\infty}\mathrm{e}^{-(R^2-y^2)}\mathrm{sin}2Ry\mathrm{d}y=0}$;
+		\item 证明: $\displaystyle{\int_{-\infty}^{+\infty}\mathrm{e}^{-x^2}\mathrm{cos}2bx\mathrm{d}x=\sqrt{\pi}\mathrm{e}^{-b^2}}$.
+\end{enumerate}
+\item 设$A>0, C>0, AC-B^2>0$, 求证:
+$$ \displaystyle{\oint_{L}\frac{x\mathrm{d}y-y\mathrm{d}x}{Ax^2+2Bxy+Cy^2}=\frac{2\pi}{AC-B^2}},\  L: x^2 + y^2 = R^2.$$
+\item 设$f(x,y)$在上半平面$y>0$上连续可微. 证明: 对上平面上的任一光滑闭曲线$C$, 等式
+$$ \displaystyle{\oint_{C}f(x,y)(x\mathrm{d}y-y\mathrm{d}x)=0}$$
+成立的充要条件是: $f(x,y)$为2次齐次函数.
+\item 计算线积分
+	$$ I = \displaystyle{\oint_{L}\frac{\mathrm{e}^x}{x^2+y^2}[(x\mathrm{cos}y+y\mathrm{sin}y)\mathrm{d}y+(x\mathrm{sin}y-y\mathrm{cos}y)\mathrm{d}x]},$$
+	其中$L$是包含原点在其内部的光滑简单闭曲线.
+	\item 设$C$是逐段光滑简单闭曲线, 它围成的区域记作$D$, 函数$u(x,y),v(x,y)\in C^2(\overline{D})$.证明$$
+	\displaystyle{\oint_{C}v\frac{\partial u}{\partial n}\mathrm{d}s=\iint\limits_{D}v[\frac{\partial^2 u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}]\mathrm{d}x\mathrm{d}y+\iint\limits_{D}[\frac{\partial u}{\partial x}\frac{\partial v}{\partial x}+\frac{\partial u}{\partial y}\frac{\partial v}{\partial y}]\mathrm{d}x\mathrm{d}y}.$$
+	\item 设$C$和$D$的条件同上题, $u(x,y)$是$D$上调和函数. 证明: 若$u(x,y)|c=0$, 则$u(x,y)\equiv 0,(x,y)\in D$. 
+\end{enumerate}
 \section{曲面积分}
 
 \section{奥氏积分、斯托克斯公式、线积分与路径无关}
