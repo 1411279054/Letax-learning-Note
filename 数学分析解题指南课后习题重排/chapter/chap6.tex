@@ -289,7 +289,112 @@ $$ \displaystyle{\oint_{C}f(x,y)(x\mathrm{d}y-y\mathrm{d}x)=0}$$
 	\item 设$C$和$D$的条件同上题, $u(x,y)$是$D$上调和函数. 证明: 若$u(x,y)|c=0$, 则$u(x,y)\equiv 0,(x,y)\in D$. 
 \end{enumerate}
 \section{曲面积分}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 球环面$x=(b+a\mathrm{cos}\phi)\mathrm{cos}\theta, y=(b+a\mathrm{cos}\phi)\mathrm{sin}\theta,z=a\mathrm{sin}\phi(0<a<b)$被两条经线$\theta=\theta_1,\theta=\theta_2$和两条纬线$\phi=\phi_1,\phi=\phi_2$所围成的那部分面积,并求出整个环面面积.
+	\item 求螺旋面$x=r\mathrm{cos}\phi, y=r\mathrm{sin}\phi,z=h\phi,(0<r<a,0<\phi<2\pi)$的面积. 
+	\item 求球面$x^2+y^2+z^2=a^2$包含在柱体$y^2+z^2\le 1(a>1)$中那部分的面积.
+	\item 求曲面$z=\sqrt{2xy}$被平面$x+y=1,x=1$及$y=1$所截下的那部分面积.
+	\item 求曲面$x^2+y^2=\frac{1}{3}z^2,\sqrt{2}x+z=2a\ (a>0)$围成的立体的表面积
+	\item 平面上一椭圆绕其长轴旋转得一旋转椭球$\Omega$, 求$\Omega$之表面积.
+	\item 求下列第一型曲面积分:
+	\begin{enumerate}
+		\item $\displaystyle{\iint_{S}(x^2+y^2)\mathrm{d}S}$, $S$为立体$\sqrt{x^2+y^2}\le x\le 2$的边界面;
+		\item $\displaystyle{\iint_{S}|xyz|\mathrm{d}S}$, $S$为曲面$z=x^2+y^2$被平面$z=1$割下的部分;
+		\item $\displaystyle{\iint_{S}z^2\mathrm{d}S}$, $S$为螺旋面: $x=u\mathrm{cos}v,y=\mathrm{sin}v,z=v\ (0\le u\le a, 0\le v\le 2\pi)$;
+		\item $\displaystyle{\iint_{S}(x^2+y^2)\mathrm{d}S}$, $S:x^2+y^2+z^2=R^2$.
+	\end{enumerate}
+\item 设$f(x)$为一元连续函数. 证明: 普阿松公式$$ \displaystyle{\iint\limits_{S}f(ax+by+cz)\mathrm{d}S=2\pi\iint_{-1}^{1}f(\sqrt{a^2+b^2+c^2}\xi)\mathrm{d}\xi},$$
+其中$S$为球面: $x^2+y^2+z^2=1$.
+\item 计算$F(t)=\displaystyle{\iint_{S}f(x,y,z)\mathrm{d}S}$, 其中$S$是一平面$x+y+z=t$, 而$$
+f(x,y,z)=\begin{cases}
+1-x^2-y^2-z^2,\ &\qquad x^2+y^2+z^2\le 1\\
+0,\ &\qquad x^2+y^2+z^2>1,
+\end{cases}$$
+
+并做出$F(t)$的图形.
+\item 求下列第二型曲面积分:
+\begin{enumerate}
+	\item $\displaystyle{\iint\limits_{S}x^2\mathrm{d}y\mathrm{d}z+y^3\mathrm{d}z\mathrm{d}x+z^3\mathrm{d}x\mathrm{d}y}$, $S$为球面$x^2+y^2+z^2=R^2$的外侧.
+	\item $\displaystyle{\iint\limits_{S}x^2\mathrm{d}y\mathrm{d}z+y^2\mathrm{d}z\mathrm{d}x+z^2\mathrm{d}x\mathrm{d}y}$, $S$是立体$\Omega$的边界线的外侧, $\Omega$的表达式为$$
+	\Omega = \{(x,y,z)|0\le x\le a,0\le y\le b,0\le z\le c\};$$
+	\item $\displaystyle{\iint\limits_{S}x\mathrm{d}y\mathrm{d}z+y\mathrm{d}z\mathrm{d}x+z\mathrm{d}x\mathrm{d}y}$, $S$为球面
+	$$ (x-a)^2+(y-b)^2+(z-c)^2=R^2$$的上半部分的上侧;
+	\item $\displaystyle{\iint\limits_{S}\left(\frac{\mathrm{d}y\mathrm{d}z}{x}+\frac{\mathrm{d}z\mathrm{d}x}{y}+\frac{\mathrm{d}x\mathrm{d}y}{z}\right)}$, $S$为椭球面$\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$的外侧.
+\end{enumerate}
+\end{enumerate}
 
 \section{奥氏积分、斯托克斯公式、线积分与路径无关}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 利用奥斯公式求下列积分:
+	\begin{enumerate}
+		\item $\displaystyle{\iint\limits_{S}x\mathrm{d}y\mathrm{d}z}+y\mathrm{d}z\mathrm{d}x+z\mathrm{d}x\mathrm{d}y$,~$S:~(x-a)^2+(y-b)^2+(z-c)^2=R^2$, 外侧;
+		\item $\displaystyle{\iint\limits_{S}x^2\mathrm{d}y\mathrm{d}z+y^2\mathrm{d}z\mathrm{d}x+z^2\mathrm{d}x\mathrm{d}y}$, $S:~x^2+y^2\le z\le h$的边界线, 外侧;
+		\item $\displaystyle{\iint\limits_{s}(x-y+z)\mathrm{d}y\mathrm{d}z+(y-z+x)\mathrm{d}z\mathrm{d}x+(z-x+y)\mathrm{d}x\mathrm{d}y}$, $S$为曲面.
+	$$ |x-y-z|+|y-z+x|+|z-x+y|=1$$
+	的外侧.
+	\end{enumerate}
+\item 计算下列曲面积分 
+\begin{enumerate}
+\item $\displaystyle{\iint\limits_{S}(x^2-y^2)\mathrm{d}y\mathrm{d}z+(y^2-z^2)\mathrm{d}z\mathrm{d}x+(z^2-x^2)\mathrm{d}x\mathrm{d}y}$, $S$是$\frac{x^2}{a^2}+\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1\ (z\ge 0)$的上侧;
+\item $\displaystyle{(x+\mathrm{cos}y)\mathrm{d}y\mathrm{d}z+(y+\mathrm{cos}z)\mathrm{d}z\mathrm{d}x+(z+\mathrm{cos}x)\mathrm{d}x\mathrm{d}y}$, 其中$S$为$x+y+z=\pi$在第一卦限部分, 上侧.	
+\end{enumerate}
+
+	\item 求 $$ f(x,y,z) = \frac{1}{\sqrt{(x-a)^2+(y-b)^2+(z-c)^2} }\ (a^2+b^2+c^2\ne R^2)$$ 沿球面$x^2+y^2+z^2=R^2$上各点外法线方向的方向导数;
+	\item 求球面的双层位势$$u(a,b,c)=\displaystyle{\iint\limits_{x^2+y^2+z^2=R^2}\frac{(x-a)\mathrm{d}x\mathrm{d}z+(y-b)\mathrm{d}z\mathrm{d}x+(z-c)\mathrm{d}x\mathrm{d}y}{[(x-a)^2+(y-b)^2+(z-c)^2]^{\frac{3}{2}}}}\ (a^2+b^2+c^2\ne R^2)$$.
+	\item 设$V$为可测闭区域, $\partial V=S$为光滑闭曲面, 函数$u(x,y,z),v(x,y,z)\in C^2(V)$. 证明: 
+	$$ \displaystyle{\iint\limits_{S}v\frac{\partial u}{\partial \bm{n}}\mathrm{d}S}=\iiint\limits_{V}v
+	(\frac{\partial^2 u}{\partial x^2}+\frac{\partial^2 u}{\partial y^2}+\frac{\partial^2 u}{\partial z^2})
+	\mathrm{d}x\mathrm{d}y\mathrm{d}z+\iiint\limits_{V}\left[\frac{\partial u}{\partial x}
+	\frac{\partial v}{\partial x}+\frac{\partial u}{\partial y}\frac{\partial v}{\partial y}+\frac{\partial u}{\partial z}
+	\frac{\partial v}{\partial z}\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z$$
+	其中$\bm{n}$为$S$的外法线方向.
+	\item 设$V,S$条件同上题, $u(x,y,z)$为调和函数: $\frac{\partial^2u}{\partial x^2}+\frac{\partial^2 u}{\partial y^2}+\frac{\partial^2 u}{\partial z^2}=0$, 且$u(x,y,z)|s=0$\ (即函数$u$在边界$S$上取值为零). 证明:
+	$$ u(x,y,z) \equiv 0\ \ (x,y,z)\in V.$$
+	\item 设$V,S$条件同上, $u$为调和函数, $v(x,y,z)|s=0$. 证明:
+	$$ \displaystyle{\iiint\limits_{V}\left[\frac{\partial u}{\partial x}\frac{\partial v}{\partial x}+
+	\frac{\partial u}{\partial y}\frac{\partial v}{\partial y}+\frac{\partial u}{\partial z}\frac{\partial v}{\partial z}\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z}=0$$
+	\item 设$V,S$条件同上, $u, w\in C^2(V)$, $u$是调和函数, 且$$ [w(x,y,z)-u(x,y,z)]|s=0.$$
+	证明:
+ $$\displaystyle{
+		\iiint\limits_{S}\left[\left(\frac{\partial u}{\partial x}\right)^2+\left(\frac{\partial u}{\partial y}\right)^2+\left(\frac{\partial u}{\partial z}\right)^3\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z \le \iiint\limits_{V}\left[\left(\frac{\partial w}{\partial x}\right)^2+\left(\frac{\partial w}{\partial y}\right)+
+	\left(\frac{\partial w}{\partial z}\right)^2\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z.}$$.
+	\item 求下列曲线积分:
+	\begin{enumerate}
+	\item $\displaystyle{\oint_{L}(y-z)\mathrm{d}x+(z-x)\mathrm{d}y+(x-y)\mathrm{d}z}$, 式中$L$为椭圆, 即$x^2+y^2=R^2$与$\frac{x}{a}+\frac{z}{h}=1\ (a>0,h>0)$
+	的交线, 若从$Ox$轴正向看去, 此椭圆是以反时针方向进行的;
+	\item $\displaystyle{\oint_{L}(y-z)\mathrm{d}x+(z-x)\mathrm{d}y+(x-y)\mathrm{d}z}$, 式中$L$为圆周, 即$x^2+y^2+z^2=a^2$与$y=x\mathrm{tan}\alpha(0<\alpha<\pi,\alpha\ne \frac{\pi}{2})$的交线, 若从$Ox$轴的正向看去, 圆周是依反时针方向进行的;
+	\item $\displaystyle{\oint_{L}y^2\mathrm{d}x+z^2\mathrm{d}y+x^2\mathrm{d}z}$, 式中$L$为维维安尼曲线: $x^2+y^2+z^2=a^2, x^2+y^2=ax\ (z\ge 0,a>0)$, 若从$Ox$轴正向看去, 曲线是依反时针方向进行的;
+	\item $\displaystyle{\oint_{L}(y^2+z^2)\mathrm{d}x+(x^2+z^2)\mathrm{d}y+(x^2+y^2)\mathrm{d}z}$, 式中$L$是曲线: $x^2+y^2+z^2=2Rx,x^2+y^2=2rx\ (0<r<R, z>0)$, 此曲线是如下进行的: 由它所包围的在球$x^2+y^2+z^2=2Rx$外表面上的最小区域保持在左方.
+	\end{enumerate}
+	\item 下列被积表达式是否是恰当, 并求线积分:
+	\begin{enumerate}
+		\item $w=(x^2-2yz)\mathrm{d}x+(y^2-2xz)\mathrm{d}y+(z^2-2xy)\mathrm{d}z$, 求$\displaystyle{\int_{(0,0,0)}^{(1,1,1)}w}$;
+		\item $w=(yz\mathrm{e}^{xyz}+2x)\mathrm{d}x+(zx\mathrm{e}^{xyz}+3y^2)\mathrm{d}y+(xy\mathrm{e}^{xyz}+4z^3)\mathrm{d}z$, 求$\displaystyle{\int_{(0,0,0)}^{(x,y,z)}w}$;
+		\item $w=[2x\mathrm{sin}(x+y+z)+x^2\mathrm{cos}(x+y+z)]\mathrm{d}x+x^2\mathrm{cos}(x+y+z)(\mathrm{d}y+\mathrm{d}z)$, 求$\displaystyle{\int_{(1,2,3)}^{(x,y,z)}w}$.
+		\end{enumerate}
+	\item 设$\Omega$为包含原点的单连通区域, 线积分$\displaystyle{\int_{\widehat{AB}}P\mathrm{d}x+Q\mathrm{d}y+R\mathrm{d}z}$在$R$上与路径无关, 若$P,Q,R$皆为$n$次齐次函数, 证明: 线积分$$
+		\displaystyle{\int_{\widehat{AB}x\mathrm{d}P+y\mathrm{d}Q+z\mathrm{d}R}}$$
+		也在$\Omega$上与路径无关.
+		\item 设$\Omega$是包含原点的凸区域, $P,Q, R\in C^1(\Omega)$.证明下面四个命题等价:
+		\begin{enumerate}
+			\item $w=P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d}x+R\mathrm{d}x\mathrm{d}y$的曲面积分与曲面无关, 即$S_1,S_2$为定向光滑曲面, $\partial S_1=\partial S_2$, 由$S_1,S_2$的定向决定的边界正定向相同, 则有
+			$$\displaystyle{\iint_{S_1}w=\iint_{S_2}w};$$
+			\item 设$S$为$\Omega$内一光滑闭曲面, 则有$\displaystyle{\iint_{S}w=0}$;
+				\item 被积表达式$w$是封闭的, 即外微分$\mathrm{d}w=0$,或
+				$$ \frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\equiv 0$$
+				\item $w$是恰当的, 即存在\\
+				
+				$\qquad \eta = \displaystyle{\int_{0}^{1}t[zQ(tx,ty,tz)-yR(tx,ty,tz)]\mathrm{d}t\mathrm{d}x}$\\ \qquad 
+				
+				$\qquad\qquad+\displaystyle{\int_{0}^{1}t[xR(tx,ty,tz)-zP(tx,ty,tz)]\mathrm{d}t\mathrm{d}y}$\\ \qquad
+				$
+				\qquad +\displaystyle{\int_{0}^{1}t[yP(tx,ty,tz)-xQ(tx,ty,tz)]\mathrm{d}t\mathrm{d}z},$\\
+				
+			使$\mathrm{d}y=w$.
+	\end{enumerate}
+
+\end{enumerate}
 
 \section{场论}
