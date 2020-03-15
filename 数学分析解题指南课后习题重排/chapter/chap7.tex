@@ -1,1 +1,57 @@
 \chapter{典型综合题分析}
+\centering{\text{综合练习题}}
+\begin{enumerate}
+	\item 试求保证不等式
+		$$ \mathrm{e}^x+\mathrm{e}^{-x} \le 2\mathring{e}^{cx^2}\ \ (\forall\  x\in (-\infty,\infty))$$成立的实数$c$的条件.
+	\item 设$f(x)$在$[a,b]$上连续可微, 又设$\exists c\in [a,b]$, 使得$f'(c)=0$. 求证:
+	$\exists \xi \in(a,b)$, 使得
+	$$ f'(\xi) = \frac{f(\xi)-f(a)}{b-a}.$$
+	\item 设$f(x)$在实轴上有界且可微, 并满足
+	$$ |f(x)+f'(x)|\le 1\ (\forall x\in (-\infty,\infty))$$
+求证: $|f(x)|\le l(\forall \in(-\infty,\infty))$
+\item 设$f(x)$为一连续函数, 且$0\le f(x)<1 (|x|\le 1)$. 求证:
+$$ \displaystyle{\int_{0}^{1}\frac{f(x)}{1-f(x)}\mathrm{d}x}\ge \frac{\int_{0}^{1}f(x)\mathrm{d}x}{1-\int_{0}^{1}f(x)\mathrm{d}x}.$$
+
+\item 求证: $\displaystyle{\int_{0}^{\sqrt{2\pi}}\mathrm{sin}x^2\mathrm{d}x}>0$.
+\item 设$|x|<1$, 求$\displaystyle{\int_{0}^{\frac{\pi}{2}}\mathrm{ln}(1-x^2\mathrm{cos}^2\theta)\mathrm{d}\theta}$.
+\item 设$\rho(\xi)=\frac{1}{\pi}\frac{y}{(\xi-x)^2+y^2}$, 其中$\xi,x$为任意实数, $y$为正实数. 求证:$$ \displaystyle{\int_{-\infty}^{+\infty}|\xi - x|^\frac{1}{2}\rho(\xi)\mathrm{d}\xi=\sqrt{2y}}.$$
+\item $I_n=\displaystyle{\int_{1}^{1+\frac{1}{n}}\sqrt{1+x^n}\mathrm{d}x}$, 求证:
+\begin{table}[H]
+	\begin{tabular}{ll}
+		(1)\ $\lim\limits{n\rightarrow \infty}I_n=0$;\qquad \qquad \qquad \qquad & (2)\ 极限$\lim\limits_{n\rightarrow \infty}I_n$存在, 并求出此极限值.
+	\end{tabular}
+\end{table}	
+\item 求证: $\sum\limits_{n=1}^{\infty}(n\mathrm{ln}\frac{2n+1}{2n-1}-1)=\frac{1}{2}(1-\mathrm{ln}2)$.
+\item 设$a_1=a_2=1,a_{n+1}=a_n+a_{n-1}(n=2,3,\cdots)$, 求$\sum\limits_{n=1}^{\infty}a_nx^{n-1}$的收敛半径, 并求其和函数.
+\item 设$f(x)$是$[a,+\infty)$上的一致连续函数, 且$\displaystyle{\int_{a}^{+\infty}f(x)\mathrm{d}x}$收敛.求证:$$\lim\limits_{x\rightarrow +\infty}f(x)=0$$
+\item 求证: $\displaystyle{\int_{0}^{1}x^{-x}\mathrm{d}x=\sum\limits_{n=1}^{\infty}n^{-n}}$.
+	\item 设$\rho(t)$是实轴上的连续函数, 满足
+	\begin{table}[H]
+		\begin{tabular}{lll}
+			(1)\ 当$|t|\ge 1$时, $\rho(t)=0$;\qquad \qquad & (2)\ $\displaystyle{\int_{-\infty}^{+\infty}\rho(t)\mathrm{d}t}=0$;\qquad \qquad & (3)\ $\displaystyle{\int_{-\infty}^{+\infty}t\rho(t)\mathrm{d}t=1}$
+		\end{tabular}
+	\end{table}
+又设$f(t)$在$(-\infty,+\infty)$上可微, 求证:
+$$ \displaystyle{\lim\limits_{\lambda\rightarrow0^+}\int_{-\infty}^{+\infty}\frac{1}{\lambda^2}\rho(\frac{t-x}{\lambda})f(t)\mathrm{d}t=f'(x).}$$
+	\item 求证: $z=x^n\phi(\frac{y}{x})-x^{-n}\psi(\frac{y}{x})$满足方程$$x^2\frac{\partial^2 z}{\partial x^2} +2xy\frac{\partial^2 z}{\partial x\partial y} +y^2\frac{\partial^2z}{\partial y^2}+x\frac{\partial z}{\partial x}+y\frac{\partial z}{\partial y} = n^2z.$$
+\item 求$\displaystyle{\iiiint\limits_{x^2+y^2+z^2\le x^2\le 1}\frac{1}{1+t^4}\mathrm{d}x\mathrm{d}y\mathrm{d}z\mathrm{d}t}$.
+\item 
+\begin{enumerate}
+	\item 计算积分$A=\int_{0}^{1}\int_{0}^{1}|xy-\frac{1}{4}|\mathrm{d}x\mathrm{d}y$;
+	\item 设$z=f(x,y)$在闭正方形$D:0\le x\le 1,0\le y\le 1$上连续, 且满足下列条件:
+	$$ \displaystyle{\iint\limits_{D}f(x,y)\mathrm{d}x\mathrm{d}y = 0,\ \iint\limits_{D}xyf(x,y)\mathrm{d}x\mathrm{d}y=1.}$$
+		求证: $\exists (\xi,\eta)\in D$使得$|f(\xi,\eta)\ge\frac{1}{A}|$.
+\item 设$y=f(x)$在$(-\infty,+\infty)$上有定义, 在任意有穷区间上有界并可积, 且\\ $\displaystyle{\int_{-\infty}^{+\infty}|f(x)|^2\mathrm{d}x
+<+\infty}$. 又设$a$是一实常数, $\frac{1}{2}<a<1$.求证: 积分
+$$\displaystyle{\int_{-\infty}^{+\infty}\frac{f(x)}{|x-t|^a}\mathrm{d}x}\ \ (\forall t\in(-\infty,+\infty))$$收敛, 且$\phi(t)\overset{\text{定义}}{=}\int_{-\infty}^{+\infty}\frac{f(x)}{|x-t|^a}\mathrm{d}x$在实轴上连续.
+\item 给定重积分$$\displaystyle{\iiint\limits_{D}\left[\frac{1}{yz}\frac{\partial F}{\partial x}+\frac{1}{xz}\frac{\partial F}{\partial y}+\frac{1}{xy}\frac{\partial F}{\partial z}\right]\mathrm{d}x\mathrm{d}y\mathrm{d}z}, $$
+其中$D={(x,y,z)|1\le yz\le 2,1\le xz\le 2,1\le xy\le 2}$, $F\in C^1(D)$. 试将积分做下面变换: $u=yz,v=xz,w=xy$. 要求变换后的积分中出现$u,v,w$和$F$关于$u,v,w$的偏导数.
+\item 设$0\le a\le 4$, 记$r=\sqrt{x^2+y^2+z^2}$, 求证:
+$$\displaystyle{\iiint_{R^3}\frac{|x|+|y|+|z|}{\mathrm{e}^{r^a}}-1\mathrm{d}x\mathrm{d}y\mathrm{d}z}$$
+收敛且其值为$6\pi\displaystyle{\int_{0}^{+\infty}\frac{\rho^3}{\mathrm{e}^{r^a}}-1\mathrm{d}\rho}$.
+\item 设$P(x,y),Q(x,y)$在全平面上有连续偏导数, 而且对以$\forall (x_0,y_0)\in \bm{R}^2$为中心, 以$\forall r>0$为半径的上半圆$C$:$$
+x=x_0+r\mathrm{cos}\theta,\ y=y_0+r\mathrm{sin}\theta\ (0\le \theta\le \pi),$$
+都有$$\displaystyle{\int_{C}P(x,y)\mathrm{d}x+Q(x,y)\mathrm{d}y=0}$$.
+求证: $P(x,y)=0,\frac{\partial Q}{\partial x}\equiv 0(\forall (x,y)\in \bm{R}^2)$.
+\end{enumerate}	
+\end{enumerate}

@@ -392,9 +392,45 @@ f(x,y,z)=\begin{cases}
 				$
 				\qquad +\displaystyle{\int_{0}^{1}t[yP(tx,ty,tz)-xQ(tx,ty,tz)]\mathrm{d}t\mathrm{d}z},$\\
 				
-			使$\mathrm{d}y=w$.
+			使$\mathrm{d}\eta=w$.
 	\end{enumerate}
-
 \end{enumerate}
 
+
 \section{场论}
+\centering{\textbf{练习题}}
+\begin{enumerate}
+	\item 设$u(x,y,z)\in C^2, f(t)\in C^2$. 求
+	\begin{table}[H]
+		\begin{tabular}{ll}
+		  \qquad	(1)\ $\mathrm{grad}f(u)$;\qquad \qquad \qquad \quad & (2)\ $\mathrm{div\ grad}f(u)$.
+		\end{tabular}
+	\end{table}
+\item $c$为常向量, $r=\sqrt{x^2+y^2+z^2}$, $f(r)$可微. 求
+	\begin{table}[H]
+		\begin{tabular}{ll}
+			(1)\ $\mathrm{div}$[$\mathrm{c}\times f(r)\bm{r}$];\qquad \qquad \qquad \qquad &(2)\ $\mathrm{rot}[\bm{c}\times f(r)\bm{r}]$.
+		\end{tabular}
+	\end{table}
+\item 证明: \qquad  (1)\ $\mathrm{rot}(\mathrm{grad}u)=0$;\qquad \qquad \qquad (2)\ $\mathrm{div}(\mathrm{rot}\bm{F})=0$.
+\item 设$u=u(x,y,z)$, 作柱坐标变换: $x=r\mathrm{cos}\theta,y=r\mathrm{sin}\theta,z=z$.令$\bm{e}_r,\bm{e}_\theta,\bm{e}_z=\bm{k}$为两两正交的单位向量. 证明
+$$\mathrm{grad}u = \frac{\partial u}{\partial r}\bm{e}_r +\frac{1}{r}\frac{\partial u}{\partial \theta}\bm{e}_\theta$$
+\item 设$u=u(x,y,z)$, 作球坐标变换: $x=r\mathrm{cos}\theta\mathrm{sin}\phi,y=r\mathrm{sin}\theta\mathrm{sin}\phi,z=r\mathrm{cos}\phi$. 令$\bm{e}_r,\bm{e}_\phi,\bm{e}_\theta$为两两正交的单位向量. 证明
+$$ \mathrm{grad}u=\frac{\partial u}{\partial r}\bm{e}_r+\frac{1}{r}\frac{\partial u}{\partial \phi}\bm{e}_\phi+\frac{1}{r\mathrm{sin}\phi}\frac{\partial u}{\partial \theta}\bm{e}_\theta$$
+\item 设物体$\Omega$以一定角速度$w$绕轴$\bm{l}=(\mathrm{cos}\alpha,\mathrm{cos}\beta,\mathrm{cos}\gamma)$旋转.
+\begin{enumerate}
+	\item 求物体$\Omega$上各点的速度, 即求速度场$\bm{v}$;
+	\item 求$\mathrm{rot}\bm{v}$.
+\end{enumerate}
+\item 证明: 场$\bm{F}=yz(2x+y+z)\bm{i}+xz(x+2y+z)\bm{j}+xy(x+y+2z)\bm{k}$是保守场, 并求势函数.
+	\item 设$f(x,y,z)$是一次齐次函数, $\bm{F}=\frac{1}{4}f(x,y,z)\bm{r}$.试证:
+	$$\mathrm{div}\bm{F}=f(x,y,z)$$
+\item 设$\bm{R}^3$空间有一变换$T: x_i=x_i(p_1,p_2,p_3)\ (i=1,2,3)$, 或记作$\bm{x}=T(\bm{p})$.又设向量$\frac{\partial \bm{x}}{\partial p_1},\frac{\partial \bm{x}}{\partial p_2},\frac{\partial \bm{x}}{\partial p_3}$两两相互正交, 记$H_i=|\frac{\partial \bm{x}}{\partial p_i}|\ (i=1,2,3)$单位向量$\bm{e}_i=\frac{1}{H_i}\frac{\partial \bm{x}}{\partial p_i}\ (i=1,2,3)$.又$\bm{F}=F_1\bm{e}_1+F_2\bm{e}_2+F_3\bm{e}_3$.则有$$
+\mathrm{div}\bm{F}=\frac{1}{H_1H_2H_3}\sum\limits_{i=1}^{3}\frac{\partial }{\partial p_i}(F_i\frac{H_1H_2H_3}{H_i}).$$
+试利用此公式求下列各式:
+\begin{enumerate}
+	\item 在空间柱坐标系, 求$\mathrm{div}\ \mathrm{grad}u(r,\theta,z)$;
+	\item 在空间极坐标系, 求$\mathrm{div}\ \mathrm{grad}u(r,\theta)$
+	\item 在空间球坐标系, 求$\mathrm{div}\ \mathrm{grad}u(r,\alpha,\theta)$.
+\end{enumerate} 
+\end{enumerate}
