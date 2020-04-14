@@ -1,40 +1,33 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  14 APR 2020 09:33
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  14 APR 2020 17:26
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Physics.tex
+**Physics
 (./Physics.tex
 LaTeX2e <2018-12-01>
 (./elegantbook.cls
 Document Class: elegantbook 2020/01/17 v3.10 ElegantBook document class
 (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-))))
-(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)))) (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count80
-)
-(c:/texlive/2019/texmf-dist/tex/latex/base/book.cls
+) (c:/texlive/2019/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
 (c:/texlive/2019/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
@@ -51,18 +44,14 @@ File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count90
@@ -77,32 +66,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/comment/comment.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
-
-Excluding comment 'comment')
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+ Excluding comment 'comment') (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen111
-))
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen112
-)
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count93
@@ -142,26 +124,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-)
-(c:/texlive/2019/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
-)
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/ctex.sty
-(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-04-06 L3 programming layer (loader) 
-
-(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+ (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2019-04-06 L3 programming layer (code)
 \c_max_int=\count105
 \l_tmpa_int=\count106
@@ -309,37 +285,29 @@ Package: expl3 2019-04-06 L3 programming layer (code)
 \l__seq_internal_a_int=\count185
 \l__seq_internal_b_int=\count186
 \c__deprecation_minus_one=\count187
-)
-(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+) (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
 File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count188
 \g__driver_pdf_object_int=\count189
 ))
 Package: ctex 2019/04/07 v2.4.15 Chinese adapter in LaTeX (CTEX)
-
-(c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2019-03-05 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count190
 \g__xparse_grabber_int=\count191
 \l__xparse_m_args_int=\count192
 \l__xparse_v_nesting_int=\count193
-)
-(c:/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2019-03-05 LaTeX2e option processing using LaTeX3 keys
-)
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/ctexhook.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2019/04/07 v2.4.15 Document and package hooks (CTEX)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/ctexpatch.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2019/04/07 v2.4.15 Patching commands (CTEX)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-))
-(c:/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \l__ctex_tmp_int=\count194
@@ -347,17 +315,13 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \l__ctex_tmp_dim=\dimen152
 \g__ctex_section_depth_int=\count195
 \g__ctex_font_size_int=\count196
-
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+ (c:/texlive/2019/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2019/04/07 v2.4.15 Option configuration file (CTEX)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2019/04/07 v2.4.15 XeLaTeX adapter (CTEX)
-
-(c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2019/04/07 v3.7.2 Typesetting CJK scripts with XeLaTeX
-
-(c:/texlive/2019/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2019-03-05 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen153
 \l__xtemplate_tmp_int=\count197
@@ -422,13 +386,10 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count273
 \l__xeCJK_verb_case_int=\count274
 \l__xeCJK_verb_exspace_skip=\skip58
-
-(c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
-
-(c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
-X
+ (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count275
 \l__fontspec_language_int=\count276
 \l__fontspec_strnum_int=\count277
@@ -443,29 +404,23 @@ X
 \l__fontspec_tmpa_dim=\dimen182
 \l__fontspec_tmpb_dim=\dimen183
 \l__fontspec_tmpc_dim=\dimen184
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+ (c:/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+)) (c:/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)
 LaTeX Info: Redefining \itshape on input line 4051.
 LaTeX Info: Redefining \slshape on input line 4056.
 LaTeX Info: Redefining \scshape on input line 4061.
 LaTeX Info: Redefining \upshape on input line 4066.
 LaTeX Info: Redefining \em on input line 4096.
 LaTeX Info: Redefining \emph on input line 4121.
-))
-(c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+)) (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2019/04/07 v3.7.2 Configuration file for xeCJK package
-))
-(c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+)) (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
 Package: xeCJKfntef 2019/04/07 v3.7.2 xeCJK font effect
-
-(c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box49
 \UL@hyphenbox=\box50
 \UL@skip=\skip59
@@ -476,8 +431,7 @@ Package: xeCJKfntef 2019/04/07 v3.7.2 xeCJK font effect
 \ULC@box=\box51
 Package: ulem 2012/05/18
 \ULdepth=\dimen187
-)
-(c:/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
 Package: CJKfntef 2015/04/18 4.8.4
 \CJK@fntefSkip=\skip60
 \CJK@nest=\count287
@@ -497,24 +451,17 @@ Package: CJKfntef 2015/04/18 4.8.4
 \l__ctex_ccglue_skip=\skip63
 )
 \l__ctex_ziju_dim=\dimen192
-
-(c:/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count288
-
-(c:/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+ (c:/texlive/2019/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
-))
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-plain.def
+)) (c:/texlive/2019/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-plain.def
 File: ctex-scheme-plain.def 2019/04/07 v2.4.15 Plain scheme for generic (CTEX)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
-File: ctex-fontset-windows.def 2019/04/07 v2.4.15 Windows fonts definition (CTE
-X)
-
-(c:/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
-File: ctex-fontset-windowsnew.def 2019/04/07 v2.4.15 Windows fonts definition f
-or Vista or later version (CTEX)
+) (c:/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2019/04/07 v2.4.15 Windows fonts definition (CTEX)
+ (c:/texlive/2019/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+File: ctex-fontset-windowsnew.def 2019/04/07 v2.4.15 Windows fonts definition for Vista or later version (CTEX)
 
 Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
 (fontspec)             exist).
@@ -547,12 +494,9 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 
 ))) (c:/texlive/2019/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2019/04/07 v2.4.15 Configuration file (CTEX)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/newtx/newtxtext.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/newtx/newtxtext.sty
 Package: newtxtext 2018/03/27 v1.531
-
-`newtxtext' v1.531, 2018/03/27 Text macros taking advantage of TeX-Gyre Termes 
-fonts (msharpe) (c:/texlive/2019/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+ `newtxtext' v1.531, 2018/03/27 Text macros taking advantage of TeX-Gyre Termes fonts (msharpe) (c:/texlive/2019/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -560,31 +504,24 @@ LaTeX Info: Redefining \slshape on input line 33.
 LaTeX Info: Redefining \scshape on input line 37.
 )
 \ntx@fs=\dimen193
-
-(c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks22
 \XKV@tempa@toks=\toks23
 )
 \XKV@depth=\count289
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+ (c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
-
-(c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
+ (c:/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-(c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -599,8 +536,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 )
@@ -629,7 +565,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -667,21 +602,17 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
 Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
-)
-(c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 225.
-
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -697,19 +628,16 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \version=\toks25
 \institute=\toks26
 \subtitle=\toks27
-
-(c:/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip64
 \bibsep=\skip65
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count290
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
-)
-(c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip66
 \enit@outerparindent=\dimen194
@@ -717,11 +645,9 @@ Package: enumitem 2019/02/04 v3.8 Customized lists
 \enit@inbox=\box57
 \enit@count@id=\count291
 \enitdp@description=\count292
-)
-(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-
-(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen195
@@ -734,25 +660,20 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 )
 \c@caption@flags=\count293
 \c@ContinuedFloat=\count294
-)
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 99.
 )
 \Gin@req@height=\dimen258
 \Gin@req@width=\dimen259
-)
-(c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen260
 \lightrulewidth=\dimen261
@@ -771,8 +692,7 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@thisruleclass=\count297
 \@lastruleclass=\count298
 \@thisrulewidth=\dimen272
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count299
 \mult@box=\box58
@@ -820,29 +740,24 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \mult@nat@firstbox=\box82
 \colbreak@box=\box83
 \mc@col@check@num=\count307
-)
-(c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@colwidth=\skip69
 \multirow@cntb=\count308
 \multirow@dima=\skip70
 \bigstrutjot=\dimen282
-)
-(c:/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2019/01/15
-
-Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+ Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
 \FV@CodeLineNo=\count309
 \FV@InFile=\read2
 \FV@TabBox=\box84
 \c@FancyVerbLine=\count310
 \FV@StepNumber=\count311
 \FV@OutFile=\write4
-)
-(c:/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen283
 \ar@mcellbox=\box85
@@ -855,73 +770,48 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \rotheadsize=\dimen285
 \c@nlinenum=\count312
 \TeXr@lab=\toks31
-)
-(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
-
-(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+ (c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-))
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hologo.sty
+)) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hologo.sty
 Package: hologo 2017/05/01 v1.13 A logo collection with bookmark support (HO)
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(c:/texlive/2019/texmf-dist/tex/latex/gbt7714/gbt7714.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/gbt7714/gbt7714.sty
 Package: gbt7714 2019/03/21 v1.1.1 GB/T 7714-2015 BibTeX Style
-
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/xpatch/xpatch.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
-)
-(c:/texlive/2019/texmf-dist/tex/latex/pgfornament/pgfornament.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (c:/texlive/2019/texmf-dist/tex/latex/pgfornament/pgfornament.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks32
 \pgfutil@tempdima=\dimen286
 \pgfutil@tempdimb=\dimen287
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
-) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box87
-
-(c:/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
 Package: pgf 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks33
 \pgfkeys@temptoks=\toks34
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks35
 ))
 \pgf@x=\dimen288
@@ -946,60 +836,32 @@ Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
 Driver file for pgf: pgfsys-xetex.def
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
 File: pgfsys-xetex.def 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )
 \pgfsys@objnum=\count318
-)))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfsyssoftpath@smallbuffer@items=\count319
 \pgfsyssoftpath@bigbuffer@items=\count320
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen296
 \pgfmath@count=\count321
 \pgfmath@box=\box88
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
 \pgfmath@stack@operation=\toks41
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
-x)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
-.code.tex)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
-ex)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
-de.tex)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
-x)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
-etics.code.tex)))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count322
-))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen297
 \pgf@picmaxx=\dimen298
@@ -1015,111 +877,75 @@ File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@yy=\dimen308
 \pgf@zx=\dimen309
 \pgf@zy=\dimen310
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
-e.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@path@lastx=\dimen311
 \pgf@path@lasty=\dimen312
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
-x
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@shorten@end@additional=\dimen313
 \pgf@shorten@start@additional=\dimen314
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box89
 \pgf@hbox=\box90
 \pgf@layerbox@main=\box91
 \pgf@picture@serial@count=\count323
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
-.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgflinewidth=\dimen315
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
-ode.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@pt@x=\dimen316
 \pgf@pt@y=\dimen317
 \pgf@pt@temp=\dimen318
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
-de.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfarrowsep=\dimen319
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen320
 \pgf@sys@shading@range@num=\count324
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfexternal@startupbox=\box92
-))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
-.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (c:/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
-x
+))) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodeparttextbox=\box93
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
-y
+) (c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
 \pgf@nodesepstart=\dimen321
 \pgf@nodesepend=\dimen322
-)
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
-y
+) (c:/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
-)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(c:/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen323
 \pgffor@skip=\dimen324
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
-))
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
-de.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@plot@mark@count=\count325
 \pgfplotmarksize=\dimen325
@@ -1138,57 +964,39 @@ File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikznumberofchildren=\count327
 \tikznumberofcurrentchild=\count328
 \tikz@fig@count=\count329
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfmatrixcurrentrow=\count330
 \pgfmatrixcurrentcolumn=\count331
 \pgf@matrix@numberofcolumns=\count332
 )
 \tikz@expandcount=\count333
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarytopaths.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)))
-(c:/texlive/2019/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+))) (c:/texlive/2019/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks44
 \pgfopts@list@add@b@toks=\toks45
 )
 Package: pgfornament 2016/03/05 v0.21 vector ornaments
 
-(c:/texlive/2019/texmf-dist/tex/latex/pgfornament/pgflibraryvectorian.code.tex)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarybackgrounds.code.tex
+(c:/texlive/2019/texmf-dist/tex/latex/pgfornament/pgflibraryvectorian.code.tex)) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@layerbox@background=\box98
 \pgf@layerboxsaved@background=\box99
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarycalc.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryshadows.code.tex
+) (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryfadings.code.tex
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.te
-x
+ (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))) (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1202,8 +1010,7 @@ Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -1215,25 +1022,21 @@ Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen332
 \Hy@linkcounter=\count334
 \Hy@pagecounter=\count335
-
-(c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count336
-
-(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4393.
-
-(c:/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4519.
@@ -1263,37 +1066,30 @@ LaTeX Info: Redefining \pageref on input line 6454.
 \c@Hfootnote=\count341
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-
-(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
 )
 \pdfm@box=\box100
 \c@Hy@AnnotLevel=\count342
 \HyField@AnnotCount=\count343
 \Fld@listcount=\count344
 \c@bookmark@seq@number=\count345
-
-(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip73
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 401.
 Package hyperref Info: Option `unicode' set `true' on input line 401.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 401.
-
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 401.
 Package hyperref Info: Option `colorlinks' set `true' on input line 401.
 Package hyperref Info: Option `plainpages' set `false' on input line 401.
 Package hyperref Info: Option `linktocpage' set `true' on input line 401.
-
-(c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box101
 \beforetitleunit=\skip74
@@ -1304,51 +1100,39 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen338
 \titlewidthlast=\dimen339
 \titlewidthfirst=\dimen340
-
-(c:/texlive/2019/texmf-dist/tex/latex/titlesec/ttlps.def
+ (c:/texlive/2019/texmf-dist/tex/latex/titlesec/ttlps.def
 File: ttlps.def 2016/03/15
-))
-(c:/texlive/2019/texmf-dist/tex/latex/apptools/apptools.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/apptools/apptools.sty
 Package: apptools 2012/11/28 v1.0 Tools for customizing appendices
-)
-(c:/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count346
 \c@@ppsavesec=\count347
 \c@@ppsaveapp=\count348
-)
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
-
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
-
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/manfnt/manfnt.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/manfnt/manfnt.sty
 Package: manfnt 1999/07/010.2LaTeX2e manfnt package
 \dbend@height=\skip76
-)
-(c:/texlive/2019/texmf-dist/tex/latex/bbding/bbding.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/bbding/bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2019/03/02 version 4.20 text color boxes
-
-(c:/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks47
 \verbatim@line=\toks48
 \verbatim@in@stream=\read4
-)
-(c:/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \tcb@titlebox=\box102
@@ -1364,8 +1148,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box109
 \tcb@out=\write6
 \tcb@record@out=\write7
-
-(c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+ (c:/texlive/2019/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '4.20'
 \c@tcbrastercolumn=\count352
 \c@tcbrasterrow=\count353
@@ -1405,13 +1188,9 @@ Library (tcolorbox): 'tcbxparse.code.tex' version '4.20'
 \c@prob=\count365
  (c:/texlive/2019/texmf-dist/tex/latex/adforn/adforn.sty
 Package: adforn 2010/07/25 v1.0 adforn CFR
-LaTeX Font Info:    Try loading font information for U+OrnementsADF on input li
-ne 4.
-
-(c:/texlive/2019/texmf-dist/tex/latex/adforn/uornementsadf.fd))
-(c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+LaTeX Font Info:    Try loading font information for U+OrnementsADF on input line 4.
+ (c:/texlive/2019/texmf-dist/tex/latex/adforn/uornementsadf.fd)) (c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@headwidth=\skip77
 \f@nch@O@elh=\skip78
 \f@nch@O@erh=\skip79
@@ -1421,8 +1200,7 @@ s
 \f@nch@O@erf=\skip83
 \f@nch@O@olf=\skip84
 \f@nch@O@orf=\skip85
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count366
 \lst@gtempboxa=\box114
 \lst@token=\toks49
@@ -1435,67 +1213,50 @@ s
 \lst@newlines=\count370
 \lst@lineno=\count371
 \lst@maxwidth=\dimen347
-
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \c@lstnumber=\count372
 \lst@skipnumbers=\count373
 \lst@framebox=\box115
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
-
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Info: Redefining \bm on input line 207.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+)) (c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count374
 \float@exts=\toks50
 \float@box=\box116
 \@float@everytoks=\toks51
 \@floatcapt=\box117
-)
-(c:/texlive/2019/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/wallpaper/wallpaper.sty
 Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count375
 \calc@Bcount=\count376
@@ -1507,8 +1268,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count377
 \calc@Cskip=\skip88
-)
-(c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
 \wpXoffset=\skip89
@@ -1519,16 +1279,13 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 \tileheight=\skip94
 \tileX=\skip95
 \tileY=\skip96
-)
-(c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+) (c:/texlive/2019/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count378
 \l__xeCJK_listings_flag_int=\count379
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 33
-.
-
-(c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 33.
+ (c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1600,8 +1357,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-(c:/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks52
 \footnotemargin=\dimen350
@@ -1610,19 +1366,14 @@ Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
-.
-)
-ABD: EveryShipout initializing macros
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box118
 Package hyperref Info: Link coloring ON on input line 33.
-
-(c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+ (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count383
@@ -1630,8 +1381,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
-
-(./Physics.out) (./Physics.out)
+ (./Physics.out) (./Physics.out)
 \@outlinefile=\write8
 \openout8 = `Physics.out'.
 
@@ -1680,18 +1430,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 34.
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 34.
-
-(c:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (c:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 34.
-
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 34.
-
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
@@ -1734,9 +1481,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 35.
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-(./Physics.toc)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./Physics.toc)
 \tf@toc=\write9
 \openout9 = `Physics.toc'.
 
@@ -1749,10 +1494,8 @@ File: picture/ctanlion.pdf Graphic file (type pdf)
 ]
 第 1\tmspace +\thinmuskip {.1667em}章 1.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 4
-.
-
-(c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 4.
+ (c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
@@ -1772,7 +1515,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 ) (./chapter/chap1.tex
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-[2
+ [2
 
 ]
 第 2\tmspace +\thinmuskip {.1667em}章 2.
@@ -1785,36 +1528,27 @@ File: ./figure/fig2.jpg Graphic file (type bmp)
 <./figure/fig2.jpg>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[3
+ [3
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 52.
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[4]
+ [4]
 File: ./figure/fig2.jpg Graphic file (type bmp)
 <./figure/fig2.jpg>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[5]
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ [5] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[6]) (./chapter/chap2.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ [6]) (./chapter/chap2.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[7]
+ [7]
 第 3\tmspace +\thinmuskip {.1667em}章 3.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig3.png Graphic file (type bmp)
@@ -1831,8 +1565,7 @@ File: ./figure/fig6.png Graphic file (type bmp)
 <./figure/fig6.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[8
+ [8
 
 ]
 File: ./figure/fig7.png Graphic file (type bmp)
@@ -1841,22 +1574,18 @@ File: ./figure/fig8.png Graphic file (type bmp)
 <./figure/fig8.png>
 File: ./figure/fig9.png Graphic file (type bmp)
 <./figure/fig9.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[9]
+ [9]
 File: ./figure/fig10.png Graphic file (type bmp)
 <./figure/fig10.png>
 File: ./figure/fig11.png Graphic file (type bmp)
 <./figure/fig11.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[10]
+ [10]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 98.
 File: ./figure/fig3.png Graphic file (type bmp)
@@ -1870,12 +1599,10 @@ Missing character: There is no μ in font cmmi10!
 Missing character: There is no ′ in font cmr10!
 File: ./figure/fig6.png Graphic file (type bmp)
 <./figure/fig6.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[11]
+ [11]
 File: ./figure/fig7.png Graphic file (type bmp)
 <./figure/fig7.png>
 File: ./figure/ans2.png Graphic file (type bmp)
@@ -1884,12 +1611,10 @@ File: ./figure/ans1.png Graphic file (type bmp)
 <./figure/ans1.png>
 File: ./figure/fig8.png Graphic file (type bmp)
 <./figure/fig8.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[12]
+ [12]
 File: ./figure/ans3.png Graphic file (type bmp)
 <./figure/ans3.png>
 File: ./figure/fig9.png Graphic file (type bmp)
@@ -1898,32 +1623,26 @@ File: ./figure/ans4.png Graphic file (type bmp)
 <./figure/ans4.png>
 File: ./figure/ans5.png Graphic file (type bmp)
 <./figure/ans5.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[13]
+ [13]
 File: ./figure/fig10.png Graphic file (type bmp)
 <./figure/fig10.png>
 File: ./figure/ans6.png Graphic file (type bmp)
 <./figure/ans6.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[14]
+ [14]
 File: ./figure/fig11.png Graphic file (type bmp)
 <./figure/fig11.png>
 File: ./figure/ans7.png Graphic file (type bmp)
 <./figure/ans7.png>
-) (./chapter/chap3.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/chap3.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[15]
+ [15]
 第 4\tmspace +\thinmuskip {.1667em}章 4.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 Missing character: There is no μ in font cmmi10!
@@ -1935,8 +1654,7 @@ File: ./figure/fig14.png Graphic file (type bmp)
 <./figure/fig14.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[16
+ [16
 
 ]
 File: ./figure/fig15.png Graphic file (type bmp)
@@ -1949,12 +1667,10 @@ File: ./figure/fig17.png Graphic file (type bmp)
 <./figure/fig17.png>
 File: ./figure/fig18.png Graphic file (type bmp)
 <./figure/fig18.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[17]
+ [17]
 Missing character: There is no μ in font cmmi10!
 File: ./figure/fig12.png Graphic file (type bmp)
 <./figure/fig12.png>
@@ -1962,12 +1678,10 @@ File: ./figure/fig13.png Graphic file (type bmp)
 <./figure/fig13.png>
 File: ./figure/fig14.png Graphic file (type bmp)
 <./figure/fig14.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[18]
+ [18]
 File: ./figure/ans8.png Graphic file (type bmp)
 <./figure/ans8.png>
 File: ./figure/ans9.png Graphic file (type bmp)
@@ -1976,12 +1690,10 @@ File: ./figure/fig15.png Graphic file (type bmp)
 <./figure/fig15.png>
 File: ./figure/ans10.png Graphic file (type bmp)
 <./figure/ans10.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[19]
+ [19]
 File: ./figure/fig16.png Graphic file (type bmp)
 <./figure/fig16.png>
 File: ./figure/ans12.png Graphic file (type bmp)
@@ -1990,24 +1702,20 @@ File: ./figure/fig17.png Graphic file (type bmp)
 <./figure/fig17.png>
 File: ./figure/ans11.png Graphic file (type bmp)
 <./figure/ans11.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[20]
+ [20]
 File: ./figure/fig18.png Graphic file (type bmp)
 <./figure/fig18.png>
 File: ./figure/ans13.png Graphic file (type bmp)
 <./figure/ans13.png>
 File: ./figure/ans14.png Graphic file (type bmp)
 <./figure/ans14.png>
-) (./chapter/chap4.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/chap4.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[21]
+ [21]
 第 5\tmspace +\thinmuskip {.1667em}章 5.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig19.png Graphic file (type bmp)
@@ -2016,39 +1724,32 @@ File: ./figure/fig20.png Graphic file (type bmp)
 <./figure/fig20.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[22
+ [22
 
 ]
 File: ./figure/fig21.png Graphic file (type bmp)
 <./figure/fig21.png>
 File: ./figure/fig22.png Graphic file (type bmp)
 <./figure/fig22.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[23]
+ [23]
 Missing character: There is no ＝ in font cmr10!
 File: ./figure/fig23.png Graphic file (type bmp)
 <./figure/fig23.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[24]
+ [24]
 File: ./figure/fig24.png Graphic file (type bmp)
 <./figure/fig24.png>
 File: ./figure/fig25.png Graphic file (type bmp)
 <./figure/fig25.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[25]
+ [25]
 Missing character: There is no ＝ in font cmr10!
 Missing character: There is no · in font cmr10!
 Missing character: There is no ＝ in font cmr10!
@@ -2058,51 +1759,41 @@ File: ./figure/fig26.png Graphic file (type bmp)
 <./figure/fig26.png>
 File: ./figure/fig27.png Graphic file (type bmp)
 <./figure/fig27.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[26]
+ [26]
 File: ./figure/fig19.png Graphic file (type bmp)
 <./figure/fig19.png>
 File: ./figure/fig20.png Graphic file (type bmp)
 <./figure/fig20.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[27]
+ [27]
 File: ./figure/fig21.png Graphic file (type bmp)
 <./figure/fig21.png>
 File: ./figure/fig22.png Graphic file (type bmp)
 <./figure/fig22.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[28]
+ [28]
 Missing character: There is no ＝ in font cmr10!
 File: ./figure/ans15.png Graphic file (type bmp)
 <./figure/ans15.png>
 File: ./figure/fig23.png Graphic file (type bmp)
 <./figure/fig23.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[29]
+ [29]
 File: ./figure/fig24.png Graphic file (type bmp)
 <./figure/fig24.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[30]
+ [30]
 File: ./figure/fig25.png Graphic file (type bmp)
 <./figure/fig25.png>
 File: ./figure/ans16.png Graphic file (type bmp)
@@ -2110,34 +1801,28 @@ File: ./figure/ans16.png Graphic file (type bmp)
 Missing character: There is no ＝ in font cmr10!
 Missing character: There is no · in font cmr10!
 Missing character: There is no ＝ in font cmr10!
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[31]
+ [31]
 File: ./figure/fig28.png Graphic file (type bmp)
 <./figure/fig28.png>
 File: ./figure/fig26.png Graphic file (type bmp)
 <./figure/fig26.png>
 File: ./figure/ans17.png Graphic file (type bmp)
 <./figure/ans17.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[32]
+ [32]
 File: ./figure/fig27.png Graphic file (type bmp)
 <./figure/fig27.png>
 File: ./figure/ans18.png Graphic file (type bmp)
 <./figure/ans18.png>
-) (./chapter/chap5.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/chap5.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[33]
+ [33]
 第 6\tmspace +\thinmuskip {.1667em}章 6.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig29.png Graphic file (type bmp)
@@ -2146,8 +1831,7 @@ File: ./figure/fig30.png Graphic file (type bmp)
 <./figure/fig30.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[34
+ [34
 
 ]
 File: ./figure/fig31.png Graphic file (type bmp)
@@ -2156,54 +1840,44 @@ File: ./figure/fig32.png Graphic file (type bmp)
 <./figure/fig32.png>
 File: ./figure/fig33.png Graphic file (type bmp)
 <./figure/fig33.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[35]
+ [35]
 File: ./figure/fig29.png Graphic file (type bmp)
 <./figure/fig29.png>
 File: ./figure/ans19.png Graphic file (type bmp)
 <./figure/ans19.png>
 File: ./figure/fig30.png Graphic file (type bmp)
 <./figure/fig30.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[36]
+ [36]
 File: ./figure/ans20.png Graphic file (type bmp)
 <./figure/ans20.png>
 File: ./figure/ans21.png Graphic file (type bmp)
 <./figure/ans21.png>
 File: ./figure/fig31.png Graphic file (type bmp)
 <./figure/fig31.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[37]
+ [37]
 File: ./figure/ans22.png Graphic file (type bmp)
 <./figure/ans22.png>
 File: ./figure/fig32.png Graphic file (type bmp)
 <./figure/fig32.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[38]
+ [38]
 File: ./figure/fig33.png Graphic file (type bmp)
 <./figure/fig33.png>
-) (./chapter/chap6.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/chap6.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[39]
+ [39]
 第 7\tmspace +\thinmuskip {.1667em}章 7.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig34.png Graphic file (type bmp)
@@ -2216,8 +1890,7 @@ File: ./figure/fig36.png Graphic file (type bmp)
 <./figure/fig36.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[40
+ [40
 
 ]
 Missing character: There is no · in font cmr10!
@@ -2227,32 +1900,26 @@ File: ./figure/fig38.png Graphic file (type bmp)
 <./figure/fig38.png>
 File: ./figure/fig39.png Graphic file (type bmp)
 <./figure/fig39.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[41]
+ [41]
 File: ./figure/fig40.png Graphic file (type bmp)
 <./figure/fig40.png>
 File: ./figure/fig41.png Graphic file (type bmp)
 <./figure/fig41.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[42]
+ [42]
 File: ./figure/fig34.png Graphic file (type bmp)
 <./figure/fig34.png>
 File: ./figure/fig35.png Graphic file (type bmp)
 <./figure/fig35.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[43]
+ [43]
 Missing character: There is no 、 in font cmr10!
 Missing character: There is no 、 in font cmr10!
 File: ./figure/fig36.png Graphic file (type bmp)
@@ -2260,41 +1927,33 @@ File: ./figure/fig36.png Graphic file (type bmp)
 Missing character: There is no · in font cmr10!
 File: ./figure/fig37.png Graphic file (type bmp)
 <./figure/fig37.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[44]
+ [44]
 File: ./figure/fig38.png Graphic file (type bmp)
 <./figure/fig38.png>
 File: ./figure/fig39.png Graphic file (type bmp)
 <./figure/fig39.png>
 File: ./figure/fig40.png Graphic file (type bmp)
 <./figure/fig40.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[45]
+ [45]
 File: ./figure/ans23.png Graphic file (type bmp)
 <./figure/ans23.png>
 File: ./figure/fig41.png Graphic file (type bmp)
 <./figure/fig41.png>
 File: ./figure/ans24.png Graphic file (type bmp)
 <./figure/ans24.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[46]) (./chapter/chap7.tex
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ [46]) (./chapter/chap7.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[47]
+ [47]
 第 8\tmspace +\thinmuskip {.1667em}章 8.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig42.png Graphic file (type bmp)
@@ -2305,8 +1964,7 @@ File: ./figure/fig44.png Graphic file (type bmp)
 <./figure/fig44.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[48
+ [48
 
 ]
 File: ./figure/fig45.png Graphic file (type bmp)
@@ -2315,49 +1973,39 @@ File: ./figure/fig42.png Graphic file (type bmp)
 <./figure/fig42.png>
 File: ./figure/ans25.png Graphic file (type bmp)
 <./figure/ans25.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[49]
+ [49]
 File: ./figure/fig43.png Graphic file (type bmp)
 <./figure/fig43.png>
 File: ./figure/ans26.png Graphic file (type bmp)
 <./figure/ans26.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[50]
+ [50]
 File: ./figure/fig44.png Graphic file (type bmp)
 <./figure/fig44.png>
 File: ./figure/ans27.png Graphic file (type bmp)
 <./figure/ans27.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[51]
+ [51]
 File: ./figure/fig45.png Graphic file (type bmp)
 <./figure/fig45.png>
 File: ./figure/ans28.png Graphic file (type bmp)
 <./figure/ans28.png>
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[52])
+ [52])
 Package hyperref Info: Option `pageanchor' set `true' on input line 44.
-
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
-
-[53]
+ [53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./Physics.aux)
@@ -2373,6 +2021,6 @@ Here is how much of TeX's memory you used:
  49422 multiletter control sequences out of 15000+600000
  574845 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,18n,124p,2588b,1481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,18n,124p,2584b,1481s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Physics.pdf (54 pages).
