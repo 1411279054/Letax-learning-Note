@@ -1,0 +1,45 @@
+\documentclass[cn,11pt,fancy,cyan]{elegantbook}
+\title{大学物理复习题}
+\subtitle{物理复习题}
+\author{CharlesLC}
+\institute{JXUST}
+\date{\today}
+\version{(期中版本)1.00}
+\extrainfo{"I think, therefore I am !"--- Descartes}
+\logo{lion.pdf}
+\cover{cover2.jpg}
+
+\usepackage{float}
+
+\linespread{1.3}%1.3倍行距
+\newcommand{\nl}{\underline{\makebox[4em]{}}}
+\newcommand{\anl}[1]{\underline{\makebox[7em]{~#1}}}
+\newcommand{\bnl}[1]{\underline{\makebox[4em]{~#1}}}
+\newcommand{\fourch}[4]{\\\begin{tabular}{*{4}{@{}p{3.25cm}}}(A)~#1 & (B)~#2 & (C)~#3 & (D)~#4\end{tabular}} % 一行
+\newcommand{\twoch}[4]{\\\begin{tabular}{*{2}{@{}p{6cm}}}(A)~#1 & (B)~#2\end{tabular}\\\begin{tabular}{*{2}{@{}p{6cm}}}(C)~#3 & (D)~#4\end{tabular}}  %两行
+\newcommand{\onech}[4]{\\(A)~#1 \\ (B)~#2 \\ (C)~#3 \\ (D)~#4}  % 四行
+\usepackage{wallpaper}
+\renewcommand{\CenterWallPaper}[2]{%
+	\AddToShipoutPicture{\put(\LenToUnit{\wpXoffset},\LenToUnit{\wpYoffset}){%
+			\parbox[b][\paperheight]{\paperwidth}{%
+				\vfill
+				\centering
+				\tikz[opacity=0.075] \node[inner sep=0pt] {\includegraphics[angle=0,width=#1\paperwidth,height=#1\paperheight,keepaspectratio]{#2}};%
+				\vfill
+		}}
+	}
+} 
+\CenterWallPaper{1}{picture/ctanlion.pdf}
+\begin{document}
+	\maketitle
+    \tableofcontents
+    \input{chapter/chap0.tex}
+    \input{chapter/chap1.tex}
+    \input{chapter/chap2.tex}
+    \input{chapter/chap3.tex}
+    \input{chapter/chap4.tex}
+    \input{chapter/chap5.tex}
+    \input{chapter/chap6.tex}
+    \input{chapter/chap7.tex}
+    \hypersetup{pageanchor=true}
+\end{document}
