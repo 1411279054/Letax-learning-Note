@@ -20,3 +20,7 @@
 \contentsline {chapter}{\numberline {8}刚体力学习题课}{48}{chapter.8}% 
 \contentsline {section}{\numberline {8.1}作业习题}{48}{section.8.1}% 
 \contentsline {section}{\numberline {8.2}习题参考答案}{49}{section.8.2}% 
+\contentsline {chapter}{\numberline {9}静电场}{54}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}作业习题}{54}{section.9.1}% 
+\contentsline {chapter}{\numberline {10}场强、电势习题课}{58}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}作业习题}{58}{section.10.1}% 

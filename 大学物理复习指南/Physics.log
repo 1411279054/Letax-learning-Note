@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  14 APR 2020 17:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  18 APR 2020 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1645,7 +1645,6 @@ File: picture/ctanlion.pdf Graphic file (type pdf)
  [15]
 第 4\tmspace +\thinmuskip {.1667em}章 4.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-Missing character: There is no μ in font cmmi10!
 File: ./figure/fig12.png Graphic file (type bmp)
 <./figure/fig12.png>
 File: ./figure/fig13.png Graphic file (type bmp)
@@ -1671,43 +1670,42 @@ File: ./figure/fig18.png Graphic file (type bmp)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [17]
-Missing character: There is no μ in font cmmi10!
 File: ./figure/fig12.png Graphic file (type bmp)
 <./figure/fig12.png>
 File: ./figure/fig13.png Graphic file (type bmp)
 <./figure/fig13.png>
 File: ./figure/fig14.png Graphic file (type bmp)
 <./figure/fig14.png>
+File: ./figure/ans8.png Graphic file (type bmp)
+<./figure/ans8.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [18]
-File: ./figure/ans8.png Graphic file (type bmp)
-<./figure/ans8.png>
 File: ./figure/ans9.png Graphic file (type bmp)
 <./figure/ans9.png>
 File: ./figure/fig15.png Graphic file (type bmp)
 <./figure/fig15.png>
 File: ./figure/ans10.png Graphic file (type bmp)
 <./figure/ans10.png>
+File: ./figure/fig16.png Graphic file (type bmp)
+<./figure/fig16.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [19]
-File: ./figure/fig16.png Graphic file (type bmp)
-<./figure/fig16.png>
 File: ./figure/ans12.png Graphic file (type bmp)
 <./figure/ans12.png>
 File: ./figure/fig17.png Graphic file (type bmp)
 <./figure/fig17.png>
 File: ./figure/ans11.png Graphic file (type bmp)
 <./figure/ans11.png>
+File: ./figure/fig18.png Graphic file (type bmp)
+<./figure/fig18.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [20]
-File: ./figure/fig18.png Graphic file (type bmp)
-<./figure/fig18.png>
 File: ./figure/ans13.png Graphic file (type bmp)
 <./figure/ans13.png>
 File: ./figure/ans14.png Graphic file (type bmp)
@@ -2000,27 +1998,83 @@ File: ./figure/ans28.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [52])
-Package hyperref Info: Option `pageanchor' set `true' on input line 44.
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ [52]) (./chapter/chap8.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+第 9\tmspace +\thinmuskip {.1667em}章 9.
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: ./figure/fig46.png Graphic file (type bmp)
+<./figure/fig46.png>
+File: ./figure/fig49.png Graphic file (type bmp)
+<./figure/fig49.png>
+File: ./figure/fig50.png Graphic file (type bmp)
+<./figure/fig50.png>
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [54
+
+]
+File: ./figure/fig52.png Graphic file (type bmp)
+<./figure/fig52.png>
+Missing character: There is no ＝ in font cmr10!
+File: ./figure/fig47.png Graphic file (type bmp)
+<./figure/fig47.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [55]
+File: ./figure/fig53.png Graphic file (type bmp)
+<./figure/fig53.png>
+File: ./figure/fig54.png Graphic file (type bmp)
+<./figure/fig54.png>
+File: ./figure/fig48.png Graphic file (type bmp)
+<./figure/fig48.png>
+File: ./figure/fig51.png Graphic file (type bmp)
+<./figure/fig51.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [56]
+File: ./figure/fig55.png Graphic file (type bmp)
+<./figure/fig55.png>
+) (./chapter/chap9.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [57]
+第 10\tmspace +\thinmuskip {.1667em}章 10.
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: ./figure/fig56.png Graphic file (type bmp)
+<./figure/fig56.png>
+File: ./figure/fig57.png Graphic file (type bmp)
+<./figure/fig57.png>
+File: ./figure/fig58.png Graphic file (type bmp)
+<./figure/fig58.png>
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [58
+
+])
+Package hyperref Info: Option `pageanchor' set `true' on input line 46.
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (./Physics.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `Physics.out' has not changed.
-(rerunfilecheck)             Checksum: DC5F81DF8F1E2C38FB69F55A9A6F4589.
+(rerunfilecheck)             Checksum: 309F1AC66108077C7E83B5DB50800F72.
  ) 
 Here is how much of TeX's memory you used:
- 46357 strings out of 492922
- 953202 string characters out of 6136751
+ 46448 strings out of 492922
+ 955485 string characters out of 6136751
  1369329 words of memory out of 5000000
- 49422 multiletter control sequences out of 15000+600000
+ 49482 multiletter control sequences out of 15000+600000
  574845 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,18n,124p,2584b,1481s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Physics.pdf (54 pages).
+Output written on Physics.pdf (60 pages).
