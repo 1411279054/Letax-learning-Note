@@ -712,7 +712,7 @@
 \def \ifempty#1{\def\temp{#1} \ifx\temp\empty }
 
 \newcommand*{\logo}[1]{
- \def\@logo{\includegraphics[angle=270,width=4.2cm]{#1}
+ \def\@logo{\includegraphics[angle=0,width=6cm]{#1}
  }
 }
 \ifdefstring{\ELEGANT@device}{normal}{
