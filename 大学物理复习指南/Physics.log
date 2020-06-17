@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  15 JUN 2020 20:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  17 JUN 2020 09:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1289,35 +1289,35 @@ Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count378
 \l__xeCJK_listings_flag_int=\count379
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 44.
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 47.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 44.
+(Font)              scaled to size 10.95pt on input line 47.
  (./Physics.aux)
 \openout1 = `Physics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1354,7 +1354,7 @@ LaTeX Font Info:    ... okay on input line 44.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 44.
+LaTeX Info: Redefining \selectfont on input line 47.
 \c@mv@tabular=\count380
 \c@mv@boldtabular=\count381
 Package caption Info: Begin \AtBeginDocument code.
@@ -1375,7 +1375,7 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box118
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 47.
  (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1383,15 +1383,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count383
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 47.
+LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \nameref on input line 47.
  (./Physics.out) (./Physics.out)
 \@outlinefile=\write8
 \openout8 = `Physics.out'.
 
 \c@lstlisting=\count384
-Package hyperref Info: Option `pageanchor' set `false' on input line 45.
+Package hyperref Info: Option `pageanchor' set `false' on input line 48.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1427,33 +1427,35 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 45.
 File: ./picture/cover2.jpg Graphic file (type bmp)
 <./picture/cover2.jpg>
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 45.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 45.
+(Font)              scaled to size 10.95pt on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 45.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 45.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 45.
+(Font)              scaled to size 24.88pt on input line 48.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 48.
  (c:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 45.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 48.
  (c:/texlive/2019/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 45.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 45.
+(Font)              scaled to size 14.4pt on input line 48.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 48.
 
 Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
 (fontspec)             exist).
@@ -1477,6 +1479,37 @@ Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
 (fontspec)             <->"KaiTi/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 48.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 48.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 48.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 48.
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
 File: ./picture/heart2.pdf Graphic file (type pdf)
 <use ./picture/heart2.pdf>
 File: picture/ctanlion.pdf Graphic file (type pdf)
@@ -1487,9 +1520,9 @@ File: picture/ctanlion.pdf Graphic file (type pdf)
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 46.
+(Font)              scaled to size 17.28pt on input line 49.
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./Physics.toc
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
@@ -1506,24 +1539,20 @@ File: picture/ctanlion.pdf Graphic file (type pdf)
  [2]
 第 1\tmspace +\thinmuskip {.1667em}章 1.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 4.
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 5.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.95pt on input line 4.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 4.
+(Font)              scaled to size 10.95pt on input line 5.
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 9.0pt on input line 4.
+(Font)              scaled to size 9.0pt on input line 5.
 File: ./picture/2weima.jpg Graphic file (type bmp)
 <./picture/2weima.jpg>
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 8.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 8.
+(Font)              scaled to size 10.0pt on input line 9.
 File: ./picture/heart.pdf Graphic file (type pdf)
 <use ./picture/heart.pdf>
 File: ./picture/heart.pdf Graphic file (type pdf)
@@ -1601,8 +1630,6 @@ File: ./figure/fig11.png Graphic file (type bmp)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [11]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 98.
 File: ./figure/fig3.png Graphic file (type bmp)
 <./figure/fig3.png>
 File: ./figure/fig4.png Graphic file (type bmp)
@@ -1961,21 +1988,18 @@ File: ./figure/fig40.png Graphic file (type bmp)
 <./figure/fig40.png>
 File: ./figure/ans23.png Graphic file (type bmp)
 <./figure/ans23.png>
+File: ./figure/fig41.png Graphic file (type bmp)
+<./figure/fig41.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [48]
-File: ./figure/fig41.png Graphic file (type bmp)
-<./figure/fig41.png>
 File: ./figure/ans24.png Graphic file (type bmp)
 <./figure/ans24.png>
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/chap7.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [49]) (./chapter/chap7.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-File: picture/ctanlion.pdf Graphic file (type pdf)
-<use picture/ctanlion.pdf>
- [50]
+ [49]
 第 8\tmspace +\thinmuskip {.1667em}章 8.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig42.png Graphic file (type bmp)
@@ -1986,7 +2010,7 @@ File: ./figure/fig44.png Graphic file (type bmp)
 <./figure/fig44.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [51
+ [50
 
 ]
 File: ./figure/fig45.png Graphic file (type bmp)
@@ -1998,7 +2022,7 @@ File: ./figure/ans25.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [52]
+ [51]
 File: ./figure/fig43.png Graphic file (type bmp)
 <./figure/fig43.png>
 File: ./figure/ans26.png Graphic file (type bmp)
@@ -2006,7 +2030,7 @@ File: ./figure/ans26.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [53]
+ [52]
 File: ./figure/fig44.png Graphic file (type bmp)
 <./figure/fig44.png>
 File: ./figure/ans27.png Graphic file (type bmp)
@@ -2014,7 +2038,7 @@ File: ./figure/ans27.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [54]
+ [53]
 File: ./figure/fig45.png Graphic file (type bmp)
 <./figure/fig45.png>
 File: ./figure/ans28.png Graphic file (type bmp)
@@ -2022,10 +2046,10 @@ File: ./figure/ans28.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [55]) (./chapter/chap8.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ [54]) (./chapter/chap8.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [56]
+ [55]
 第 9\tmspace +\thinmuskip {.1667em}章 9.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig46.png Graphic file (type bmp)
@@ -2036,7 +2060,7 @@ File: ./figure/fig50.png Graphic file (type bmp)
 <./figure/fig50.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [57
+ [56
 
 ]
 File: ./figure/fig52.png Graphic file (type bmp)
@@ -2047,7 +2071,7 @@ File: ./figure/fig47.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [58]
+ [57]
 File: ./figure/fig53.png Graphic file (type bmp)
 <./figure/fig53.png>
 File: ./figure/fig54.png Graphic file (type bmp)
@@ -2059,13 +2083,71 @@ File: ./figure/fig51.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [59]
+ [58]
 File: ./figure/fig55.png Graphic file (type bmp)
 <./figure/fig55.png>
-) (./chapter/chap9.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/ans8.tex
+File: ./figure/fig46.png Graphic file (type bmp)
+<./figure/fig46.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [59]
+File: ./figure/ans29.png Graphic file (type bmp)
+<./figure/ans29.png>
+File: ./figure/fig49.png Graphic file (type bmp)
+<./figure/fig49.png>
+File: ./figure/fig50.png Graphic file (type bmp)
+<./figure/fig50.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [60]
+File: ./figure/fig52.png Graphic file (type bmp)
+<./figure/fig52.png>
+File: ./figure/ans30.png Graphic file (type bmp)
+<./figure/ans30.png>
+Missing character: There is no ＝ in font cmr10!
+File: ./figure/fig47.png Graphic file (type bmp)
+<./figure/fig47.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [61]
+File: ./figure/ans31.png Graphic file (type bmp)
+<./figure/ans31.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [62]
+File: ./figure/fig53.png Graphic file (type bmp)
+<./figure/fig53.png>
+File: ./figure/fig54.png Graphic file (type bmp)
+<./figure/fig54.png>
+File: ./figure/fig48.png Graphic file (type bmp)
+<./figure/fig48.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [63]
+File: ./figure/ans32.png Graphic file (type bmp)
+<./figure/ans32.png>
+File: ./figure/fig51.png Graphic file (type bmp)
+<./figure/fig51.png>
+File: ./figure/ans33.png Graphic file (type bmp)
+<./figure/ans33.png>
+File: ./figure/fig55.png Graphic file (type bmp)
+<./figure/fig55.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [64]
+File: ./figure/ans34.png Graphic file (type bmp)
+<./figure/ans34.png>
+) (./chapter/chap9.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [65]
 第 10\tmspace +\thinmuskip {.1667em}章 10.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig56.png Graphic file (type bmp)
@@ -2076,12 +2158,35 @@ File: ./figure/fig58.png Graphic file (type bmp)
 <./figure/fig58.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [61
+ [66
 
-]) (./chapter/chap10.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+]) (./chapter/ans9.tex
+File: ./figure/fig56.png Graphic file (type bmp)
+<./figure/fig56.png>
+File: ./figure/ans35.png Graphic file (type bmp)
+<./figure/ans35.png>
+File: ./figure/ans36.png Graphic file (type bmp)
+<./figure/ans36.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [62]
+ [67]
+File: ./figure/fig57.png Graphic file (type bmp)
+<./figure/fig57.png>
+File: ./figure/ans37.png Graphic file (type bmp)
+<./figure/ans37.png>
+File: ./figure/fig58.png Graphic file (type bmp)
+<./figure/fig58.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [68]
+File: ./figure/ans38.png Graphic file (type bmp)
+<./figure/ans38.png>
+) (./chapter/chap10.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [69]
 第 11\tmspace +\thinmuskip {.1667em}章 11.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig59.png Graphic file (type bmp)
@@ -2090,7 +2195,7 @@ File: ./figure/fig60.png Graphic file (type bmp)
 <./figure/fig60.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [63
+ [70
 
 ]
 File: ./figure/fig61.png Graphic file (type bmp)
@@ -2098,22 +2203,87 @@ File: ./figure/fig61.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [64]
+ [71]
 File: ./figure/fig62.png Graphic file (type bmp)
 <./figure/fig62.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [65]
+ [72]
 File: ./figure/fig63.png Graphic file (type bmp)
 <./figure/fig63.png>
 Missing character: There is no ± in font cmr10!
 File: ./figure/fig64.png Graphic file (type bmp)
 <./figure/fig64.png>
-) (./chapter/chap11.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+) (./chapter/ans10.tex
+File: ./figure/ans39.png Graphic file (type bmp)
+<./figure/ans39.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [66]
+ [73]
+File: ./figure/fig59.png Graphic file (type bmp)
+<./figure/fig59.png>
+File: ./figure/ans40.png Graphic file (type bmp)
+<./figure/ans40.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [74]
+File: ./figure/fig60.png Graphic file (type bmp)
+<./figure/fig60.png>
+File: ./figure/ans41.png Graphic file (type bmp)
+<./figure/ans41.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [75]
+File: ./figure/fig61.png Graphic file (type bmp)
+<./figure/fig61.png>
+File: ./figure/ans42.png Graphic file (type bmp)
+<./figure/ans42.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [76]
+File: ./figure/ans43.png Graphic file (type bmp)
+<./figure/ans43.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [77]
+File: ./figure/ans44.png Graphic file (type bmp)
+<./figure/ans44.png>
+File: ./figure/fig62.png Graphic file (type bmp)
+<./figure/fig62.png>
+File: ./figure/ans45.png Graphic file (type bmp)
+<./figure/ans45.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [78]
+File: ./figure/ans46.png Graphic file (type bmp)
+<./figure/ans46.png>
+File: ./figure/fig63.png Graphic file (type bmp)
+<./figure/fig63.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [79]
+File: ./figure/ans47.png Graphic file (type bmp)
+<./figure/ans47.png>
+Missing character: There is no ± in font cmr10!
+File: ./figure/fig64.png Graphic file (type bmp)
+<./figure/fig64.png>
+File: ./figure/ans48.png Graphic file (type bmp)
+<./figure/ans48.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [80]) (./chapter/chap11.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [81]
 第 12\tmspace +\thinmuskip {.1667em}章 12.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig65.png Graphic file (type bmp)
@@ -2124,7 +2294,7 @@ File: ./figure/fig67.png Graphic file (type bmp)
 <./figure/fig67.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [67
+ [82
 
 ]
 File: ./figure/fig68.png Graphic file (type bmp)
@@ -2136,7 +2306,7 @@ File: ./figure/fig70.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [68]
+ [83]
 File: ./figure/fig71.png Graphic file (type bmp)
 <./figure/fig71.png>
 File: ./figure/fig72.png Graphic file (type bmp)
@@ -2146,7 +2316,7 @@ File: ./figure/fig73.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [69]
+ [84]
 File: ./figure/fig74.png Graphic file (type bmp)
 <./figure/fig74.png>
 File: ./figure/fig75.png Graphic file (type bmp)
@@ -2156,7 +2326,7 @@ File: ./figure/fig76.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [70]
+ [85]
 File: ./figure/fig77.png Graphic file (type bmp)
 <./figure/fig77.png>
 File: ./figure/fig78.png Graphic file (type bmp)
@@ -2168,7 +2338,7 @@ File: ./figure/fig80.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [71]
+ [86]
 File: ./figure/fig81.png Graphic file (type bmp)
 <./figure/fig81.png>
 File: ./figure/fig82.png Graphic file (type bmp)
@@ -2176,10 +2346,102 @@ File: ./figure/fig82.png Graphic file (type bmp)
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [72]) (./chapter/chap12.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ [87]) (./chapter/ans11.tex
+File: ./figure/fig65.png Graphic file (type bmp)
+<./figure/fig65.png>
+File: ./figure/fig66.png Graphic file (type bmp)
+<./figure/fig66.png>
+File: ./figure/fig67.png Graphic file (type bmp)
+<./figure/fig67.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [73]
+ [88]
+File: ./figure/fig68.png Graphic file (type bmp)
+<./figure/fig68.png>
+File: ./figure/fig69.png Graphic file (type bmp)
+<./figure/fig69.png>
+File: ./figure/ans49.png Graphic file (type bmp)
+<./figure/ans49.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [89]
+File: ./figure/fig70.png Graphic file (type bmp)
+<./figure/fig70.png>
+File: ./figure/ans50.png Graphic file (type bmp)
+<./figure/ans50.png>
+File: ./figure/fig71.png Graphic file (type bmp)
+<./figure/fig71.png>
+File: ./figure/ans51.png Graphic file (type bmp)
+<./figure/ans51.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [90]
+File: ./figure/ans52.png Graphic file (type bmp)
+<./figure/ans52.png>
+File: ./figure/fig72.png Graphic file (type bmp)
+<./figure/fig72.png>
+File: ./figure/fig73.png Graphic file (type bmp)
+<./figure/fig73.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [91]
+File: ./figure/fig74.png Graphic file (type bmp)
+<./figure/fig74.png>
+File: ./figure/fig75.png Graphic file (type bmp)
+<./figure/fig75.png>
+File: ./figure/fig76.png Graphic file (type bmp)
+<./figure/fig76.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [92]
+File: ./figure/fig77.png Graphic file (type bmp)
+<./figure/fig77.png>
+File: ./figure/ans53.png Graphic file (type bmp)
+<./figure/ans53.png>
+File: ./figure/fig78.png Graphic file (type bmp)
+<./figure/fig78.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [93]
+File: ./figure/ans54.png Graphic file (type bmp)
+<./figure/ans54.png>
+File: ./figure/fig79.png Graphic file (type bmp)
+<./figure/fig79.png>
+File: ./figure/ans55.png Graphic file (type bmp)
+<./figure/ans55.png>
+File: ./figure/fig80.png Graphic file (type bmp)
+<./figure/fig80.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [94]
+File: ./figure/ans56.png Graphic file (type bmp)
+<./figure/ans56.png>
+File: ./figure/fig81.png Graphic file (type bmp)
+<./figure/fig81.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [95]
+File: ./figure/ans57.png Graphic file (type bmp)
+<./figure/ans57.png>
+File: ./figure/fig82.png Graphic file (type bmp)
+<./figure/fig82.png>
+File: ./figure/ans58.png Graphic file (type bmp)
+<./figure/ans58.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [96]) (./chapter/chap12.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [97]
 第 13\tmspace +\thinmuskip {.1667em}章 13.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: ./figure/fig83.png Graphic file (type bmp)
@@ -2190,7 +2452,7 @@ File: ./figure/fig85.png Graphic file (type bmp)
 <./figure/fig85.png>
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [74
+ [98
 
 ]
 File: ./figure/fig86.png Graphic file (type bmp)
@@ -2199,27 +2461,181 @@ File: ./figure/fig87.png Graphic file (type bmp)
 <./figure/fig87.png>
 File: ./figure/fig88.png Graphic file (type bmp)
 <./figure/fig88.png>
-)
-Package hyperref Info: Option `pageanchor' set `true' on input line 60.
+) (./chapter/ans12.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [99]
+File: ./figure/fig83.png Graphic file (type bmp)
+<./figure/fig83.png>
+File: ./figure/ans59.png Graphic file (type bmp)
+<./figure/ans59.png>
+File: ./figure/fig84.png Graphic file (type bmp)
+<./figure/fig84.png>
+File: ./figure/ans60.png Graphic file (type bmp)
+<./figure/ans60.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
- [75]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+ [100]
+File: ./figure/fig85.png Graphic file (type bmp)
+<./figure/fig85.png>
+File: ./figure/ans61.png Graphic file (type bmp)
+<./figure/ans61.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [101]
+File: ./figure/fig86.png Graphic file (type bmp)
+<./figure/fig86.png>
+File: ./figure/ans62.png Graphic file (type bmp)
+<./figure/ans62.png>
+File: ./figure/fig87.png Graphic file (type bmp)
+<./figure/fig87.png>
+File: ./figure/ans63.png Graphic file (type bmp)
+<./figure/ans63.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [102]
+File: ./figure/fig88.png Graphic file (type bmp)
+<./figure/fig88.png>
+File: ./figure/ans64.png Graphic file (type bmp)
+<./figure/ans64.png>
+) (./chapter/chap13.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [103]
+第 14\tmspace +\thinmuskip {.1667em}章 14.
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: ./figure/fig89.png Graphic file (type bmp)
+<./figure/fig89.png>
+File: ./figure/fig90.png Graphic file (type bmp)
+<./figure/fig90.png>
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [104
+
+]
+File: ./figure/fig91.png Graphic file (type bmp)
+<./figure/fig91.png>
+File: ./figure/fig92.png Graphic file (type bmp)
+<./figure/fig92.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [105]
+File: ./figure/fig94.png Graphic file (type bmp)
+<./figure/fig94.png>
+File: ./figure/fig95.png Graphic file (type bmp)
+<./figure/fig95.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [106]) (./chapter/ans13.tex
+File: ./figure/fig89.png Graphic file (type bmp)
+<./figure/fig89.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [107]
+File: ./figure/fig90.png Graphic file (type bmp)
+<./figure/fig90.png>
+File: ./figure/fig91.png Graphic file (type bmp)
+<./figure/fig91.png>
+File: ./figure/fig92.png Graphic file (type bmp)
+<./figure/fig92.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [108]
+File: ./figure/ans65.png Graphic file (type bmp)
+<./figure/ans65.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [109]
+File: ./figure/fig94.png Graphic file (type bmp)
+<./figure/fig94.png>
+File: ./figure/ans66.png Graphic file (type bmp)
+<./figure/ans66.png>
+File: ./figure/fig95.png Graphic file (type bmp)
+<./figure/fig95.png>
+File: ./figure/ans67.png Graphic file (type bmp)
+<./figure/ans67.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [110]
+File: ./figure/ans68.png Graphic file (type bmp)
+<./figure/ans68.png>
+) (./chapter/chap14.tex (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [111]
+第 15\tmspace +\thinmuskip {.1667em}章 15.
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: ./figure/fig96.png Graphic file (type bmp)
+<./figure/fig96.png>
+File: ./figure/fig97.png Graphic file (type bmp)
+<./figure/fig97.png>
+File: ./figure/fig98.png Graphic file (type bmp)
+<./figure/fig98.png>
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [112
+
+]
+File: ./figure/fig99.png Graphic file (type bmp)
+<./figure/fig99.png>
+) (./chapter/ans14.tex
+File: ./figure/fig96.png Graphic file (type bmp)
+<./figure/fig96.png>
+File: ./figure/ans69.png Graphic file (type bmp)
+<./figure/ans69.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [113]
+File: ./figure/fig97.png Graphic file (type bmp)
+<./figure/fig97.png>
+File: ./figure/ans70.png Graphic file (type bmp)
+<./figure/ans70.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [114]
+File: ./figure/fig98.png Graphic file (type bmp)
+<./figure/fig98.png>
+File: ./figure/ans71.png Graphic file (type bmp)
+<./figure/ans71.png>
+File: ./figure/fig99.png Graphic file (type bmp)
+<./figure/fig99.png>
+File: ./figure/ans72.png Graphic file (type bmp)
+<./figure/ans72.png>
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [115])
+Package hyperref Info: Option `pageanchor' set `true' on input line 72.
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: picture/ctanlion.pdf Graphic file (type pdf)
+<use picture/ctanlion.pdf>
+ [116]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./Physics.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `Physics.out' has not changed.
-(rerunfilecheck)             Checksum: 62C6DC5848D7803456A3AFC28B4DE59E.
+(rerunfilecheck)             Checksum: B2CA806799289F83830CB2E88088259E.
  ) 
 Here is how much of TeX's memory you used:
- 46903 strings out of 492922
- 966695 string characters out of 6136751
+ 47459 strings out of 492922
+ 984100 string characters out of 6136751
  1368325 words of memory out of 5000000
- 49852 multiletter control sequences out of 15000+600000
- 576415 words of font info for 91 fonts, out of 8000000 for 9000
+ 50227 multiletter control sequences out of 15000+600000
+ 589387 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,18n,124p,2584b,1559s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Physics.pdf (76 pages).
+Output written on Physics.pdf (117 pages).
