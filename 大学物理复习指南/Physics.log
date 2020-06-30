@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  17 JUN 2020 09:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.1.16)  30 JUN 2020 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1778,7 +1778,6 @@ File: ./figure/fig22.png Graphic file (type bmp)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [25]
-Missing character: There is no ＝ in font cmr10!
 File: ./figure/fig23.png Graphic file (type bmp)
 <./figure/fig23.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
@@ -1824,7 +1823,6 @@ File: ./figure/fig22.png Graphic file (type bmp)
 File: picture/ctanlion.pdf Graphic file (type pdf)
 <use picture/ctanlion.pdf>
  [30]
-Missing character: There is no ＝ in font cmr10!
 File: ./figure/ans15.png Graphic file (type bmp)
 <./figure/ans15.png>
 File: ./figure/fig23.png Graphic file (type bmp)
@@ -2065,7 +2063,6 @@ File: picture/ctanlion.pdf Graphic file (type pdf)
 ]
 File: ./figure/fig52.png Graphic file (type bmp)
 <./figure/fig52.png>
-Missing character: There is no ＝ in font cmr10!
 File: ./figure/fig47.png Graphic file (type bmp)
 <./figure/fig47.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
@@ -2107,7 +2104,6 @@ File: ./figure/fig52.png Graphic file (type bmp)
 <./figure/fig52.png>
 File: ./figure/ans30.png Graphic file (type bmp)
 <./figure/ans30.png>
-Missing character: There is no ＝ in font cmr10!
 File: ./figure/fig47.png Graphic file (type bmp)
 <./figure/fig47.png>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
